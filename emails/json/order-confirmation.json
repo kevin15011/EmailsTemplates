@@ -1,0 +1,626 @@
+{
+	"orders": [
+		{
+			"package": null,
+			"subjectItemAttachment": {
+				"item": "Buzo tejido con cuel...",
+				"totalItems": 2,
+				"extraItems": 1
+			},
+			"cancellationReason": null,
+			"items": [
+				{
+					"additionalInfo": {
+						"categoriesIds": "/1/12/",
+						"productClusterId": "154,160,188,214,364,413,415,450,451,504,511,585,698,772,785,867,910,956,1111,1118,1149,1153,1173,1174,1187,1234,1236,1243,1265,1267,1275,1281,1289,1297,1324,1342,1344,1350,1355,1358,1360,1396,1416,1420,1422,1431,1435,1441,1442,1445,1453,1454,1457,1458,1463,1473,1476,1483,1485,1489,1491,1498,1499,1508,1509,1512,1517,1518,1523,1524,1531,1535,1537,1538,1539,1546,1547,1551,1561,1562,1565,1566,1568",
+						"commercialConditionId": "1",
+						"dimension": {
+							"cubicweight": 0.0002,
+							"height": 1,
+							"length": 1,
+							"weight": 1,
+							"width": 1
+						},
+						"brandName": "N******",
+						"brandId": "2000000",
+						"offeringInfo": null,
+						"offeringType": null,
+						"offeringTypeId": null
+					},
+					"sellerSku": "2069724",
+					"priceTable": null,
+					"priceValidUntil": "2122-03-29T00:00:00Z",
+					"callCenterOperator": null,
+					"commission": 0,
+					"freightCommission": 0,
+					"taxCode": null,
+					"catalogProvider": "vrn:vtex.catalog-api-proxy:-:nafnaf:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2069724",
+					"uniqueId": "FB11B17D42B141488530CE1D257816C1",
+					"id": "2069724",
+					"productId": "2012209",
+					"productRefId": "14_491D303_A01457",
+					"refId": "14_491D303_1111127246086",
+					"ean": "1111127246086",
+					"name": "J*****************************************************************",
+					"skuName": "G*****",
+					"modalType": null,
+					"parentItemIndex": null,
+					"parentAssemblyBinding": null,
+					"assemblies": [],
+					"tax": 0,
+					"price": 17990000,
+					"listPrice": 17990000,
+					"manualPrice": null,
+					"manualPriceAppliedBy": null,
+					"sellingPrice": 8995000,
+					"rewardValue": 0,
+					"isGift": false,
+					"preSaleDate": "2022-03-29T00:00:00Z",
+					"productCategoryIds": "/1/12/",
+					"productCategories": {
+						"1": "Ropa Mujer",
+						"12": "Jeans"
+					},
+					"quantity": 1,
+					"seller": "nafnafcedi",
+					"sellerChain": [
+						"nafnafcedi"
+					],
+					"imageUrl": "http://nafnaf.vteximg.com.br/arquivos/ids/763513-90-109/14_491D303_A01457_0.jpg?v=637841925150530000",
+					"detailUrl": "/jean-para-mujer-gris-claro-slouchy-tiro-super-alto-esencial-491d303-a01457/p",
+					"components": [],
+					"bundleItems": [],
+					"attachments": [],
+					"attachmentOfferings": [],
+					"offerings": [],
+					"priceTags": [
+						{
+							"name": "d***************************************************************************************",
+							"value": -8995000,
+							"rawValue": -89950,
+							"isPercentual": false,
+							"identifier": "d347cf08-4f82-4bae-9f28-b9919b3775a9"
+						}
+					],
+					"availability": "available",
+					"measurementUnit": "un",
+					"unitMultiplier": 1,
+					"manufacturerCode": "1111127246086",
+					"priceDefinition": {
+						"calculatedSellingPrice": 8995000,
+						"total": 8995000,
+						"sellingPrices": [
+							{
+								"value": 8995000,
+								"quantity": 1
+							}
+						]
+					}
+				},
+				{
+					"additionalInfo": {
+						"categoriesIds": "/1/14/",
+						"productClusterId": "154,160,188,214,364,413,415,450,504,511,585,698,714,772,784,867,910,956,1118,1149,1153,1173,1174,1187,1234,1243,1265,1267,1275,1281,1289,1297,1324,1355,1359,1453,1502,1516,1520,1523,1525,1531,1535,1536,1538,1541,1549,1553,1561,1564,1568",
+						"commercialConditionId": "1",
+						"dimension": {
+							"cubicweight": 0.0002,
+							"height": 1,
+							"length": 1,
+							"weight": 1,
+							"width": 1
+						},
+						"brandName": "N******",
+						"brandId": "2000000",
+						"offeringInfo": null,
+						"offeringType": null,
+						"offeringTypeId": null
+					},
+					"sellerSku": "2074721",
+					"priceTable": null,
+					"priceValidUntil": "2123-06-08T00:00:00Z",
+					"callCenterOperator": null,
+					"commission": 0,
+					"freightCommission": 0,
+					"taxCode": "",
+					"catalogProvider": "vrn:vtex.catalog-api-proxy:-:nafnaf:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2074721",
+					"uniqueId": "F5637BC29E1A46479E7CF2225F34F64F",
+					"id": "2074721",
+					"productId": "2013540",
+					"productRefId": "14_581E018_A02759",
+					"refId": "14_581E018_1111127300771",
+					"ean": "1111127300771",
+					"name": "B*************************************",
+					"skuName": "N******",
+					"modalType": null,
+					"parentItemIndex": null,
+					"parentAssemblyBinding": null,
+					"assemblies": [],
+					"tax": 0,
+					"price": 17990000,
+					"listPrice": 17990000,
+					"manualPrice": null,
+					"manualPriceAppliedBy": null,
+					"sellingPrice": 12593000,
+					"rewardValue": 0,
+					"isGift": false,
+					"preSaleDate": "2023-06-08T00:00:00Z",
+					"productCategoryIds": "/1/14/",
+					"productCategories": {
+						"1": "Ropa Mujer",
+						"14": "Prendas tejidas"
+					},
+					"quantity": 1,
+					"seller": "nafnafcedi",
+					"sellerChain": [
+						"nafnafcedi"
+					],
+					"imageUrl": "http://nafnaf.vteximg.com.br/arquivos/ids/971090-90-109/14_581E018_A02759_0.jpg?v=638218533287330000",
+					"detailUrl": "/buzo-tejido-con-cuello-redondo-581e018-a02759/p",
+					"components": [],
+					"bundleItems": [],
+					"attachments": [],
+					"attachmentOfferings": [],
+					"offerings": [],
+					"priceTags": [
+						{
+							"name": "d***************************************************************************************",
+							"value": -5397000,
+							"rawValue": -53970,
+							"isPercentual": false,
+							"identifier": "f139ad15-573e-49a4-8d54-23b0c5d5e93e"
+						}
+					],
+					"availability": "available",
+					"measurementUnit": "un",
+					"unitMultiplier": 1,
+					"manufacturerCode": "1111127300771",
+					"priceDefinition": {
+						"calculatedSellingPrice": 12593000,
+						"total": 12593000,
+						"sellingPrices": [
+							{
+								"value": 12593000,
+								"quantity": 1
+							}
+						]
+					}
+				}
+			],
+			"sellers": [
+				{
+					"subSellerId": "1",
+					"fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=nafnafcedi&affiliateId=SLR&sc=1",
+					"id": "nafnafcedi",
+					"name": "n*********",
+					"logo": ""
+				}
+			],
+			"giftRegistryData": null,
+			"receiptData": null,
+			"contextData": null,
+			"marketPlaceOrderId": "",
+			"marketPlaceOrderGroup": null,
+			"marketplaceServicesEndpoint": null,
+			"orderFormId": "595ea8bb73724dd6915bfb78c44e8725",
+			"sequence": "41088703",
+			"affiliateId": "",
+			"status": "",
+			"callCenterOperator": "",
+			"userProfileId": "f8349454-b354-49fa-aefe-4e36b54754ba",
+			"hostName": "n*****",
+			"creationVersion": null,
+			"creationEnvironment": null,
+			"lastChangeVersion": null,
+			"workflowInstanceId": null,
+			"marketplacePaymentValue": null,
+			"orderId": "v41088703naf-01",
+			"orderGroup": "v41088703naf",
+			"state": "payment-approved",
+			"isCheckedIn": false,
+			"sellerOrderId": "SLR-v41088703naf-01",
+			"storeId": null,
+			"checkedInPickupPointId": null,
+			"value": 23318000,
+			"totals": [
+				{
+					"id": "Items",
+					"name": "T*****************",
+					"value": 35980000
+				},
+				{
+					"id": "Discounts",
+					"name": "T******************",
+					"value": -14392000
+				},
+				{
+					"id": "Shipping",
+					"name": "C********************",
+					"value": 1730000
+				},
+				{
+					"id": "Tax",
+					"name": "C*********************",
+					"value": 0
+				}
+			],
+			"clientProfileData": {
+				"email": "p***************@g****.c****************.c*.v***.c**.b*",
+				"firstName": "P****",
+				"lastName": "M******** J*****",
+				"document": "1***********",
+				"documentType": "cedulaCOL",
+				"phone": "+5***********",
+				"corporateName": null,
+				"tradeName": null,
+				"corporateDocument": null,
+				"stateInscription": null,
+				"corporatePhone": null,
+				"isCorporate": false,
+				"profileCompleteOnLoading": true,
+				"profileErrorOnLoading": false,
+				"customerClass": null
+			},
+			"ratesAndBenefitsData": {
+				"rateAndBenefitsIdentifiers": [
+					{
+						"id": "d347cf08-4f82-4bae-9f28-b9919b3775a9",
+						"name": "s*******************",
+						"featured": true,
+						"description": "Válido del 01 al 30 de Septiembre de 2023. 20% - 30% - 40% - 50% de descuento en referencias seleccionadas identificadas con etiqueta de descuento del \"20%\", \"30%\" , \"40%\", \"50%\". Descuentos hasta agotar existencias, 10.000 unds disponibles. Exclusivo tienda online NAF NAF |Tienda Online de Ropa para Mujer . El descuento se encuentra aplicado en el precio de cada producto. No acumulable con otras promociones y/o descuentos. En caso de cambio o garantía, se reconocerá el valor pagado por la prenda. No aplica para compra de bonos regalo. No aplica en tiendas físicas NAF NAF Colombia, canal WhatsApp, Rappi, córners Falabella ni Outlets.",
+						"matchedParameters": {
+							"Seller@CatalogSystem": "1|inclusive",
+							"productCluster@CatalogSystem": "1539|inclusive"
+						},
+						"additionalInfo": null
+					},
+					{
+						"id": "f139ad15-573e-49a4-8d54-23b0c5d5e93e",
+						"name": "s*******************",
+						"featured": true,
+						"description": "Válido del 01 al 30 de Septiembre de 2023. 20% - 30% - 40% - 50% de descuento en referencias seleccionadas identificadas con etiqueta de descuento del \"20%\", \"30%\" , \"40%\", \"50%\". Descuentos hasta agotar existencias, 10.000 unds disponibles. Exclusivo tienda online NAF NAF |Tienda Online de Ropa para Mujer . El descuento se encuentra aplicado en el precio de cada producto. No acumulable con otras promociones y/o descuentos. En caso de cambio o garantía, se reconocerá el valor pagado por la prenda. No aplica para compra de bonos regalo. No aplica en tiendas físicas NAF NAF Colombia, canal WhatsApp, Rappi, córners Falabella ni Outlets.",
+						"matchedParameters": {
+							"Seller@CatalogSystem": "1|inclusive",
+							"productCluster@CatalogSystem": "1541|inclusive"
+						},
+						"additionalInfo": null
+					}
+				],
+				"teaser": []
+			},
+			"shippingData": {
+				"address": {
+					"addressType": "residential",
+					"receiverName": "C***** R*****",
+					"addressId": "8316921374990",
+					"isDisposable": false,
+					"postalCode": "5****",
+					"city": "I******",
+					"state": "NARIÑO",
+					"country": "COL",
+					"street": "C**********",
+					"number": null,
+					"neighborhood": "C******* B***** D* M*****",
+					"complement": "T**** 1 a*** 1**",
+					"reference": null,
+					"geoCoordinates": [
+						-51.4779552,
+						-0.0039779
+					]
+				},
+				"logisticsInfo": [
+					{
+						"itemIndex": 0,
+						"selectedSla": "Normal",
+						"selectedDeliveryChannel": "delivery",
+						"addressId": "8316921374990",
+						"slas": [
+							{
+								"id": "Normal",
+								"deliveryChannel": "delivery",
+								"name": "N*****",
+								"deliveryIds": [
+									{
+										"courierId": "1",
+										"warehouseId": "1_1",
+										"dockId": "1",
+										"courierName": "8**************************",
+										"quantity": 1,
+										"kitItemDetails": []
+									}
+								],
+								"shippingEstimate": "8bd",
+								"shippingEstimateDate": "2023-09-30T15:25:52.242261Z",
+								"lockTTL": "12d",
+								"availableDeliveryWindows": [],
+								"deliveryWindow": null,
+								"price": 865000,
+								"listPrice": 865000,
+								"tax": 0,
+								"pickupStoreInfo": {
+									"isPickupStore": false,
+									"friendlyName": null,
+									"address": null,
+									"additionalInfo": null,
+									"dockId": null
+								},
+								"pickupPointId": null,
+								"pickupDistance": null,
+								"polygonName": "",
+								"transitTime": "8bd"
+							}
+						],
+						"shipsTo": [
+							"COL"
+						],
+						"itemId": "2069724",
+						"deliveryChannels": [
+							{
+								"id": "delivery"
+							},
+							{
+								"id": "pickup-in-point"
+							}
+						]
+					},
+					{
+						"itemIndex": 1,
+						"selectedSla": "Normal",
+						"selectedDeliveryChannel": "delivery",
+						"addressId": "8316921374990",
+						"slas": [
+							{
+								"id": "Normal",
+								"deliveryChannel": "delivery",
+								"name": "N*****",
+								"deliveryIds": [
+									{
+										"courierId": "1",
+										"warehouseId": "1_1",
+										"dockId": "1",
+										"courierName": "8**************************",
+										"quantity": 1,
+										"kitItemDetails": []
+									}
+								],
+								"shippingEstimate": "8bd",
+								"shippingEstimateDate": "2023-09-30T15:25:52.242261Z",
+								"lockTTL": "12d",
+								"availableDeliveryWindows": [],
+								"deliveryWindow": null,
+								"price": 865000,
+								"listPrice": 865000,
+								"tax": 0,
+								"pickupStoreInfo": {
+									"isPickupStore": false,
+									"friendlyName": null,
+									"address": null,
+									"additionalInfo": null,
+									"dockId": null
+								},
+								"pickupPointId": null,
+								"pickupDistance": null,
+								"polygonName": "",
+								"transitTime": "8bd"
+							}
+						],
+						"shipsTo": [
+							"COL"
+						],
+						"itemId": "2074721",
+						"deliveryChannels": [
+							{
+								"id": "delivery"
+							}
+						]
+					}
+				],
+				"selectedAddresses": [
+					{
+						"addressType": "residential",
+						"receiverName": "C***** R*****",
+						"addressId": "8316921374990",
+						"isDisposable": false,
+						"postalCode": "5****",
+						"city": "I******",
+						"state": "NARIÑO",
+						"country": "COL",
+						"street": "C**********",
+						"number": null,
+						"neighborhood": "C******* B***** D* M*****",
+						"complement": "T**** 1 a*** 1**",
+						"reference": null,
+						"geoCoordinates": [
+							-51.4779552,
+							-0.0039779
+						]
+					}
+				],
+				"availableAddresses": [
+					{
+						"addressType": "residential",
+						"receiverName": "C***** R*****",
+						"addressId": "8316921374990",
+						"isDisposable": false,
+						"postalCode": "5****",
+						"city": "I******",
+						"state": "NARIÑO",
+						"country": "COL",
+						"street": "C**********",
+						"number": null,
+						"neighborhood": "C******* B***** D* M*****",
+						"complement": "T**** 1 a*** 1**",
+						"reference": null,
+						"geoCoordinates": [
+							-51.4779552,
+							-0.0039779
+						]
+					}
+				],
+				"pickupPoints": []
+			},
+			"paymentData": {
+				"giftCards": [],
+				"transactions": [
+					{
+						"isActive": true,
+						"transactionId": "C88757D06BE44B299A3B58A695C0F489",
+						"merchantName": "N*****",
+						"payments": [
+							{
+								"id": "DC50C5044FBC4B748B40644C768BAB22",
+								"paymentSystem": "3",
+								"paymentSystemName": "D*****",
+								"value": 23318000,
+								"installments": 1,
+								"connectorResponses": {
+									"Tid": "356530096",
+									"ReturnCode": "00",
+									"Message": "00",
+									"authId": "847276",
+									"orderId": "2752944054",
+									"state": "APPROVED"
+								},
+								"referenceValue": 23318000,
+								"cardHolder": null,
+								"cardNumber": null,
+								"firstDigits": "360857",
+								"lastDigits": "2111",
+								"cvv2": null,
+								"expireMonth": null,
+								"expireYear": null,
+								"url": null,
+								"koinUrl": null,
+								"tid": "356530096",
+								"redemptionCode": null,
+								"giftCardId": null,
+								"giftCardProvider": null,
+								"giftCardAsDiscount": null,
+								"group": "creditCard",
+								"dueDate": null,
+								"accountId": "AFA2C91B3E11401F9A8E021A90C9CE51",
+								"parentAccountId": "AFA2C91B3E11401F9A8E021A90C9CE51",
+								"bankIssuedInvoiceIdentificationNumber": null,
+								"bankIssuedInvoiceIdentificationNumberFormatted": null,
+								"bankIssuedInvoiceBarCodeNumber": null,
+								"bankIssuedInvoiceBarCodeType": null,
+								"billingAddress": {
+									"addressType": "residential",
+									"receiverName": "C***** R*****",
+									"addressId": "8316921374990",
+									"isDisposable": false,
+									"postalCode": "5****",
+									"city": "I******",
+									"state": "NARIÑO",
+									"country": "COL",
+									"street": "C**********",
+									"number": null,
+									"neighborhood": "C******* B***** D* M*****",
+									"complement": "T**** 1 a*** 1**",
+									"reference": null,
+									"geoCoordinates": [
+										-51.4779552,
+										-0.0039779
+									]
+								}
+							}
+						],
+						"sharedTransaction": false
+					}
+				]
+			},
+			"clientPreferencesData": {
+				"locale": "es-CO",
+				"optinNewsLetter": false
+			},
+			"commercialConditionData": null,
+			"marketingData": {
+				"utmSource": "google-ads",
+				"utmMedium": "",
+				"utmCampaign": "Search PureBrand",
+				"utmipage": "",
+				"utmiPart": "",
+				"utmiCampaign": "",
+				"coupon": null,
+				"marketingTags": []
+			},
+			"storePreferencesData": {
+				"countryCode": "COL",
+				"saveUserData": false,
+				"timeZone": "SA Pacific Standard Time",
+				"currencyCode": "COP",
+				"currencyLocale": 9226,
+				"currencySymbol": "$",
+				"currencyFormatInfo": {
+					"currencyDecimalDigits": 2,
+					"currencyDecimalSeparator": ",",
+					"currencyGroupSeparator": ".",
+					"currencyGroupSize": 3,
+					"startsWithCurrencySymbol": true
+				}
+			},
+			"openTextField": null,
+			"invoiceData": null,
+			"itemMetadata": null,
+			"taxData": null,
+			"customData": null,
+			"hooksData": null,
+			"changeData": null,
+			"subscriptionData": null,
+			"salesChannel": "1",
+			"followUpEmail": "b**********************************.v***.c**.b*",
+			"creationDate": "2023-09-21T15:25:43.1974602Z",
+			"lastChange": "2023-09-21T15:25:58.7740936Z",
+			"timeZoneCreationDate": "2023-09-21T10:25:43.1974602",
+			"timeZoneLastChange": "2023-09-21T10:25:58.7740936",
+			"isCompleted": true,
+			"merchantName": null,
+			"userType": "",
+			"roundingError": 0,
+			"allowEdition": false,
+			"allowCancellation": false,
+			"isUserDataVisible": false,
+			"allowChangeSeller": false
+		}
+	],
+	"ordersUrl": "http://www.nafnaf.com.co/account#/orders",
+	"orderGroup": "v41088703naf",
+	"subjectItemAttachment": {
+		"item": "Buzo tejido con cuel...",
+		"totalItems": 2,
+		"extraItems": 1
+	},
+	"split": false,
+	"totalValue": 23318000,
+	"callCenterOperatorData": null,
+	"_accountInfo": {
+		"MainAccountName": "n*****",
+		"AccountName": "n*****",
+		"Cnpj": "99999999999999",
+		"Id": "381c573c-921f-45c4-9a37-20962d5b9dee",
+		"AppId": "fe287b7c-70d7-4fd1-b791-ea98eaecbc22",
+		"IsActive": true,
+		"IsOperating": true,
+		"CreationDate": "2014-05-22T00:00:00",
+		"OperationDate": "2013-01-01T00:00:00",
+		"CompanyName": "G********",
+		"TradingName": "n*****",
+		"City": null,
+		"Complement": null,
+		"Country": null,
+		"State": null,
+		"Address": null,
+		"District": null,
+		"Number": null,
+		"PostalCode": null,
+		"Licenses": [
+			8
+		],
+		"ParentAccountId": null,
+		"ParentAccountName": null,
+		"InactivationDate": null,
+		"Platform": "vtex",
+		"Privacy": null,
+		"HasPiiRestriction": false,
+		"Infra": null
+	}
+}
