@@ -1,0 +1,42 @@
+{
+  "name": "LEIDY LORENA LOAIZA QUICENO",
+  "email": "lorenaloaiza77@gmail.com",
+  "store": "NAF NAF SANTAFE MEDELLIN",
+  "storeEmail": "null",
+  "orderId": "SLR-v41015811naf-01",
+  "orderDate": "null",
+  "sendDate": "12/02/2023 01:49:53 PM",
+  "days": "null",
+  "typePayment": "002",
+  "_accountInfo": {
+    "MainAccountName": "nafnaf",
+    "AccountName": "nafnaf",
+    "Cnpj": "99999999999999",
+    "Id": "381c573c-921f-45c4-9a37-20962d5b9dee",
+    "AppId": "fe287b7c-70d7-4fd1-b791-ea98eaecbc22",
+    "IsActive": true,
+    "IsOperating": true,
+    "CreationDate": "2014-05-22T00:00:00",
+    "OperationDate": "2013-01-01T00:00:00",
+    "CompanyName": "Grupo GCO",
+    "TradingName": "Naf Naf",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [
+      8
+    ],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null
+  }
+}

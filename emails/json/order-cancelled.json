@@ -1,92 +1,305 @@
 {
 	"package": null,
 	"subjectItemAttachment": {
-		"item": "Facial Cleaner ...",
-		"totalItems": 1
+		"item": "Vestido largo con ti...",
+		"totalItems": 3,
+		"extraItems": 2
 	},
 	"cancellationReason": null,
 	"items": [
 		{
 			"additionalInfo": {
-				"categoriesIds": "/300/108/",
-				"productClusterId": "137",
+				"categoriesIds": "/1/16/",
+				"productClusterId": "154,160,188,214,364,413,415,450,504,511,585,645,698,772,784,867,910,956,1118,1149,1153,1173,1174,1187,1234,1237,1238,1239,1243,1265,1267,1275,1281,1289,1297,1324,1355,1359,1453,1483,1487,1489,1491,1498,1499,1509,1510,1518,1531,1538,1541,1546,1549,1553,1561,1564,1568",
 				"commercialConditionId": "1",
 				"dimension": {
-					"cubicweight": 1,
-					"height": 6.5,
-					"length": 6.5,
-					"weight": 0.08,
-					"width": 6.5
+					"cubicweight": 0.0002,
+					"height": 1,
+					"length": 1,
+					"weight": 1,
+					"width": 1
 				},
-				"brandName": "My-Store",
-				"brandId": "000000",
+				"brandName": "N******",
+				"brandId": "2000000",
 				"offeringInfo": null,
 				"offeringType": null,
 				"offeringTypeId": null
 			},
-			"sellerSku": "107",
+			"sellerSku": "2072502",
 			"priceTable": null,
-			"priceValidUntil": "2021-10-03T23:59:05Z",
+			"priceValidUntil": "2123-03-24T00:00:00Z",
 			"callCenterOperator": null,
 			"commission": 0,
 			"freightCommission": 0,
-			"taxCode": "8509.80.90",
-			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:vtex.store:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/107",
-			"costPrice": null,
-			"uniqueId": "0000000000000000000000",
-			"id": "107",
-			"productId": "509",
-			"productRefId": "AP6020710CR77",
-			"refId": "051_0_0_U",
-			"ean": "12345",
-			"name": " Facial Cleaner - Aparelho de Limpeza Facial",
-			"skuName": " Facial Cleaner - Aparelho de Limpeza Facial",
+			"taxCode": null,
+			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:nafnaf:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2072502",
+			"uniqueId": "463F52DA6F774B5DBFE1A27756A98F21",
+			"id": "2072502",
+			"productId": "2012929",
+			"productRefId": "14_473D312_A03919",
+			"refId": "14_473D312_1111127288710",
+			"ean": "1111127288710",
+			"name": "V****************************************************************",
+			"skuName": "V*****************",
 			"modalType": null,
 			"parentItemIndex": null,
 			"parentAssemblyBinding": null,
 			"assemblies": [],
 			"tax": 0,
-			"priceDefinitions": null,
-			"price": 7000,
-			"listPrice": 10000,
+			"price": 24990000,
+			"listPrice": 24990000,
 			"manualPrice": null,
 			"manualPriceAppliedBy": null,
-			"sellingPrice": 7000,
-			"skuSpecifications": null,
-			"orderRewardStatus": null,
+			"sellingPrice": 17493000,
 			"rewardValue": 0,
 			"isGift": false,
-			"preSaleDate": null,
-			"productCategoryIds": "/203/108/",
+			"preSaleDate": "2022-11-02T00:00:00Z",
+			"productCategoryIds": "/1/16/",
 			"productCategories": {
-				"303": "Cuidados para pele",
-				"308": "Olhos"
+				"1": "Ropa Mujer",
+				"16": "Vestidos"
 			},
 			"quantity": 1,
-			"seller": "1",
+			"seller": "nafnafcedi",
 			"sellerChain": [
-				"1"
+				"nafnafcedi"
 			],
-			"imageUrl": "http://My-Store.vteximg.com.br/arquivos/ids/155410-55-55/AP2000710CR88_1.jpg?v=637418356089600000",
-			"detailUrl": "/mini-facial-cleaner---aparelho-de-limpeza-facial--ap2000710cr88/p",
+			"imageUrl": "http://nafnaf.vteximg.com.br/arquivos/ids/921072-90-109/14_473D312_A03919_0.jpg?v=638152692388530000",
+			"detailUrl": "/vestido-largo-con-tiras-para-amarrar-en-frente-473d312-a03919/p",
 			"components": [],
 			"bundleItems": [],
 			"attachments": [],
 			"attachmentOfferings": [],
 			"offerings": [],
-			"priceTags": [],
+			"priceTags": [
+				{
+					"name": "d***************************************************************************************",
+					"value": -7497000,
+					"rawValue": -74970,
+					"isPercentual": false,
+					"identifier": "f139ad15-573e-49a4-8d54-23b0c5d5e93e"
+				},
+				{
+					"name": "d******************************************************************************************",
+					"value": -576800,
+					"rawValue": -5768,
+					"isPercentual": false,
+					"identifier": "f6396127-69b4-43bd-a859-fce117b42121"
+				}
+			],
 			"availability": "available",
 			"measurementUnit": "un",
 			"unitMultiplier": 1,
-			"manufacturerCode": ""
+			"manufacturerCode": "1111127288710",
+			"priceDefinition": {
+				"calculatedSellingPrice": 17493000,
+				"total": 17493000,
+				"sellingPrices": [
+					{
+						"value": 17493000,
+						"quantity": 1
+					}
+				]
+			}
+		},
+		{
+			"additionalInfo": {
+				"categoriesIds": "/1/12/128/",
+				"productClusterId": "154,160,188,214,364,413,415,450,451,504,511,585,698,772,785,867,910,956,1111,1118,1149,1153,1173,1174,1187,1234,1236,1243,1249,1265,1267,1275,1281,1289,1297,1324,1342,1344,1350,1355,1359,1360,1375,1396,1453,1454,1457,1458,1463,1483,1487,1489,1491,1498,1499,1508,1509,1510,1512,1517,1518,1523,1524,1531,1535,1537,1538,1541,1546,1549,1553,1561,1564,1568",
+				"commercialConditionId": "1",
+				"dimension": {
+					"cubicweight": 0.0002,
+					"height": 1,
+					"length": 1,
+					"weight": 1,
+					"width": 1
+				},
+				"brandName": "N******",
+				"brandId": "2000000",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "2072894",
+			"priceTable": null,
+			"priceValidUntil": "2123-03-24T00:00:00Z",
+			"callCenterOperator": null,
+			"commission": 0,
+			"freightCommission": 0,
+			"taxCode": null,
+			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:nafnaf:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2072894",
+			"uniqueId": "2D1B031D674048638405BE2C75C8F8E3",
+			"id": "2072894",
+			"productId": "2013035",
+			"productRefId": "14_493D318_A03693",
+			"refId": "14_493D318_1111127283838",
+			"ean": "1111127283838",
+			"name": "J*******************************",
+			"skuName": "A*****",
+			"modalType": null,
+			"parentItemIndex": null,
+			"parentAssemblyBinding": null,
+			"assemblies": [],
+			"tax": 0,
+			"price": 21990000,
+			"listPrice": 21990000,
+			"manualPrice": null,
+			"manualPriceAppliedBy": null,
+			"sellingPrice": 15393000,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": "2023-02-02T00:00:00Z",
+			"productCategoryIds": "/1/12/128/",
+			"productCategories": {
+				"1": "Ropa Mujer",
+				"12": "Jeans",
+				"128": "Origen"
+			},
+			"quantity": 1,
+			"seller": "nafnafcedi",
+			"sellerChain": [
+				"nafnafcedi"
+			],
+			"imageUrl": "http://nafnaf.vteximg.com.br/arquivos/ids/924213-90-109/14_493D318_A03693_0.jpg?v=638152719464300000",
+			"detailUrl": "/jean-tiro-alto-con-cortes-493d318-a03693/p",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"attachmentOfferings": [],
+			"offerings": [],
+			"priceTags": [
+				{
+					"name": "d***************************************************************************************",
+					"value": -6597000,
+					"rawValue": -65970,
+					"isPercentual": false,
+					"identifier": "f139ad15-573e-49a4-8d54-23b0c5d5e93e"
+				},
+				{
+					"name": "d******************************************************************************************",
+					"value": -576600,
+					"rawValue": -5766,
+					"isPercentual": false,
+					"identifier": "f6396127-69b4-43bd-a859-fce117b42121"
+				}
+			],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1,
+			"manufacturerCode": "1111127283838",
+			"priceDefinition": {
+				"calculatedSellingPrice": 15393000,
+				"total": 15393000,
+				"sellingPrices": [
+					{
+						"value": 15393000,
+						"quantity": 1
+					}
+				]
+			}
+		},
+		{
+			"additionalInfo": {
+				"categoriesIds": "/1/14/",
+				"productClusterId": "154,156,160,187,188,214,364,413,415,432,450,504,511,585,698,714,772,784,867,910,956,1118,1149,1153,1173,1174,1186,1187,1243,1265,1267,1275,1281,1289,1297,1324,1355,1359,1381,1453,1505,1531",
+				"commercialConditionId": "1",
+				"dimension": {
+					"cubicweight": 0.0002,
+					"height": 1,
+					"length": 1,
+					"weight": 1,
+					"width": 1
+				},
+				"brandName": "N******",
+				"brandId": "2000000",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "2075635",
+			"priceTable": null,
+			"priceValidUntil": "9999-12-31T02:00:00Z",
+			"callCenterOperator": null,
+			"commission": 0,
+			"freightCommission": 0,
+			"taxCode": null,
+			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:nafnaf:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2075635",
+			"uniqueId": "06758D1AEB5C4D85BDAFD744DB9C9FEF",
+			"id": "2075635",
+			"productId": "2013785",
+			"productRefId": "14_582E011_CRU111001",
+			"refId": "14_582E011_1111127312842",
+			"ean": "1111127312842",
+			"name": "C****************************************",
+			"skuName": "C******",
+			"modalType": null,
+			"parentItemIndex": null,
+			"parentAssemblyBinding": null,
+			"assemblies": [],
+			"tax": 0,
+			"price": 14990000,
+			"listPrice": 14990000,
+			"manualPrice": null,
+			"manualPriceAppliedBy": null,
+			"sellingPrice": 9743500,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": "2023-04-24T00:00:00Z",
+			"productCategoryIds": "/1/14/",
+			"productCategories": {
+				"1": "Ropa Mujer",
+				"14": "Prendas tejidas"
+			},
+			"quantity": 1,
+			"seller": "nafnafcedi",
+			"sellerChain": [
+				"nafnafcedi"
+			],
+			"imageUrl": "http://nafnaf.vteximg.com.br/arquivos/ids/952562-90-109/14_582E011_CRU111001_0.jpg?v=638179407483400000",
+			"detailUrl": "/camiseta-tejida-de-un-solo-hombro-582e011-cru111001/p",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"attachmentOfferings": [],
+			"offerings": [],
+			"priceTags": [
+				{
+					"name": "d***************************************************************************************",
+					"value": -5246500,
+					"rawValue": -52465,
+					"isPercentual": false,
+					"identifier": "340b7b3a-3611-4ef3-aa23-4839286de3e6"
+				},
+				{
+					"name": "d******************************************************************************************",
+					"value": -576600,
+					"rawValue": -5766,
+					"isPercentual": false,
+					"identifier": "f6396127-69b4-43bd-a859-fce117b42121"
+				}
+			],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1,
+			"manufacturerCode": "1111127312842",
+			"priceDefinition": {
+				"calculatedSellingPrice": 9743500,
+				"total": 9743500,
+				"sellingPrices": [
+					{
+						"value": 9743500,
+						"quantity": 1
+					}
+				]
+			}
 		}
 	],
 	"sellers": [
 		{
 			"subSellerId": "1",
-			"fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?sc=1&an=My-Store",
-			"id": "1",
-			"name": " IMPORTACAO E EXPORTACAO LTDA",
+			"fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=nafnafcedi&affiliateId=SLR&sc=1",
+			"id": "nafnafcedi",
+			"name": "n*********",
 			"logo": ""
 		}
 	],
@@ -96,87 +309,134 @@
 	"marketPlaceOrderId": "",
 	"marketPlaceOrderGroup": null,
 	"marketplaceServicesEndpoint": null,
-	"orderFormId": "00000000000000000000000000000",
-	"sequence": "500001",
+	"orderFormId": "094ed2ed70e648b39fcd936cbf609e9b",
+	"sequence": "41089698",
 	"affiliateId": "",
 	"status": "",
 	"callCenterOperator": "",
-	"userProfileId": "0000000000000000000000000000000",
-	"hostName": "My-Store",
+	"userProfileId": "3e62c600-c6a0-49a8-9000-f6a1c962277a",
+	"hostName": "n*****",
 	"creationVersion": null,
 	"creationEnvironment": null,
 	"lastChangeVersion": null,
 	"workflowInstanceId": null,
 	"marketplacePaymentValue": null,
-	"orderId": "0000000000000-01",
-	"orderGroup": "1000000000000002",
+	"orderId": "v41089698naf-01",
+	"orderGroup": "v41089698naf",
 	"state": "canceled",
 	"isCheckedIn": false,
-	"sellerOrderId": "00-000000000000000-01",
+	"sellerOrderId": "SLR-v41089698naf-01",
 	"storeId": null,
 	"checkedInPickupPointId": null,
-	"value": 7500,
+	"value": 42629500,
 	"totals": [
 		{
 			"id": "Items",
-			"name": "Items Total",
-			"value": 7000
+			"name": "T*****************",
+			"value": 61970000
 		},
 		{
 			"id": "Discounts",
-			"name": "Discounts Total",
-			"value": 0
+			"name": "T******************",
+			"value": -19340500
 		},
 		{
 			"id": "Shipping",
-			"name": "Shipping Total",
-			"value": 500
+			"name": "C********************",
+			"value": 0,
+			"alternativeTotals": [
+				{
+					"id": "AlternativeShippingTotal",
+					"name": "A*************************",
+					"value": 1730000
+				},
+				{
+					"id": "AlternativeShippingDiscount",
+					"name": "A****************************",
+					"value": -1730000
+				}
+			]
 		},
 		{
 			"id": "Tax",
-			"name": "Tax Total",
+			"name": "C*********************",
 			"value": 0
 		}
 	],
 	"clientProfileData": {
-		"email": "0000000000000000000000@ct.vtex.com.br",
-		"firstName": "Joanna",
-		"lastName": "lastname",
-		"document": "0000000000",
-		"documentType": "cpf",
-		"phone": "+5500000000",
+		"email": "a*******.a******.s*****@g****.c****************.c*.v***.c**.b*",
+		"firstName": "a*******",
+		"lastName": "a******",
+		"document": "1*********",
+		"documentType": "cedulaCOL",
+		"phone": "+5***********",
 		"corporateName": null,
 		"tradeName": null,
 		"corporateDocument": null,
-		"stateInscription": "",
+		"stateInscription": null,
 		"corporatePhone": null,
 		"isCorporate": false,
-		"profileCompleteOnLoading": false,
+		"profileCompleteOnLoading": true,
 		"profileErrorOnLoading": false,
 		"customerClass": null
 	},
 	"ratesAndBenefitsData": {
-		"rateAndBenefitsIdentifiers": [],
+		"rateAndBenefitsIdentifiers": [
+			{
+				"id": "f139ad15-573e-49a4-8d54-23b0c5d5e93e",
+				"name": "s*******************",
+				"featured": true,
+				"description": "Válido del 01 al 30 de Septiembre de 2023. 20% - 30% - 40% - 50% de descuento en referencias seleccionadas identificadas con etiqueta de descuento del \"20%\", \"30%\" , \"40%\", \"50%\". Descuentos hasta agotar existencias, 10.000 unds disponibles. Exclusivo tienda online NAF NAF |Tienda Online de Ropa para Mujer . El descuento se encuentra aplicado en el precio de cada producto. No acumulable con otras promociones y/o descuentos. En caso de cambio o garantía, se reconocerá el valor pagado por la prenda. No aplica para compra de bonos regalo. No aplica en tiendas físicas NAF NAF Colombia, canal WhatsApp, Rappi, córners Falabella ni Outlets.",
+				"matchedParameters": {
+					"Seller@CatalogSystem": "1|inclusive",
+					"productCluster@CatalogSystem": "1541|inclusive"
+				},
+				"additionalInfo": null
+			},
+			{
+				"id": "f6396127-69b4-43bd-a859-fce117b42121",
+				"name": "b*************************",
+				"featured": false,
+				"description": "Válido 08 de septiembre de 2023 al 31 de enero de 2024. Envío GRATIS para todas las compras. Exclusivo en tienda online www.nafnaf.com.co y canal WhatsApp 322 518 6245 Naf Naf. En tienda online, el beneficio aplica al momento del pago, ingresando el cupón de descuento “E2ENVIO23”. En WhatsApp, el beneficio aplica indicándole al asesor tu número de cédula de ciudadanía al momento de la confirmación del pedido. Promoción no redimible en dinero. Exclusivo para el segmento Black.",
+				"matchedParameters": {
+					"Seller@CatalogSystem": "1|inclusive",
+					"couponCode@Marketing": "1e2nc35"
+				},
+				"additionalInfo": null
+			},
+			{
+				"id": "340b7b3a-3611-4ef3-aa23-4839286de3e6",
+				"name": "b*********************",
+				"featured": false,
+				"description": "Válido del 08 de septiembre de 2023 al 31 de enero de 2024. NO aplica los días sin IVA decretados por el Gobierno Nacional. Descuento del 35% en prendas de la marca NAF NAF de la Nueva Colección. Exclusivo para clientes Black Naf&Me. Aplica en tiendas físicas de línea NAF NAF Colombia, canal WhatsApp NAF NAF y tienda online www.nafnaf.com.co. Aplica para una sola compra en el tiempo de vigencia. Aplica únicamente la redención de un bono de la cuponera por día. En tienda online www.nafnaf.com.co el descuento aplica al momento del pago ingresando el cupón \"1E2NC35”. En tienda física, el descuento aplica al momento del pago, presentando la cédula de ciudadanía física. En WhatsApp, el descuento aplica al momento del pago, presentando una foto del email enviado o del SMS. No aplica en Rappi, Outlets ni corners Falabella. No aplica para compra de bono de regalo. No acumulable con otras promociones o descuentos. En caso de cambio o garantía, se reconocerá el valor pagado por la prenda. No redimible en dinero.",
+				"matchedParameters": {
+					"Seller@CatalogSystem": "1|inclusive",
+					"productCluster@CatalogSystem": "1234|exclusive",
+					"couponCode@Marketing": "1e2nc35"
+				},
+				"additionalInfo": null
+			}
+		],
 		"teaser": []
 	},
 	"shippingData": {
 		"address": {
 			"addressType": "residential",
-			"receiverName": "name lastname",
-			"addressId": "4000000000002881",
-			"isDisposable": true,
-			"postalCode": "00000-001",
-			"city": "São Paulo",
-			"state": "SP",
-			"country": "BRA",
-			"street": "Avenida Tal",
-			"number": "300",
-			"neighborhood": "Bairro",
-			"complement": "APTO 04",
+			"receiverName": "a******* a******",
+			"addressId": "-1518922174679",
+			"isDisposable": false,
+			"postalCode": "1****",
+			"city": "C******** D* I*****",
+			"state": "BOLÍVAR",
+			"country": "COL",
+			"street": "c** 2** N****** e******* t***** a*** 1****",
+			"number": null,
+			"neighborhood": "p** d* l* p***",
+			"complement": "s****** c******* t****",
 			"reference": null,
 			"geoCoordinates": [
-				-46.000000000,
-				-23.000000000000
+				-51.4779552,
+				-0.0039779
 			]
 		},
 		"logisticsInfo": [
@@ -184,30 +444,29 @@
 				"itemIndex": 0,
 				"selectedSla": "Normal",
 				"selectedDeliveryChannel": "delivery",
-				"addressId": "4000000000002881",
+				"addressId": "-1518922174679",
 				"slas": [
 					{
 						"id": "Normal",
 						"deliveryChannel": "delivery",
-						"name": "Normal",
+						"name": "N*****",
 						"deliveryIds": [
 							{
 								"courierId": "1",
 								"warehouseId": "1_1",
 								"dockId": "1",
-								"courierName": "Transportadora",
+								"courierName": "8**************************",
 								"quantity": 1,
-								"kitItemDetails": [],
-								"totalListPrice": 0
+								"kitItemDetails": []
 							}
 						],
-						"shippingEstimate": "2bd",
+						"shippingEstimate": "3bd",
 						"shippingEstimateDate": null,
-						"lockTTL": "6d",
+						"lockTTL": "10d",
 						"availableDeliveryWindows": [],
 						"deliveryWindow": null,
-						"price": 500,
-						"listPrice": 500,
+						"price": 0,
+						"listPrice": 576800,
 						"tax": 0,
 						"pickupStoreInfo": {
 							"isPickupStore": false,
@@ -217,19 +476,126 @@
 							"dockId": null
 						},
 						"pickupPointId": null,
-						"pickupDistance": 0,
-						"polygonName": null,
-						"transitTime": "2bd"
+						"pickupDistance": null,
+						"polygonName": "",
+						"transitTime": "3bd"
 					}
 				],
 				"shipsTo": [
-					"BRA"
+					"COL"
 				],
-				"itemId": "100",
+				"itemId": "2072502",
 				"deliveryChannels": [
 					{
-						"id": "delivery",
-						"stockBalance": 0
+						"id": "delivery"
+					}
+				]
+			},
+			{
+				"itemIndex": 1,
+				"selectedSla": "Normal",
+				"selectedDeliveryChannel": "delivery",
+				"addressId": "-1518922174679",
+				"slas": [
+					{
+						"id": "Normal",
+						"deliveryChannel": "delivery",
+						"name": "N*****",
+						"deliveryIds": [
+							{
+								"courierId": "1",
+								"warehouseId": "1_1",
+								"dockId": "1",
+								"courierName": "8**************************",
+								"quantity": 1,
+								"kitItemDetails": []
+							}
+						],
+						"shippingEstimate": "3bd",
+						"shippingEstimateDate": null,
+						"lockTTL": "10d",
+						"availableDeliveryWindows": [],
+						"deliveryWindow": null,
+						"price": 0,
+						"listPrice": 576600,
+						"tax": 0,
+						"pickupStoreInfo": {
+							"isPickupStore": false,
+							"friendlyName": null,
+							"address": null,
+							"additionalInfo": null,
+							"dockId": null
+						},
+						"pickupPointId": null,
+						"pickupDistance": null,
+						"polygonName": "",
+						"transitTime": "3bd"
+					}
+				],
+				"shipsTo": [
+					"COL"
+				],
+				"itemId": "2072894",
+				"deliveryChannels": [
+					{
+						"id": "delivery"
+					},
+					{
+						"id": "pickup-in-point"
+					}
+				]
+			},
+			{
+				"itemIndex": 2,
+				"selectedSla": "Normal",
+				"selectedDeliveryChannel": "delivery",
+				"addressId": "-1518922174679",
+				"slas": [
+					{
+						"id": "Normal",
+						"deliveryChannel": "delivery",
+						"name": "N*****",
+						"deliveryIds": [
+							{
+								"courierId": "1",
+								"warehouseId": "1_1",
+								"dockId": "1",
+								"courierName": "8**************************",
+								"quantity": 1,
+								"kitItemDetails": []
+							}
+						],
+						"shippingEstimate": "3bd",
+						"shippingEstimateDate": null,
+						"lockTTL": "10d",
+						"availableDeliveryWindows": [],
+						"deliveryWindow": null,
+						"price": 0,
+						"listPrice": 576600,
+						"tax": 0,
+						"pickupStoreInfo": {
+							"isPickupStore": false,
+							"friendlyName": null,
+							"address": null,
+							"additionalInfo": null,
+							"dockId": null
+						},
+						"pickupPointId": null,
+						"pickupDistance": null,
+						"polygonName": "",
+						"transitTime": "3bd"
+					}
+				],
+				"shipsTo": [
+					"COL"
+				],
+				"itemId": "2075635",
+				"deliveryChannels": [
+					{
+						"id": "delivery"
+					},
+					{
+						"id": "pickup-in-point"
 					}
 				]
 			}
@@ -237,42 +603,42 @@
 		"selectedAddresses": [
 			{
 				"addressType": "residential",
-				"receiverName": "name lastname",
-				"addressId": "4000000000000081",
-				"isDisposable": true,
-				"postalCode": "00000-001",
-				"city": "São Paulo",
-				"state": "SP",
-				"country": "BRA",
-				"street": "Avenida Tal",
-				"number": "300",
-				"neighborhood": "Bairro",
-				"complement": "APTO 04",
+				"receiverName": "a******* a******",
+				"addressId": "-1518922174679",
+				"isDisposable": false,
+				"postalCode": "1****",
+				"city": "C******** D* I*****",
+				"state": "BOLÍVAR",
+				"country": "COL",
+				"street": "c** 2** N****** e******* t***** a*** 1****",
+				"number": null,
+				"neighborhood": "p** d* l* p***",
+				"complement": "s****** c******* t****",
 				"reference": null,
 				"geoCoordinates": [
-					-46.000000000,
-					-23.000000000000
+					-51.4779552,
+					-0.0039779
 				]
 			}
 		],
 		"availableAddresses": [
 			{
 				"addressType": "residential",
-				"receiverName": "name lastname",
-				"addressId": "4000000000002881",
-				"isDisposable": true,
-				"postalCode": "00000-001",
-				"city": "São Paulo",
-				"state": "SP",
-				"country": "BRA",
-				"street": "Avenida Tal",
-				"number": "300",
-				"neighborhood": "Bairro",
-				"complement": "APTO 04",
+				"receiverName": "a******* a******",
+				"addressId": "-1518922174679",
+				"isDisposable": false,
+				"postalCode": "1****",
+				"city": "C******** D* I*****",
+				"state": "BOLÍVAR",
+				"country": "COL",
+				"street": "c** 2** N****** e******* t***** a*** 1****",
+				"number": null,
+				"neighborhood": "p** d* l* p***",
+				"complement": "s****** c******* t****",
 				"reference": null,
 				"geoCoordinates": [
-					-46.000000000,
-					-23.000000000000
+					-51.4779552,
+					-0.0039779
 				]
 			}
 		],
@@ -283,21 +649,26 @@
 		"transactions": [
 			{
 				"isActive": true,
-				"transactionId": "000000000000000000000",
-				"merchantName": "my-store",
+				"transactionId": "4CE9E0C833FF4ECCAEBBF724171B51F7",
+				"merchantName": "N*****",
 				"payments": [
 					{
-						"id": "000000000000000000000",
-						"paymentSystem": "201",
-						"paymentSystemName": "Promissória teste",
-						"value": 7500,
+						"id": "93ADBA96F3A14905A7752C09DACC1054",
+						"paymentSystem": "2",
+						"paymentSystemName": "V***",
+						"value": 42629500,
 						"installments": 1,
-						"connectorResponses": {},
-						"referenceValue": 7500,
+						"connectorResponses": {
+							"Tid": null,
+							"ReturnCode": null,
+							"Message": null,
+							"state": "Authorizing"
+						},
+						"referenceValue": 42629500,
 						"cardHolder": null,
 						"cardNumber": null,
-						"firstDigits": null,
-						"lastDigits": null,
+						"firstDigits": "474630",
+						"lastDigits": "2166",
 						"cvv2": null,
 						"expireMonth": null,
 						"expireYear": null,
@@ -308,15 +679,33 @@
 						"giftCardId": null,
 						"giftCardProvider": null,
 						"giftCardAsDiscount": null,
-						"group": "promissory",
+						"group": "creditCard",
 						"dueDate": null,
-						"accountId": null,
-						"parentAccountId": null,
+						"accountId": "9EA7EC4BDBE54100854B92BC2CFEBAD6",
+						"parentAccountId": "9EA7EC4BDBE54100854B92BC2CFEBAD6",
 						"bankIssuedInvoiceIdentificationNumber": null,
 						"bankIssuedInvoiceIdentificationNumberFormatted": null,
 						"bankIssuedInvoiceBarCodeNumber": null,
 						"bankIssuedInvoiceBarCodeType": null,
-						"billingAddress": null
+						"billingAddress": {
+							"addressType": "residential",
+							"receiverName": "a******* a******",
+							"addressId": "-1518922174679",
+							"isDisposable": false,
+							"postalCode": "1****",
+							"city": "C******** D* I*****",
+							"state": "BOLÍVAR",
+							"country": "COL",
+							"street": "c** 2** N****** e******* t***** a*** 1****",
+							"number": null,
+							"neighborhood": "p** d* l* p***",
+							"complement": "s****** c******* t****",
+							"reference": null,
+							"geoCoordinates": [
+								-51.4779552,
+								-0.0039779
+							]
+						}
 					}
 				],
 				"sharedTransaction": false
@@ -324,18 +713,27 @@
 		]
 	},
 	"clientPreferencesData": {
-		"locale": "en-US",
-		"optinNewsLetter": false
+		"locale": "es-CO",
+		"optinNewsLetter": true
 	},
 	"commercialConditionData": null,
-	"marketingData": null,
+	"marketingData": {
+		"utmSource": null,
+		"utmMedium": null,
+		"utmCampaign": null,
+		"utmipage": null,
+		"utmiPart": null,
+		"utmiCampaign": null,
+		"coupon": "1e2nc35",
+		"marketingTags": []
+	},
 	"storePreferencesData": {
-		"countryCode": "BRA",
+		"countryCode": "COL",
 		"saveUserData": false,
-		"timeZone": "E. South America Standard Time",
-		"currencyCode": "BRL",
-		"currencyLocale": 1046,
-		"currencySymbol": "R$",
+		"timeZone": "SA Pacific Standard Time",
+		"currencyCode": "COP",
+		"currencyLocale": 9226,
+		"currencySymbol": "$",
 		"currencyFormatInfo": {
 			"currencyDecimalDigits": 2,
 			"currencyDecimalSeparator": ",",
@@ -353,11 +751,11 @@
 	"changeData": null,
 	"subscriptionData": null,
 	"salesChannel": "1",
-	"followUpEmail": "00000000000000000000000@ct.vtex.com.br",
-	"creationDate": "2021-01-01T00:00:00",
-	"lastChange": "2021-01-01T00:00:00",
-	"timeZoneCreationDate": "2020-12-03T21:00:07.3030556",
-	"timeZoneLastChange": "2020-12-29T21:00:36.8554346",
+	"followUpEmail": "f**********************************.v***.c**.b*",
+	"creationDate": "2023-09-25T13:55:07.021563Z",
+	"lastChange": "2023-09-25T14:25:15.3502481Z",
+	"timeZoneCreationDate": "2023-09-25T08:55:07.021563",
+	"timeZoneLastChange": "2023-09-25T09:25:15.3502481",
 	"isCompleted": true,
 	"merchantName": null,
 	"userType": "",
@@ -368,20 +766,22 @@
 	"allowChangeSeller": false,
 	"cancellationData": {
 		"requestedByUser": false,
+		"requestedByPaymentNotification": true,
 		"reason": null,
-		"cancellationDate": "2021-01-00T00:00:33.5015013Z"
+		"cancellationDate": "2023-09-25T14:25:12.1814852Z"
 	},
 	"_accountInfo": {
-		"MainAccountName": "my-Store",
-		"AccountName": "my-Store",
-		"Cnpj": "0000001000001",
-		"Id": "00000000-000-000-000-0000000",
+		"MainAccountName": "n*****",
+		"AccountName": "n*****",
+		"Cnpj": "99999999999999",
+		"Id": "381c573c-921f-45c4-9a37-20962d5b9dee",
+		"AppId": "fe287b7c-70d7-4fd1-b791-ea98eaecbc22",
 		"IsActive": true,
-		"IsOperating": false,
-		"CreationDate": "2021-01-01T00:00:00",
-		"OperationDate": null,
-		"CompanyName": "My Store IMPORTACAO E EXPORTACAO LTDA",
-		"TradingName": "My Store",
+		"IsOperating": true,
+		"CreationDate": "2014-05-22T00:00:00",
+		"OperationDate": "2013-01-01T00:00:00",
+		"CompanyName": "G********",
+		"TradingName": "n*****",
 		"City": null,
 		"Complement": null,
 		"Country": null,
@@ -390,9 +790,15 @@
 		"District": null,
 		"Number": null,
 		"PostalCode": null,
-		"Licences": null,
+		"Licenses": [
+			8
+		],
+		"ParentAccountId": null,
 		"ParentAccountName": null,
 		"InactivationDate": null,
-		"Platform": "vtex"
+		"Platform": "vtex",
+		"Privacy": null,
+		"HasPiiRestriction": false,
+		"Infra": null
 	}
 }

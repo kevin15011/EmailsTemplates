@@ -1,0 +1,630 @@
+{
+  "package": {
+    "items": [
+      {
+        "itemIndex": 0,
+        "quantity": 1,
+        "price": 16793000,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 1,
+        "quantity": 1,
+        "price": 6293000,
+        "description": null,
+        "unitMultiplier": 0
+      }
+    ],
+    "courier": "COORDINADORA MERCANTIL S.A",
+    "invoiceNumber": "ESAP557432",
+    "invoiceValue": 24156300,
+    "invoiceUrl": null,
+    "issuanceDate": "2023-09-25T09:07:37Z",
+    "trackingNumber": "48857655055",
+    "invoiceKey": null,
+    "trackingUrl": null,
+    "embeddedInvoice": "",
+    "type": "Output",
+    "courierStatus": null,
+    "cfop": null,
+    "restitutions": {},
+    "volumes": null,
+    "EnableInferItems": null
+  },
+  "subjectItemAttachment": {
+    "item": "Overall de pantalón ...",
+    "totalItems": 2,
+    "extraItems": 1
+  },
+  "cancellationReason": null,
+  "items": [
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/10/",
+        "productClusterId": "154,160,188,214,364,413,415,450,504,511,585,698,772,784,867,910,956,1118,1149,1153,1173,1174,1187,1234,1243,1265,1267,1275,1281,1289,1297,1324,1355,1359,1453,1497,1499,1509,1510,1518,1523,1526,1531,1535,1536,1538,1541,1549,1553,1561,1564,1568",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.0002,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "N******",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "2073869",
+      "priceTable": null,
+      "priceValidUntil": "2123-03-24T00:00:00Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:nafnaf:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2073869",
+      "uniqueId": "E50F7CD601B8441DBE8FF1205B2C2996",
+      "id": "2073869",
+      "productId": "2013319",
+      "productRefId": "14_469D304_A01946",
+      "refId": "14_469D304_1111127304625",
+      "ean": "1111127304625",
+      "name": "O*************************************",
+      "skuName": "V*****************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 23990000,
+      "listPrice": 23990000,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 16793000,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": "2023-01-31T00:00:00Z",
+      "productCategoryIds": "/1/10/",
+      "productCategories": {
+        "1": "Ropa Mujer",
+        "10": "Enterizos"
+      },
+      "quantity": 1,
+      "seller": "nafnafcedi",
+      "sellerChain": [
+        "nafnafcedi"
+      ],
+      "imageUrl": "http://nafnaf.vteximg.com.br/arquivos/ids/931374-90-109/14_469D304_A01946_0.jpg?v=638152788311770000",
+      "detailUrl": "/overall-de-pantalon-469d304-a01946/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "d***************************************************************************************",
+          "value": -7197000,
+          "rawValue": -71970,
+          "isPercentual": false,
+          "identifier": "f139ad15-573e-49a4-8d54-23b0c5d5e93e"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "1111127304625",
+      "priceDefinition": {
+        "calculatedSellingPrice": 16793000,
+        "total": 16793000,
+        "sellingPrices": [
+          {
+            "value": 16793000,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/6/",
+        "productClusterId": "154,160,188,214,364,413,415,450,504,511,585,698,772,784,867,910,956,1107,1118,1149,1153,1173,1174,1187,1234,1243,1259,1265,1267,1275,1281,1289,1297,1324,1355,1359,1453,1495,1496,1499,1523,1525,1530,1531,1535,1536,1538,1541,1549,1553,1561,1564,1568",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.0002,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "N******",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "2074102",
+      "priceTable": null,
+      "priceValidUntil": "2123-03-24T00:00:00Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:nafnaf:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2074102",
+      "uniqueId": "764B9E0CB9DD4BB783A95787B24EE2DC",
+      "id": "2074102",
+      "productId": "2013377",
+      "productRefId": "14_401E002_A03151",
+      "refId": "14_401E002_1111127322674",
+      "ean": "1111127322674",
+      "name": "C***********************************************************",
+      "skuName": "R********************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 8990000,
+      "listPrice": 8990000,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 6293000,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": "2023-01-05T00:00:00Z",
+      "productCategoryIds": "/1/6/",
+      "productCategories": {
+        "1": "Ropa Mujer",
+        "6": "Camisetas"
+      },
+      "quantity": 1,
+      "seller": "nafnafcedi",
+      "sellerChain": [
+        "nafnafcedi"
+      ],
+      "imageUrl": "http://nafnaf.vteximg.com.br/arquivos/ids/927287-90-109/14_401E002_A03151_0.jpg?v=638152750313970000",
+      "detailUrl": "/camiseta-clasica-con-estampado-frontal-401e002-a03151/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "d***************************************************************************************",
+          "value": -2697000,
+          "rawValue": -26970,
+          "isPercentual": false,
+          "identifier": "f139ad15-573e-49a4-8d54-23b0c5d5e93e"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "1111127322674",
+      "priceDefinition": {
+        "calculatedSellingPrice": 6293000,
+        "total": 6293000,
+        "sellingPrices": [
+          {
+            "value": 6293000,
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=nafnafcedi&affiliateId=SLR&sc=1",
+      "id": "nafnafcedi",
+      "name": "n*********",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "marketPlaceOrderGroup": null,
+  "marketplaceServicesEndpoint": null,
+  "orderFormId": "4d141ef1705047f1a985449f957230b6",
+  "sequence": "41089015",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "568735cb-d659-4697-9535-19bd5ed97ab9",
+  "hostName": "n*****",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "marketplacePaymentValue": null,
+  "orderId": "v41089015naf-01",
+  "orderGroup": "v41089015naf",
+  "state": "payment-approved",
+  "isCheckedIn": false,
+  "sellerOrderId": "SLR-v41089015naf-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 24156000,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "T*****************",
+      "value": 32980000
+    },
+    {
+      "id": "Discounts",
+      "name": "T******************",
+      "value": -9894000
+    },
+    {
+      "id": "Shipping",
+      "name": "C********************",
+      "value": 1070000
+    },
+    {
+      "id": "Tax",
+      "name": "C*********************",
+      "value": 0
+    }
+  ],
+  "clientProfileData": {
+    "email": "d******@a********.e**.c***************.c*.v***.c**.b*",
+    "firstName": "D******",
+    "lastName": "M**** v******",
+    "document": "4*******",
+    "documentType": "cedulaCOL",
+    "phone": "+5***********",
+    "corporateName": null,
+    "tradeName": null,
+    "corporateDocument": null,
+    "stateInscription": null,
+    "corporatePhone": null,
+    "isCorporate": false,
+    "profileCompleteOnLoading": true,
+    "profileErrorOnLoading": false,
+    "customerClass": null
+  },
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [
+      {
+        "id": "f139ad15-573e-49a4-8d54-23b0c5d5e93e",
+        "name": "s*******************",
+        "featured": true,
+        "description": "Válido del 01 al 30 de Septiembre de 2023. 20% - 30% - 40% - 50% de descuento en referencias seleccionadas identificadas con etiqueta de descuento del \"20%\", \"30%\" , \"40%\", \"50%\". Descuentos hasta agotar existencias, 10.000 unds disponibles. Exclusivo tienda online NAF NAF |Tienda Online de Ropa para Mujer . El descuento se encuentra aplicado en el precio de cada producto. No acumulable con otras promociones y/o descuentos. En caso de cambio o garantía, se reconocerá el valor pagado por la prenda. No aplica para compra de bonos regalo. No aplica en tiendas físicas NAF NAF Colombia, canal WhatsApp, Rappi, córners Falabella ni Outlets.",
+        "matchedParameters": {
+          "Seller@CatalogSystem": "1|inclusive",
+          "productCluster@CatalogSystem": "1541|inclusive"
+        },
+        "additionalInfo": null
+      }
+    ],
+    "teaser": []
+  },
+  "shippingData": {
+    "address": {
+      "addressType": "residential",
+      "receiverName": "D******  M**** v******",
+      "addressId": "4940982383202",
+      "isDisposable": false,
+      "postalCode": "6****",
+      "city": "P******",
+      "state": "RISARALDA",
+      "country": "COL",
+      "street": "C** 2* # 3* - 5*",
+      "number": null,
+      "neighborhood": "P******",
+      "complement": "2***",
+      "reference": null,
+      "geoCoordinates": [
+        -51.4779552,
+        -0.0039779
+      ]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "selectedSla": "Normal",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "4940982383202",
+        "slas": [
+          {
+            "id": "Normal",
+            "deliveryChannel": "delivery",
+            "name": "N*****",
+            "deliveryIds": [
+              {
+                "courierId": "1",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "8**************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "6bd",
+            "shippingEstimateDate": "2023-09-30T11:15:00Z",
+            "lockTTL": "11d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 535000,
+            "listPrice": 535000,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "",
+            "transitTime": "5bd"
+          }
+        ],
+        "shipsTo": [
+          "COL"
+        ],
+        "itemId": "2073869",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 1,
+        "selectedSla": "Normal",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "4940982383202",
+        "slas": [
+          {
+            "id": "Normal",
+            "deliveryChannel": "delivery",
+            "name": "N*****",
+            "deliveryIds": [
+              {
+                "courierId": "1",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "8**************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "6bd",
+            "shippingEstimateDate": "2023-09-30T11:15:00Z",
+            "lockTTL": "11d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 535000,
+            "listPrice": 535000,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "",
+            "transitTime": "5bd"
+          }
+        ],
+        "shipsTo": [
+          "COL"
+        ],
+        "itemId": "2074102",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          }
+        ]
+      }
+    ],
+    "selectedAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "D******  M**** v******",
+        "addressId": "4940982383202",
+        "isDisposable": false,
+        "postalCode": "6****",
+        "city": "P******",
+        "state": "RISARALDA",
+        "country": "COL",
+        "street": "C** 2* # 3* - 5*",
+        "number": null,
+        "neighborhood": "P******",
+        "complement": "2***",
+        "reference": null,
+        "geoCoordinates": [
+          -51.4779552,
+          -0.0039779
+        ]
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "D******  M**** v******",
+        "addressId": "4940982383202",
+        "isDisposable": false,
+        "postalCode": "6****",
+        "city": "P******",
+        "state": "RISARALDA",
+        "country": "COL",
+        "street": "C** 2* # 3* - 5*",
+        "number": null,
+        "neighborhood": "P******",
+        "complement": "2***",
+        "reference": null,
+        "geoCoordinates": [
+          -51.4779552,
+          -0.0039779
+        ]
+      }
+    ],
+    "pickupPoints": []
+  },
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "E7D01F05998F479E9004DB7CBC0BE8E3",
+        "merchantName": "N*****",
+        "payments": [
+          {
+            "id": "DB763965B488475E807DFDB9CDAA207F",
+            "paymentSystem": "4",
+            "paymentSystemName": "M*********",
+            "value": 24156000,
+            "installments": 3,
+            "connectorResponses": {
+              "Tid": "356883707",
+              "ReturnCode": "00",
+              "Message": "00",
+              "authId": "418214",
+              "orderId": "2757146537",
+              "state": "APPROVED"
+            },
+            "referenceValue": 24156000,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": "540690",
+            "lastDigits": "1185",
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "koinUrl": null,
+            "tid": "356883707",
+            "redemptionCode": null,
+            "giftCardId": null,
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "group": "creditCard",
+            "dueDate": null,
+            "accountId": "19BBC682F6AC43B281434B55538BA1A3",
+            "parentAccountId": "19BBC682F6AC43B281434B55538BA1A3",
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": {
+              "addressType": "residential",
+              "receiverName": "D******  M**** v******",
+              "addressId": "4940982383202",
+              "isDisposable": false,
+              "postalCode": "6****",
+              "city": "P******",
+              "state": "RISARALDA",
+              "country": "COL",
+              "street": "C** 2* # 3* - 5*",
+              "number": null,
+              "neighborhood": "P******",
+              "complement": "2***",
+              "reference": null,
+              "geoCoordinates": [
+                -51.4779552,
+                -0.0039779
+              ]
+            }
+          }
+        ],
+        "sharedTransaction": false
+      }
+    ]
+  },
+  "clientPreferencesData": {
+    "locale": "es-CO",
+    "optinNewsLetter": true
+  },
+  "commercialConditionData": null,
+  "marketingData": {
+    "utmSource": "google-ads",
+    "utmMedium": "",
+    "utmCampaign": "Search PureBrand",
+    "utmipage": "",
+    "utmiPart": "",
+    "utmiCampaign": "",
+    "coupon": null,
+    "marketingTags": []
+  },
+  "storePreferencesData": {
+    "countryCode": "COL",
+    "saveUserData": false,
+    "timeZone": "SA Pacific Standard Time",
+    "currencyCode": "COP",
+    "currencyLocale": 9226,
+    "currencySymbol": "$",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": true
+    }
+  },
+  "openTextField": null,
+  "invoiceData": null,
+  "itemMetadata": null,
+  "taxData": null,
+  "customData": null,
+  "hooksData": null,
+  "changeData": null,
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "e**********************************.v***.c**.b*",
+  "creationDate": "2023-09-23T22:20:21.3937272Z",
+  "lastChange": "2023-09-23T22:20:34.5678536Z",
+  "timeZoneCreationDate": "2023-09-23T17:20:21.3937272",
+  "timeZoneLastChange": "2023-09-23T17:20:34.5678536",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "_accountInfo": {
+    "MainAccountName": "n*****",
+    "AccountName": "n*****",
+    "Cnpj": "99999999999999",
+    "Id": "381c573c-921f-45c4-9a37-20962d5b9dee",
+    "AppId": "fe287b7c-70d7-4fd1-b791-ea98eaecbc22",
+    "IsActive": true,
+    "IsOperating": true,
+    "CreationDate": "2014-05-22T00:00:00",
+    "OperationDate": "2013-01-01T00:00:00",
+    "CompanyName": "G********",
+    "TradingName": "n*****",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [
+      8
+    ],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null
+  }
+}

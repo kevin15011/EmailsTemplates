@@ -1,0 +1,646 @@
+{
+  "orders": [
+    {
+      "package": null,
+      "subjectItemAttachment": {
+        "item": "Pantalón con cinturó...",
+        "totalItems": 2,
+        "extraItems": 1
+      },
+      "cancellationReason": null,
+      "items": [
+        {
+          "additionalInfo": {
+            "categoriesIds": "/1/5/124/",
+            "productClusterId": "154,157,160,188,214,364,413,415,450,504,511,585,698,772,784,867,910,956,1108,1118,1149,1153,1173,1174,1187,1234,1243,1249,1265,1267,1275,1281,1289,1297,1324,1355,1359,1370,1424,1427,1431,1435,1441,1442,1453,1454,1457,1458,1463,1464,1467,1473,1476,1483,1486,1489,1491,1498,1499,1509,1512,1518,1523,1526,1530,1531,1535,1536,1538,1539,1546,1548,1551,1561,1562,1565,1566,1568",
+            "commercialConditionId": "1",
+            "dimension": {
+              "cubicweight": 0.0002,
+              "height": 1,
+              "length": 1,
+              "weight": 1,
+              "width": 1
+            },
+            "brandName": "N******",
+            "brandId": "2000000",
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "sellerSku": "2070579",
+          "priceTable": null,
+          "priceValidUntil": "2123-02-02T00:00:00Z",
+          "callCenterOperator": null,
+          "commission": 0,
+          "freightCommission": 0,
+          "taxCode": null,
+          "catalogProvider": "vrn:vtex.catalog-api-proxy:-:nafnaf:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2070579",
+          "uniqueId": "CCFDF272D1914871A89071C6EAD02F17",
+          "id": "2070579",
+          "productId": "2012440",
+          "productRefId": "14_512D343_A00948",
+          "refId": "14_512D343_1111127263243",
+          "ean": "1111127263243",
+          "name": "C*********************************************************************************",
+          "skuName": "C*****************",
+          "modalType": null,
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "assemblies": [],
+          "tax": 0,
+          "price": 15990000,
+          "listPrice": 15990000,
+          "manualPrice": null,
+          "manualPriceAppliedBy": null,
+          "sellingPrice": 7995000,
+          "rewardValue": 0,
+          "isGift": false,
+          "preSaleDate": "2023-02-02T00:00:00Z",
+          "productCategoryIds": "/1/5/124/",
+          "productCategories": {
+            "1": "Ropa Mujer",
+            "5": "Camisas",
+            "124": "Origen"
+          },
+          "quantity": 1,
+          "seller": "nafnafcedi",
+          "sellerChain": [
+            "nafnafcedi"
+          ],
+          "imageUrl": "http://nafnaf.vteximg.com.br/arquivos/ids/901568-90-109/14_512D343_A00948_0.jpg?v=638109478112470000",
+          "detailUrl": "/camisa-para-mujer-cruda-manga-corta-con-detalles-tejidos-a-tono-512d343-a00948/p",
+          "components": [],
+          "bundleItems": [],
+          "attachments": [],
+          "attachmentOfferings": [],
+          "offerings": [],
+          "priceTags": [
+            {
+              "name": "d***************************************************************************************",
+              "value": -7995000,
+              "rawValue": -79950,
+              "isPercentual": false,
+              "identifier": "d347cf08-4f82-4bae-9f28-b9919b3775a9"
+            },
+            {
+              "name": "d******************************************************************************************",
+              "value": -535000,
+              "rawValue": -5350,
+              "isPercentual": false,
+              "identifier": "17d47cb7-326c-4332-9d20-2d5a7023b8b9"
+            }
+          ],
+          "availability": "available",
+          "measurementUnit": "un",
+          "unitMultiplier": 1,
+          "manufacturerCode": "1111127263243",
+          "priceDefinition": {
+            "calculatedSellingPrice": 7995000,
+            "total": 7995000,
+            "sellingPrices": [
+              {
+                "value": 7995000,
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "additionalInfo": {
+            "categoriesIds": "/1/13/123/",
+            "productClusterId": "154,159,160,188,214,364,413,415,450,504,511,585,698,772,785,824,867,910,956,1110,1118,1149,1153,1173,1174,1187,1234,1243,1265,1267,1275,1281,1289,1297,1324,1333,1355,1359,1453,1454,1455,1458,1461,1464,1468,1471,1489,1493,1497,1499,1509,1510,1518,1523,1525,1531,1535,1537,1538,1541,1546,1549,1551,1553,1561,1563,1566,1568",
+            "commercialConditionId": "1",
+            "dimension": {
+              "cubicweight": 0.0002,
+              "height": 1,
+              "length": 1,
+              "weight": 1,
+              "width": 1
+            },
+            "brandName": "N******",
+            "brandId": "2000000",
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "sellerSku": "2071181",
+          "priceTable": null,
+          "priceValidUntil": "9999-12-31T02:00:00Z",
+          "callCenterOperator": null,
+          "commission": 0,
+          "freightCommission": 0,
+          "taxCode": null,
+          "catalogProvider": "vrn:vtex.catalog-api-proxy:-:nafnaf:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2071181",
+          "uniqueId": "B642759A1BFB4660B23351D3AC2E57D6",
+          "id": "2071181",
+          "productId": "2012598",
+          "productRefId": "14_730D513_A00948",
+          "refId": "14_730D513_1111127278070",
+          "ean": "1111127278070",
+          "name": "P****************************",
+          "skuName": "C******",
+          "modalType": null,
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "assemblies": [],
+          "tax": 0,
+          "price": 15990000,
+          "listPrice": 15990000,
+          "manualPrice": null,
+          "manualPriceAppliedBy": null,
+          "sellingPrice": 11193000,
+          "rewardValue": 0,
+          "isGift": false,
+          "preSaleDate": "2023-04-04T00:00:00Z",
+          "productCategoryIds": "/1/13/123/",
+          "productCategories": {
+            "1": "Ropa Mujer",
+            "13": "Pantalones",
+            "123": "Infaltables"
+          },
+          "quantity": 1,
+          "seller": "nafnafcedi",
+          "sellerChain": [
+            "nafnafcedi"
+          ],
+          "imageUrl": "http://nafnaf.vteximg.com.br/arquivos/ids/943873-90-109/14_730D513_A00948_0.jpg?v=638162430367430000",
+          "detailUrl": "/pantalon-con-cinturon-730d513-a00948/p",
+          "components": [],
+          "bundleItems": [],
+          "attachments": [],
+          "attachmentOfferings": [],
+          "offerings": [],
+          "priceTags": [
+            {
+              "name": "d***************************************************************************************",
+              "value": -4797000,
+              "rawValue": -47970,
+              "isPercentual": false,
+              "identifier": "f139ad15-573e-49a4-8d54-23b0c5d5e93e"
+            },
+            {
+              "name": "d******************************************************************************************",
+              "value": -535000,
+              "rawValue": -5350,
+              "isPercentual": false,
+              "identifier": "17d47cb7-326c-4332-9d20-2d5a7023b8b9"
+            }
+          ],
+          "availability": "available",
+          "measurementUnit": "un",
+          "unitMultiplier": 1,
+          "manufacturerCode": "1111127278070",
+          "priceDefinition": {
+            "calculatedSellingPrice": 11193000,
+            "total": 11193000,
+            "sellingPrices": [
+              {
+                "value": 11193000,
+                "quantity": 1
+              }
+            ]
+          }
+        }
+      ],
+      "sellers": [
+        {
+          "subSellerId": "1",
+          "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=nafnafcedi&affiliateId=SLR&sc=1",
+          "id": "nafnafcedi",
+          "name": "n*********",
+          "logo": ""
+        }
+      ],
+      "giftRegistryData": null,
+      "receiptData": null,
+      "contextData": null,
+      "marketPlaceOrderId": "",
+      "marketPlaceOrderGroup": null,
+      "marketplaceServicesEndpoint": null,
+      "orderFormId": "2db7908ee948472889432d757760a2fa",
+      "sequence": "41088914",
+      "affiliateId": "",
+      "status": "",
+      "callCenterOperator": "",
+      "userProfileId": "565c0b23-df77-40e7-8716-3dabf9a3a725",
+      "hostName": "n*****",
+      "creationVersion": null,
+      "creationEnvironment": null,
+      "lastChangeVersion": null,
+      "workflowInstanceId": null,
+      "marketplacePaymentValue": null,
+      "orderId": "v41088914naf-01",
+      "orderGroup": "v41088914naf",
+      "state": "payment-pending",
+      "isCheckedIn": false,
+      "sellerOrderId": "SLR-v41088914naf-01",
+      "storeId": null,
+      "checkedInPickupPointId": null,
+      "value": 19188000,
+      "totals": [
+        {
+          "id": "Items",
+          "name": "T*****************",
+          "value": 31980000
+        },
+        {
+          "id": "Discounts",
+          "name": "T******************",
+          "value": -12792000
+        },
+        {
+          "id": "Shipping",
+          "name": "C********************",
+          "value": 0,
+          "alternativeTotals": [
+            {
+              "id": "AlternativeShippingTotal",
+              "name": "A*************************",
+              "value": 1070000
+            },
+            {
+              "id": "AlternativeShippingDiscount",
+              "name": "A****************************",
+              "value": -1070000
+            }
+          ]
+        },
+        {
+          "id": "Tax",
+          "name": "C*********************",
+          "value": 0
+        }
+      ],
+      "clientProfileData": {
+        "email": "a************@g****.c****************.c*.v***.c**.b*",
+        "firstName": "A**",
+        "lastName": "S*****  m*******",
+        "document": "2*******",
+        "documentType": "cedulaCOL",
+        "phone": "+5***********",
+        "corporateName": null,
+        "tradeName": null,
+        "corporateDocument": null,
+        "stateInscription": null,
+        "corporatePhone": null,
+        "isCorporate": false,
+        "profileCompleteOnLoading": true,
+        "profileErrorOnLoading": false,
+        "customerClass": null
+      },
+      "ratesAndBenefitsData": {
+        "rateAndBenefitsIdentifiers": [
+          {
+            "id": "d347cf08-4f82-4bae-9f28-b9919b3775a9",
+            "name": "s*******************",
+            "featured": true,
+            "description": "Válido del 01 al 30 de Septiembre de 2023. 20% - 30% - 40% - 50% de descuento en referencias seleccionadas identificadas con etiqueta de descuento del \"20%\", \"30%\" , \"40%\", \"50%\". Descuentos hasta agotar existencias, 10.000 unds disponibles. Exclusivo tienda online NAF NAF |Tienda Online de Ropa para Mujer . El descuento se encuentra aplicado en el precio de cada producto. No acumulable con otras promociones y/o descuentos. En caso de cambio o garantía, se reconocerá el valor pagado por la prenda. No aplica para compra de bonos regalo. No aplica en tiendas físicas NAF NAF Colombia, canal WhatsApp, Rappi, córners Falabella ni Outlets.",
+            "matchedParameters": {
+              "Seller@CatalogSystem": "1|inclusive",
+              "productCluster@CatalogSystem": "1539|inclusive"
+            },
+            "additionalInfo": null
+          },
+          {
+            "id": "17d47cb7-326c-4332-9d20-2d5a7023b8b9",
+            "name": "r*******************************",
+            "featured": false,
+            "description": "Válido del 18 al 22 de Septiembre de 2023. Envío gratuito usando el cupón \"ENVIONAF\" en el carrito de compras. Exclusivo tienda online www.nafnaf.com.co. Este cupón sólo se podrá usar una vez por cliente. Este cupón es valido para las personas que hayan seleccionado unidades, estas se encuentren en el carrito de compra, no hayan finalizado la compra y se dispongan a cerrar la ventana del comercio. La vigencia de la estrategia y de la redención del descuento aplica en el periodo comprendido del 18 al 22 de Septiembre de 2023. Esta promo no aplica sobre el producto de SALDOS. No aplica en tiendas físicas NAF NAF, corners Falabella, WhatsApp, Rappi ni outlets. Promoción no redimible en dinero. No aplica para compras de bono regalo. En caso de cambio o garantía, se reconocerá el valor pagado por la(s) prenda(s).",
+            "matchedParameters": {
+              "Seller@CatalogSystem": "1|inclusive",
+              "couponCode@Marketing": "ENVIONAF"
+            },
+            "additionalInfo": null
+          },
+          {
+            "id": "f139ad15-573e-49a4-8d54-23b0c5d5e93e",
+            "name": "s*******************",
+            "featured": true,
+            "description": "Válido del 01 al 30 de Septiembre de 2023. 20% - 30% - 40% - 50% de descuento en referencias seleccionadas identificadas con etiqueta de descuento del \"20%\", \"30%\" , \"40%\", \"50%\". Descuentos hasta agotar existencias, 10.000 unds disponibles. Exclusivo tienda online NAF NAF |Tienda Online de Ropa para Mujer . El descuento se encuentra aplicado en el precio de cada producto. No acumulable con otras promociones y/o descuentos. En caso de cambio o garantía, se reconocerá el valor pagado por la prenda. No aplica para compra de bonos regalo. No aplica en tiendas físicas NAF NAF Colombia, canal WhatsApp, Rappi, córners Falabella ni Outlets.",
+            "matchedParameters": {
+              "Seller@CatalogSystem": "1|inclusive",
+              "productCluster@CatalogSystem": "1541|inclusive"
+            },
+            "additionalInfo": null
+          }
+        ],
+        "teaser": []
+      },
+      "shippingData": {
+        "address": {
+          "addressType": "residential",
+          "receiverName": "A**  S*****  m*******",
+          "addressId": "8205859828625",
+          "isDisposable": false,
+          "postalCode": "0****",
+          "city": "B***********",
+          "state": "ATLÁNTICO",
+          "country": "COL",
+          "street": "C**** 3********",
+          "number": null,
+          "neighborhood": "",
+          "complement": null,
+          "reference": null,
+          "geoCoordinates": [
+            -51.4779552,
+            -0.0039779
+          ]
+        },
+        "logisticsInfo": [
+          {
+            "itemIndex": 0,
+            "selectedSla": "Normal",
+            "selectedDeliveryChannel": "delivery",
+            "addressId": "8205859828625",
+            "slas": [
+              {
+                "id": "Normal",
+                "deliveryChannel": "delivery",
+                "name": "N*****",
+                "deliveryIds": [
+                  {
+                    "courierId": "1",
+                    "warehouseId": "1_1",
+                    "dockId": "1",
+                    "courierName": "8**************************",
+                    "quantity": 1,
+                    "kitItemDetails": []
+                  }
+                ],
+                "shippingEstimate": "4bd",
+                "shippingEstimateDate": null,
+                "lockTTL": "11d",
+                "availableDeliveryWindows": [],
+                "deliveryWindow": null,
+                "price": 0,
+                "listPrice": 535000,
+                "tax": 0,
+                "pickupStoreInfo": {
+                  "isPickupStore": false,
+                  "friendlyName": null,
+                  "address": null,
+                  "additionalInfo": null,
+                  "dockId": null
+                },
+                "pickupPointId": null,
+                "pickupDistance": null,
+                "polygonName": "",
+                "transitTime": "3bd"
+              }
+            ],
+            "shipsTo": [
+              "COL"
+            ],
+            "itemId": "2070579",
+            "deliveryChannels": [
+              {
+                "id": "delivery"
+              }
+            ]
+          },
+          {
+            "itemIndex": 1,
+            "selectedSla": "Normal",
+            "selectedDeliveryChannel": "delivery",
+            "addressId": "8205859828625",
+            "slas": [
+              {
+                "id": "Normal",
+                "deliveryChannel": "delivery",
+                "name": "N*****",
+                "deliveryIds": [
+                  {
+                    "courierId": "1",
+                    "warehouseId": "1401",
+                    "dockId": "1",
+                    "courierName": "8**************************",
+                    "quantity": 1,
+                    "kitItemDetails": []
+                  }
+                ],
+                "shippingEstimate": "4bd",
+                "shippingEstimateDate": null,
+                "lockTTL": "11d",
+                "availableDeliveryWindows": [],
+                "deliveryWindow": null,
+                "price": 0,
+                "listPrice": 535000,
+                "tax": 0,
+                "pickupStoreInfo": {
+                  "isPickupStore": false,
+                  "friendlyName": null,
+                  "address": null,
+                  "additionalInfo": null,
+                  "dockId": null
+                },
+                "pickupPointId": null,
+                "pickupDistance": null,
+                "polygonName": "",
+                "transitTime": "3bd"
+              }
+            ],
+            "shipsTo": [
+              "COL"
+            ],
+            "itemId": "2071181",
+            "deliveryChannels": [
+              {
+                "id": "delivery"
+              },
+              {
+                "id": "pickup-in-point"
+              }
+            ]
+          }
+        ],
+        "selectedAddresses": [
+          {
+            "addressType": "residential",
+            "receiverName": "A**  S*****  m*******",
+            "addressId": "8205859828625",
+            "isDisposable": false,
+            "postalCode": "0****",
+            "city": "B***********",
+            "state": "ATLÁNTICO",
+            "country": "COL",
+            "street": "C**** 3********",
+            "number": null,
+            "neighborhood": "",
+            "complement": null,
+            "reference": null,
+            "geoCoordinates": [
+              -51.4779552,
+              -0.0039779
+            ]
+          }
+        ],
+        "availableAddresses": [
+          {
+            "addressType": "residential",
+            "receiverName": "A**  S*****  m*******",
+            "addressId": "8205859828625",
+            "isDisposable": false,
+            "postalCode": "0****",
+            "city": "B***********",
+            "state": "ATLÁNTICO",
+            "country": "COL",
+            "street": "C**** 3********",
+            "number": null,
+            "neighborhood": "",
+            "complement": null,
+            "reference": null,
+            "geoCoordinates": [
+              -51.4779552,
+              -0.0039779
+            ]
+          }
+        ],
+        "pickupPoints": []
+      },
+      "paymentData": {
+        "giftCards": [],
+        "transactions": [
+          {
+            "isActive": true,
+            "transactionId": "929E586FD5294AF4AA1DF03B64DC2C05",
+            "merchantName": "N*****",
+            "payments": [
+              {
+                "id": "0790829793CD4EF1BC1BE5D3A8A32843",
+                "paymentSystem": "510037",
+                "paymentSystemName": "E*****",
+                "value": 19188000,
+                "installments": 1,
+                "connectorResponses": {
+                  "Tid": "a8751c57-fad6-4507-a2cb-8fce96f7d3d6",
+                  "ReturnCode": "AWAITING_NOTIFICATION",
+                  "Message": "La transacción está pendiente de ser confirmada",
+                  "orderId": "2755823448",
+                  "state": "PENDING"
+                },
+                "referenceValue": 19188000,
+                "cardHolder": null,
+                "cardNumber": null,
+                "firstDigits": null,
+                "lastDigits": null,
+                "cvv2": null,
+                "expireMonth": null,
+                "expireYear": null,
+                "url": "h***************.p********.c*********************************************************************************",
+                "koinUrl": null,
+                "tid": "a8751c57-fad6-4507-a2cb-8fce96f7d3d6",
+                "redemptionCode": null,
+                "giftCardId": null,
+                "giftCardProvider": null,
+                "giftCardAsDiscount": null,
+                "group": "bankInvoice",
+                "dueDate": null,
+                "accountId": null,
+                "parentAccountId": null,
+                "bankIssuedInvoiceIdentificationNumber": null,
+                "bankIssuedInvoiceIdentificationNumberFormatted": null,
+                "bankIssuedInvoiceBarCodeNumber": null,
+                "bankIssuedInvoiceBarCodeType": null,
+                "billingAddress": null
+              }
+            ],
+            "sharedTransaction": false
+          }
+        ]
+      },
+      "clientPreferencesData": {
+        "locale": "es-CO",
+        "optinNewsLetter": false
+      },
+      "commercialConditionData": null,
+      "marketingData": {
+        "utmSource": "FB",
+        "utmMedium": "CPCPERFORMANCE",
+        "utmCampaign": "NAF | CONVERSIÓN | SALE DAYS | MAYO | ONLINE",
+        "utmipage": "",
+        "utmiPart": "",
+        "utmiCampaign": "",
+        "coupon": "ENVIONAF",
+        "marketingTags": []
+      },
+      "storePreferencesData": {
+        "countryCode": "COL",
+        "saveUserData": false,
+        "timeZone": "SA Pacific Standard Time",
+        "currencyCode": "COP",
+        "currencyLocale": 9226,
+        "currencySymbol": "$",
+        "currencyFormatInfo": {
+          "currencyDecimalDigits": 2,
+          "currencyDecimalSeparator": ",",
+          "currencyGroupSeparator": ".",
+          "currencyGroupSize": 3,
+          "startsWithCurrencySymbol": true
+        }
+      },
+      "openTextField": null,
+      "invoiceData": null,
+      "itemMetadata": null,
+      "taxData": null,
+      "customData": null,
+      "hooksData": null,
+      "changeData": null,
+      "subscriptionData": null,
+      "salesChannel": "1",
+      "followUpEmail": "3**********************************.v***.c**.b*",
+      "creationDate": "2023-09-23T02:59:47.9564418Z",
+      "lastChange": "2023-09-23T02:59:55.6557663Z",
+      "timeZoneCreationDate": "2023-09-22T21:59:47.9564418",
+      "timeZoneLastChange": "2023-09-22T21:59:55.6557663",
+      "isCompleted": true,
+      "merchantName": null,
+      "userType": "",
+      "roundingError": 0,
+      "allowEdition": false,
+      "allowCancellation": false,
+      "isUserDataVisible": false,
+      "allowChangeSeller": false
+    }
+  ],
+  "ordersUrl": "http://www.nafnaf.com.co/account#/orders",
+  "orderGroup": "v41088914naf",
+  "subjectItemAttachment": {
+    "item": "Pantalón con cinturó...",
+    "totalItems": 2,
+    "extraItems": 1
+  },
+  "split": false,
+  "totalValue": 19188000,
+  "callCenterOperatorData": null,
+  "_accountInfo": {
+    "MainAccountName": "n*****",
+    "AccountName": "n*****",
+    "Cnpj": "99999999999999",
+    "Id": "381c573c-921f-45c4-9a37-20962d5b9dee",
+    "AppId": "fe287b7c-70d7-4fd1-b791-ea98eaecbc22",
+    "IsActive": true,
+    "IsOperating": true,
+    "CreationDate": "2014-05-22T00:00:00",
+    "OperationDate": "2013-01-01T00:00:00",
+    "CompanyName": "G********",
+    "TradingName": "n*****",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [
+      8
+    ],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null
+  }
+}

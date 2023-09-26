@@ -1,32 +1,27 @@
 {
 	"to": [
 		{
-			"name": "Joanna",
-			"email": "joanna.lastname@gmail.com"
+			"name": "T******",
+			"email": "t******@h******.c**"
 		}
 	],
 	"aditionalData": {
-		"accessKey": "8345678",
-		"locale": "pt-BR",
-		"userAgent": "Edge, Windows",
-		"geolocation": {
-			"country": "Brazil",
-			"region": "SP",
-			"city": "São Paulo",
-			"ip": "000.000.000.12"
-		}
+		"accessKey": "315192",
+		"locale": "es-CO",
+		"userAgent": "Chrome, Windows"
 	},
 	"_accountInfo": {
-		"MainAccountName": "my-store",
-		"AccountName": "my-store",
-		"Cnpj": "0000321000770",
-		"Id": "000000-656-656-b032-000000000",
+		"MainAccountName": "n*****",
+		"AccountName": "n*****",
+		"Cnpj": "99999999999999",
+		"Id": "381c573c-921f-45c4-9a37-20962d5b9dee",
+		"AppId": "fe287b7c-70d7-4fd1-b791-ea98eaecbc22",
 		"IsActive": true,
-		"IsOperating": false,
-		"CreationDate": "2021-01-01T00:00:00",
-		"OperationDate": null,
-		"CompanyName": "My Store IMPORTACAO E EXPORTACAO LTDA",
-		"TradingName": "My Store",
+		"IsOperating": true,
+		"CreationDate": "2014-05-22T00:00:00",
+		"OperationDate": "2013-01-01T00:00:00",
+		"CompanyName": "G********",
+		"TradingName": "n*****",
 		"City": null,
 		"Complement": null,
 		"Country": null,
@@ -35,9 +30,15 @@
 		"District": null,
 		"Number": null,
 		"PostalCode": null,
-		"Licences": null,
+		"Licenses": [
+			8
+		],
+		"ParentAccountId": null,
 		"ParentAccountName": null,
 		"InactivationDate": null,
-		"Platform": "vtex"
+		"Platform": "vtex",
+		"Privacy": null,
+		"HasPiiRestriction": false,
+		"Infra": null
 	}
 }

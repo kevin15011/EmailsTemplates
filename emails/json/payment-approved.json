@@ -1,0 +1,845 @@
+{
+  "package": null,
+  "subjectItemAttachment": {
+    "item": "Suéter con líneas de...",
+    "totalItems": 3,
+    "extraItems": 2
+  },
+  "cancellationReason": null,
+  "items": [
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/14/",
+        "productClusterId": "154,160,188,214,364,413,415,450,504,511,585,698,714,772,784,867,910,956,1118,1149,1153,1173,1174,1187,1234,1243,1265,1267,1275,1281,1289,1297,1324,1355,1359,1453,1470,1480,1483,1487,1489,1491,1497,1499,1509,1510,1518,1523,1526,1531,1535,1536,1538,1541,1546,1549,1553,1561,1564,1568",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.0002,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "N******",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "2073117",
+      "priceTable": null,
+      "priceValidUntil": "2123-03-24T00:00:00Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:nafnaf:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2073117",
+      "uniqueId": "0F48A7160E2D42848B33DAC351121AA9",
+      "id": "2073117",
+      "productId": "2013091",
+      "productRefId": "14_589D066_A03701",
+      "refId": "14_589D066_1111127286181",
+      "ean": "1111127286181",
+      "name": "S*********************************",
+      "skuName": "C******",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 19990000,
+      "listPrice": 19990000,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 13993000,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": "2023-03-24T00:00:00Z",
+      "productCategoryIds": "/1/14/",
+      "productCategories": {
+        "1": "Ropa Mujer",
+        "14": "Prendas tejidas"
+      },
+      "quantity": 1,
+      "seller": "nafnafcedi",
+      "sellerChain": [
+        "nafnafcedi"
+      ],
+      "imageUrl": "http://nafnaf.vteximg.com.br/arquivos/ids/924687-90-109/14_589D066_A03701_0.jpg?v=638152722941600000",
+      "detailUrl": "/sueter-con-lineas-de-color-589d066-a03701/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "d***************************************************************************************",
+          "value": -5997000,
+          "rawValue": -59970,
+          "isPercentual": false,
+          "identifier": "f139ad15-573e-49a4-8d54-23b0c5d5e93e"
+        },
+        {
+          "name": "d******************************************************************************************",
+          "value": -356800,
+          "rawValue": -3568,
+          "isPercentual": false,
+          "identifier": "f9ee3194-30ab-44eb-aa83-0adc38af3768"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "1111127286181",
+      "priceDefinition": {
+        "calculatedSellingPrice": 13993000,
+        "total": 13993000,
+        "sellingPrices": [
+          {
+            "value": 13993000,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/14/",
+        "productClusterId": "154,160,188,214,364,413,415,450,504,511,585,698,714,772,784,867,910,956,1118,1149,1153,1173,1174,1187,1234,1243,1265,1267,1275,1281,1289,1297,1324,1343,1355,1359,1416,1420,1424,1427,1431,1435,1441,1442,1453,1454,1457,1458,1463,1464,1467,1473,1476,1483,1486,1489,1491,1498,1499,1509,1511,1518,1523,1526,1531,1535,1536,1538,1540,1546,1548,1551,1561,1563,1566,1568",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.0002,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "N******",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "2070248",
+      "priceTable": null,
+      "priceValidUntil": "9999-12-31T02:00:00Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:nafnaf:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2070248",
+      "uniqueId": "98314CEFF64E49749CF3FB11C1C2966B",
+      "id": "2070248",
+      "productId": "2012351",
+      "productRefId": "14_482D018_A03845",
+      "refId": "14_482D018_1111127255576",
+      "ean": "1111127255576",
+      "name": "S****************************************************************",
+      "skuName": "C******",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 18990000,
+      "listPrice": 18990000,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 11394000,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": "2022-06-14T00:00:00Z",
+      "productCategoryIds": "/1/14/",
+      "productCategories": {
+        "1": "Ropa Mujer",
+        "14": "Prendas tejidas"
+      },
+      "quantity": 1,
+      "seller": "nafnafcedi",
+      "sellerChain": [
+        "nafnafcedi"
+      ],
+      "imageUrl": "http://nafnaf.vteximg.com.br/arquivos/ids/813581-90-109/14_482D018_A03845_0.jpg?v=637908432756300000",
+      "detailUrl": "/sueter-para-mujer-crudo-manga-larga-con-detalle-estampado-482d018-a03845/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "d***************************************************************************************",
+          "value": -7596000,
+          "rawValue": -75960,
+          "isPercentual": false,
+          "identifier": "743f30e5-c9b6-4910-804d-4bfa15ecf824"
+        },
+        {
+          "name": "d******************************************************************************************",
+          "value": -356600,
+          "rawValue": -3566,
+          "isPercentual": false,
+          "identifier": "f9ee3194-30ab-44eb-aa83-0adc38af3768"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "1111127255576",
+      "priceDefinition": {
+        "calculatedSellingPrice": 11394000,
+        "total": 11394000,
+        "sellingPrices": [
+          {
+            "value": 11394000,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/5/124/",
+        "productClusterId": "154,157,160,188,214,364,413,415,450,504,511,585,698,772,784,867,910,956,1108,1118,1149,1153,1173,1174,1187,1234,1243,1249,1265,1267,1275,1281,1289,1297,1324,1355,1359,1370,1439,1453,1483,1487,1489,1491,1498,1499,1509,1511,1518,1523,1526,1530,1531,1535,1536,1538,1540,1546,1548,1561,1563,1568",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.0002,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "N******",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "2072476",
+      "priceTable": null,
+      "priceValidUntil": "2123-02-02T00:00:00Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:nafnaf:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2072476",
+      "uniqueId": "C96FB1D4107746EFBDED07FB60715842",
+      "id": "2072476",
+      "productId": "2012926",
+      "productRefId": "14_513D361_A01120",
+      "refId": "14_513D361_1111127291161",
+      "ean": "1111127291161",
+      "name": "C**********************************",
+      "skuName": "C******",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 13990000,
+      "listPrice": 13990000,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 8394000,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": "2023-02-02T00:00:00Z",
+      "productCategoryIds": "/1/5/124/",
+      "productCategories": {
+        "1": "Ropa Mujer",
+        "5": "Camisas",
+        "124": "Origen"
+      },
+      "quantity": 1,
+      "seller": "nafnafcedi",
+      "sellerChain": [
+        "nafnafcedi"
+      ],
+      "imageUrl": "http://nafnaf.vteximg.com.br/arquivos/ids/901493-90-109/14_513D361_A01120_0.jpg?v=638109477795630000",
+      "detailUrl": "/camisa-en-satin-cuello-en-v-513d361-a01120/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "d***************************************************************************************",
+          "value": -5596000,
+          "rawValue": -55960,
+          "isPercentual": false,
+          "identifier": "743f30e5-c9b6-4910-804d-4bfa15ecf824"
+        },
+        {
+          "name": "d******************************************************************************************",
+          "value": -356600,
+          "rawValue": -3566,
+          "isPercentual": false,
+          "identifier": "f9ee3194-30ab-44eb-aa83-0adc38af3768"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "1111127291161",
+      "priceDefinition": {
+        "calculatedSellingPrice": 8394000,
+        "total": 8394000,
+        "sellingPrices": [
+          {
+            "value": 8394000,
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=nafnafcedi&affiliateId=SLR&sc=1",
+      "id": "nafnafcedi",
+      "name": "n*********",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "marketPlaceOrderGroup": null,
+  "marketplaceServicesEndpoint": null,
+  "orderFormId": "3ddceb45f1ac4c919703c227fa914512",
+  "sequence": "41089716",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "ce3bce78-f242-473a-a618-96944e9c763b",
+  "hostName": "n*****",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "marketplacePaymentValue": null,
+  "orderId": "v41089716naf-01",
+  "orderGroup": "v41089716naf",
+  "state": "payment-approved",
+  "isCheckedIn": false,
+  "sellerOrderId": "SLR-v41089716naf-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 33781000,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "T*****************",
+      "value": 52970000
+    },
+    {
+      "id": "Discounts",
+      "name": "T******************",
+      "value": -19189000
+    },
+    {
+      "id": "Shipping",
+      "name": "C********************",
+      "value": 0,
+      "alternativeTotals": [
+        {
+          "id": "AlternativeShippingTotal",
+          "name": "A*************************",
+          "value": 1070000
+        },
+        {
+          "id": "AlternativeShippingDiscount",
+          "name": "A****************************",
+          "value": -1070000
+        }
+      ]
+    },
+    {
+      "id": "Tax",
+      "name": "C*********************",
+      "value": 0
+    }
+  ],
+  "clientProfileData": {
+    "email": "h*********@y****.c****************.c*.v***.c**.b*",
+    "firstName": "H*****",
+    "lastName": "V***** p*****",
+    "document": "5*******",
+    "documentType": "cedulaCOL",
+    "phone": "+5***********",
+    "corporateName": null,
+    "tradeName": null,
+    "corporateDocument": null,
+    "stateInscription": null,
+    "corporatePhone": null,
+    "isCorporate": false,
+    "profileCompleteOnLoading": true,
+    "profileErrorOnLoading": false,
+    "customerClass": null
+  },
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [
+      {
+        "id": "f139ad15-573e-49a4-8d54-23b0c5d5e93e",
+        "name": "s*******************",
+        "featured": true,
+        "description": "Válido del 01 al 30 de Septiembre de 2023. 20% - 30% - 40% - 50% de descuento en referencias seleccionadas identificadas con etiqueta de descuento del \"20%\", \"30%\" , \"40%\", \"50%\". Descuentos hasta agotar existencias, 10.000 unds disponibles. Exclusivo tienda online NAF NAF |Tienda Online de Ropa para Mujer . El descuento se encuentra aplicado en el precio de cada producto. No acumulable con otras promociones y/o descuentos. En caso de cambio o garantía, se reconocerá el valor pagado por la prenda. No aplica para compra de bonos regalo. No aplica en tiendas físicas NAF NAF Colombia, canal WhatsApp, Rappi, córners Falabella ni Outlets.",
+        "matchedParameters": {
+          "Seller@CatalogSystem": "1|inclusive",
+          "productCluster@CatalogSystem": "1541|inclusive"
+        },
+        "additionalInfo": null
+      },
+      {
+        "id": "f9ee3194-30ab-44eb-aa83-0adc38af3768",
+        "name": "c******************************",
+        "featured": false,
+        "description": "Envío gratis Cumpleaños Septiembre",
+        "matchedParameters": {
+          "Seller@CatalogSystem": "1|inclusive",
+          "couponCode@Marketing": "SEPCM"
+        },
+        "additionalInfo": null
+      },
+      {
+        "id": "743f30e5-c9b6-4910-804d-4bfa15ecf824",
+        "name": "s*******************",
+        "featured": true,
+        "description": "Válido del 01 al 30 de Septiembre de 2023. 20% - 30% - 40% - 50% de descuento en referencias seleccionadas identificadas con etiqueta de descuento del \"20%\", \"30%\" , \"40%\", \"50%\". Descuentos hasta agotar existencias, 10.000 unds disponibles. Exclusivo tienda online NAF NAF |Tienda Online de Ropa para Mujer . El descuento se encuentra aplicado en el precio de cada producto. No acumulable con otras promociones y/o descuentos. En caso de cambio o garantía, se reconocerá el valor pagado por la prenda. No aplica para compra de bonos regalo. No aplica en tiendas físicas NAF NAF Colombia, canal WhatsApp, Rappi, córners Falabella ni Outlets.",
+        "matchedParameters": {
+          "Seller@CatalogSystem": "1|inclusive",
+          "productCluster@CatalogSystem": "1540|inclusive"
+        },
+        "additionalInfo": null
+      }
+    ],
+    "teaser": []
+  },
+  "shippingData": {
+    "address": {
+      "addressType": "residential",
+      "receiverName": "H*****  V***** p*****",
+      "addressId": "-1598119776760",
+      "isDisposable": false,
+      "postalCode": "1****",
+      "city": "B****** D***",
+      "state": "BOGOTÁ, D.C.",
+      "country": "COL",
+      "street": "C**** 6* N* 3* 5*",
+      "number": null,
+      "neighborhood": "N****** d* f*******",
+      "complement": "A*** 2**",
+      "reference": null,
+      "geoCoordinates": [
+        -51.4779552,
+        -0.0039779
+      ]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "selectedSla": "Normal",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "-1598119776760",
+        "slas": [
+          {
+            "id": "Normal",
+            "deliveryChannel": "delivery",
+            "name": "N*****",
+            "deliveryIds": [
+              {
+                "courierId": "1",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "8**************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "3bd",
+            "shippingEstimateDate": "2023-09-28T14:50:57.0539917Z",
+            "lockTTL": "10d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 356800,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "",
+            "transitTime": "3bd"
+          }
+        ],
+        "shipsTo": [
+          "COL"
+        ],
+        "itemId": "2073117",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      },
+      {
+        "itemIndex": 1,
+        "selectedSla": "Normal",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "-1598119776760",
+        "slas": [
+          {
+            "id": "Normal",
+            "deliveryChannel": "delivery",
+            "name": "N*****",
+            "deliveryIds": [
+              {
+                "courierId": "1",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "8**************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "3bd",
+            "shippingEstimateDate": "2023-09-28T14:50:57.0539917Z",
+            "lockTTL": "10d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 356600,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "",
+            "transitTime": "3bd"
+          }
+        ],
+        "shipsTo": [
+          "COL"
+        ],
+        "itemId": "2070248",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      },
+      {
+        "itemIndex": 2,
+        "selectedSla": "Normal",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "-1598119776760",
+        "slas": [
+          {
+            "id": "Normal",
+            "deliveryChannel": "delivery",
+            "name": "N*****",
+            "deliveryIds": [
+              {
+                "courierId": "1",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "8**************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "3bd",
+            "shippingEstimateDate": "2023-09-28T14:50:57.0539917Z",
+            "lockTTL": "10d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 356600,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "",
+            "transitTime": "3bd"
+          }
+        ],
+        "shipsTo": [
+          "COL"
+        ],
+        "itemId": "2072476",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      }
+    ],
+    "selectedAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "H*****  V***** p*****",
+        "addressId": "-1598119776760",
+        "isDisposable": false,
+        "postalCode": "1****",
+        "city": "B****** D***",
+        "state": "BOGOTÁ, D.C.",
+        "country": "COL",
+        "street": "C**** 6* N* 3* 5*",
+        "number": null,
+        "neighborhood": "N****** d* f*******",
+        "complement": "A*** 2**",
+        "reference": null,
+        "geoCoordinates": [
+          -51.4779552,
+          -0.0039779
+        ]
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "H*****  V***** p*****",
+        "addressId": "-1598119776760",
+        "isDisposable": false,
+        "postalCode": "1****",
+        "city": "B****** D***",
+        "state": "BOGOTÁ, D.C.",
+        "country": "COL",
+        "street": "C**** 6* N* 3* 5*",
+        "number": null,
+        "neighborhood": "N****** d* f*******",
+        "complement": "A*** 2**",
+        "reference": null,
+        "geoCoordinates": [
+          -51.4779552,
+          -0.0039779
+        ]
+      }
+    ],
+    "pickupPoints": [
+      {
+        "friendlyName": "N*******************",
+        "address": {
+          "addressType": "pickup",
+          "receiverName": null,
+          "addressId": "2631",
+          "isDisposable": true,
+          "postalCode": "1****",
+          "city": "B****** D***",
+          "state": "Bogotá, D.C.",
+          "country": "COL",
+          "street": "C** 2* #*****",
+          "number": "8****",
+          "neighborhood": "Z*** 5",
+          "complement": null,
+          "reference": null,
+          "geoCoordinates": [
+            -51.4779552,
+            -0.0039779
+          ]
+        },
+        "additionalInfo": "Estaremos informándote dentro de las próximas 4 horas hábiles siguientes que tu pedido está listo para que te acerques a recogerlo en la tienda. Recuerda llevar el documento original del comprador y el número de pedido para poder retirar el producto. Nota: Ten en cuenta que, si estás comprando por fuera del horario hábil de la tienda física, este tiempo comenzará a contar a partir del horario de apertura de la tienda seleccionada.",
+        "id": "nafnafhayuelosbog_2631",
+        "businessHours": [
+          {
+            "DayOfWeek": 0,
+            "OpeningTime": "11:00:00",
+            "ClosingTime": "20:00:00"
+          },
+          {
+            "DayOfWeek": 1,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:30:00"
+          },
+          {
+            "DayOfWeek": 2,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:30:00"
+          },
+          {
+            "DayOfWeek": 3,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:30:00"
+          },
+          {
+            "DayOfWeek": 4,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:30:00"
+          },
+          {
+            "DayOfWeek": 5,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:00:00"
+          },
+          {
+            "DayOfWeek": 6,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:00:00"
+          }
+        ]
+      }
+    ]
+  },
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "CCA728703C5146E19B4DA44AA9278567",
+        "merchantName": "N*****",
+        "payments": [
+          {
+            "id": "17E4869EFDCF4ABEB6DDC12F682FC314",
+            "paymentSystem": "1007",
+            "paymentSystemName": "B**********",
+            "value": 33781000,
+            "installments": 1,
+            "connectorResponses": {
+              "Tid": "179196300",
+              "ReturnCode": "APPROVED",
+              "Message": null,
+              "orderId": "2759747907",
+              "state": "APPROVED"
+            },
+            "referenceValue": 33781000,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "koinUrl": null,
+            "tid": "179196300",
+            "redemptionCode": null,
+            "giftCardId": null,
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "group": "debitCard",
+            "dueDate": null,
+            "accountId": null,
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": null
+          }
+        ],
+        "sharedTransaction": false
+      }
+    ]
+  },
+  "clientPreferencesData": {
+    "locale": "es-CO",
+    "optinNewsLetter": false
+  },
+  "commercialConditionData": null,
+  "marketingData": {
+    "utmSource": "google-ads",
+    "utmMedium": "",
+    "utmCampaign": "Search PureBrand",
+    "utmipage": "",
+    "utmiPart": "",
+    "utmiCampaign": "",
+    "coupon": "SEPCM",
+    "marketingTags": []
+  },
+  "storePreferencesData": {
+    "countryCode": "COL",
+    "saveUserData": false,
+    "timeZone": "SA Pacific Standard Time",
+    "currencyCode": "COP",
+    "currencyLocale": 9226,
+    "currencySymbol": "$",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": true
+    }
+  },
+  "openTextField": null,
+  "invoiceData": null,
+  "itemMetadata": null,
+  "taxData": null,
+  "customData": null,
+  "hooksData": null,
+  "changeData": null,
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "4**********************************.v***.c**.b*",
+  "creationDate": "2023-09-25T14:49:18.3228283Z",
+  "lastChange": "2023-09-25T14:50:57.4577044Z",
+  "timeZoneCreationDate": "2023-09-25T09:49:18.3228283",
+  "timeZoneLastChange": "2023-09-25T09:50:57.4577044",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "_accountInfo": {
+    "MainAccountName": "n*****",
+    "AccountName": "n*****",
+    "Cnpj": "99999999999999",
+    "Id": "381c573c-921f-45c4-9a37-20962d5b9dee",
+    "AppId": "fe287b7c-70d7-4fd1-b791-ea98eaecbc22",
+    "IsActive": true,
+    "IsOperating": true,
+    "CreationDate": "2014-05-22T00:00:00",
+    "OperationDate": "2013-01-01T00:00:00",
+    "CompanyName": "G********",
+    "TradingName": "n*****",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [
+      8
+    ],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null
+  }
+}

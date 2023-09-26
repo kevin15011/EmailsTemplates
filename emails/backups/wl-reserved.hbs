@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <!-- So that mobile webkit will display zoomed in -->
+  <meta name="format-detection" content="telephone=no">
+  <!-- disable auto telephone linking in iOS -->
+  <title>{{orders.0.sellers.0.name}}</title>
+  <style type="text/css">
+    /* Resets: see reset.css for details */
+    .ReadMsgBody {
+      width: 100%;
+      background-color: #ebebeb;
+    }
+
+    .ExternalClass {
+      width: 100%;
+      background-color: #ebebeb;
+    }
+
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+      line-height: 100%;
+    }
+
+    body {
+      -webkit-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+    }
+
+    body {
+      padding: 0;
+    }
+
+    table td {
+      border-collapse: collapse;
+    }
+
+    .yshortcuts a {
+      border-bottom: none !important;
+    }
+
+    /* Constrain email width for small screens */
+    @media screen and (max-width: 600px) {
+      table[class="container"] {
+        width: 100% !important;
+      }
+    }
+
+    /* Give content more room on mobile */
+    @media screen and (max-width: 480px) {
+      .status {
+        padding-bottom: 0px;
+      }
+    }
+
+    /* Styles for forcing columns to rows */
+    @media only screen and (max-width : 600px) {
+
+      /* force container columns to (horizontal) blocks */
+      .container {
+        border-radius: 0 !important;
+      }
+
+      .no-padding-top-bottom-mobile {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding: 0 !important;
+      }
+
+      .img-product {
+        width: 70px;
+      }
+
+      .side-border td {
+        padding-left: 0;
+      }
+
+      .button {
+        padding: 11px 0 !important;
+        font-size: 13px;
+        width: 100%;
+      }
+
+      .table-button {
+        width: 100% !important;
+      }
+
+      td[class="force-col"] {
+        display: block;
+        padding-right: 0 !important;
+      }
+
+      table[class="col-3"] {
+        /* unset table align="left/right" */
+        float: none !important;
+        width: 100% !important;
+        /* change left/right padding and margins to top/bottom ones */
+        padding-bottom: 12px;
+        border-bottom: 1px solid #eee;
+      }
+
+      /* remove bottom border for last column/row */
+      table[id="last-col-3"] {
+        border-bottom: none !important;
+      }
+
+      /* align images right and shrink them a bit */
+      img[class="col-3-img"] {
+        float: right;
+        margin-left: 6px;
+        max-width: 130px;
+      }
+    }
+
+    @media only screen and (max-width : 800px) {
+      .status {
+        width: 100% !important;
+      }
+
+      .status div {
+        width: 200px !important;
+      }
+    }
+  </style>
+</head>
+
+<body marginwidth="0" marginheight="0" bgcolor="#fff" style="padding:0px 0px;color:#333;" leftmargin="0" topmargin="0">
+  <!-- 100% wrapper (grey background) -->
+  <table width="100%" cellspacing="0" border="0" bgcolor="#fff">
+    <tbody>
+      <tr>
+        <td valign="top" bgcolor="#fff" align="center" class="no-padding-top-bottom-mobile"
+          style="background-color: #fff;color:#333;">
+          <!-- 600px container (white background) -->
+          <table cellspacing="0" cellpadding="0" border="0" bgcolor="#fff" class="container" style="max-width:800px;">
+            <tbody>
+              <tr>
+                <td bgcolor="#ffffff" align="left" class="container-padding"
+                  style="background-color: #ffffff; padding-left: 10px; padding-right: 3px; font-size: 13px; line-height: 19px; font-family: Helvetica, sans-serif; color: #333;">
+                  <br />
+                  <table width="100%" cellspacing="0" cellpadding="0" border="0" class="columns-container">
+                    <tbody>
+                      <tr>
+                        <td class="force-col" style="padding-right: 0px;" colspan="2">
+                          <table width="100%" cellspacing="0" cellpadding="0" border="0" align="left"
+                            style="padding-bottom: 10px;border:none;border-left:0px;border-right:0px;border-bottom: 1px solid rgba(0,0,0,.1);margin-bottom: 10px;"
+                            class="col-3">
+                            <tbody>
+                              <tr>
+                                <td align="left" style="width: 280px;">
+                                  <a href="https://www.nafnaf.com.co"><img height="55px" border="0" width=""
+                                      style="border:none;border-left:0px;border-right:3px dotted rgba(0,0,0,.4);padding-right: 10px;"
+                                      alt="{{_accountInfo.TradingName}}"
+                                      src="https://nafnaf.vteximg.com.br/arquivos/logo-black.png" class="img-logo"> </a>
+                                </td>
+                                <td align="">
+                                  <div style="font-size: 15px; font-family: Helvetica, sans-serif;font-weight:bold;">¡YA
+                                    PUEDES RECOGER TU PEDIDO!</div>
+                                  <span style="font-size:13px;color:#000;display:inline-block;">Fecha:
+                                    {{sendDate}}</span><br /><br />
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                          style="border-right:2px dotted rgba(0,0,0,.3);margin-right: 20px;width: 155px;vertical-align: top;padding-top: 10px;">
+                          <div
+                            style=" border-bottom: 1px solid rgba(0,0,0,.1); display: inline-block; font-size: 15px; ">
+                            <span style="display: inline-block;"><img
+                                src="https://nafnaf.vteximg.com.br/arquivos/aprobado.png"
+                                style="height: 30px;" /></span><span
+                              style="display: inline-block;width: 100px; margin-left: 10px;">RECOGER PEDIDO </span>
+                          </div>
+                        </td>
+                        <td class="force-col" style="padding-left: 10px;font-size:14px;">
+                          <!-- ### BEGIN CONTENT ### -->
+                          <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff" align="left"
+                            style="padding-bottom:0;margin-bottom:0;" class="col-3">
+                            <tbody>
+                              {{#eq typePayment "001"}}
+                                <tr>
+                                  <td>
+                                    <span style="font-size:13px;text-align:left;">Hola,
+                                      <strong>{{clientProfileData.firstName}}</strong>.</span><br><br>
+                                    <span style="font-size:13px;">¡Gracias por comprar en <a
+                                        href="https://www.nafnaf.com.co/"
+                                        style="color: #000; text-decoration:none">www.nafnaf.com.co</a>!</span><br>
+                                    <p style="font-size:13px;text-align:justify;">Los productos del pedido {{orderId}}
+                                      que solicitaste recoger y pagar en tienda física ya están esperando por ti en la
+                                      tienda {{store}}.</p>
+                                    <p style="font-size:13px;text-align:justify;">Ten presente los horarios de atención
+                                      de la tienda visitando <a
+                                        href="https://www.nafnaf.com.co/localizar-tiendas">https://www.nafnaf.com.co/localizar-tiendas</a>
+                                    </p>
+                                    <p style="font-size:13px;text-align:justify;">Recuerda tener a la mano el número del
+                                      pedido y presentar tu documento de identidad original para reclamar los productos
+                                      en la tienda fisica seleccionada.</p>
+                                    <p style="font-size:13px;text-align:justify;">Cuentas con 5 días calendario a partir
+                                      de este momento para hacer la recogida.</p><br><br>
+
+
+                                  </td>
+                                </tr>
+                                {{else}}
+                                  {{#eq typePayment "002"}}
+                                    <tr>
+                                      <td>
+                                        <span style="font-size:13px;text-align:left;">Hola,
+                                          <strong>{{name}}</strong>.</span><br><br>
+                                        <span style="font-size:13px;">¡Gracias por comprar en <a
+                                            href="https://www.nafnaf.com.co/"
+                                            style="color: #000; text-decoration:none">www.nafnaf.com.co</a>!</span><br>
+                                        <p style="font-size:13px;text-align:justify;">Los productos del pedido
+                                          {{orderId}} que solicitaste recoger en tienda física ya están esperando por ti
+                                          en la tienda {{store}}.</p>
+                                        <p style="font-size:13px;text-align:justify;">Ten presente los horarios de
+                                          atención de la tienda visitando <a
+                                            href="https://www.nafnaf.com.co/localizar-tiendas">https://www.nafnaf.com.co/localizar-tiendas</a>
+                                        </p>
+                                        <p style="font-size:13px;text-align:justify;">Recuerda tener a la mano el número
+                                          del pedido y presentar tu documento de identidad original para reclamar los
+                                          productos en la tienda fisica seleccionada.</p>
+                                        <p style="font-size:13px;text-align:justify;">Cuentas con 5 días calendario a
+                                          partir de este momento para hacer la recogida.</p>
+                                        <br><br>
+
+
+                                      </td>
+                                    </tr>
+                                  {{/eq}}
+                              {{/eq}}
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <br />
+
+                      <tr>
+                        <td colspan="2">
+                          <strong style="font-size:12px">¡Te esperamos nuevamente!</strong><br><br>
+                          <strong style="font-size:12px">Muchas Gracias,</strong><br>
+                          <strong style="color: #000;">{{_accountInfo.TradingName}}</strong>.<br><br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">
+                          <div style="color:#000;font-size:13px;">Suministrado por: <strong
+                              style="display:inline-block;"><span>NAF NAF.</span></strong></div>
+                          <span style="text-align:justify;">Si tienes preguntas acerca de tus pedidos o cualquier otro
+                            asunto relacionado con nafnaf.com.co contáctanos en nuestra línea gratuita nacional de
+                            atención al cliente 01 8000 413 553 de lunes a viernes de 8 am a 6 pm y sábados de 9 am a 6
+                            pm o escríbenos a <a href="mailto:servicioalcliente@nafnaf.com.co"
+                              style="color: #000; text-decoration:none">servicioalcliente@nafnaf.com.co</a>.</span><br><br>
+                          <strong>Saludos, </strong>
+                          <strong>{{_accountInfo.TradingName}}</strong>.<br><br>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <table align="center" id="Tabla_01" width="740" height="96" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td style="text-align: -webkit-center;">
+            <img src="https://nafnaf.vteximg.com.br/arquivos/20220412_footer_correostrans.jpg?v=1"
+              style="display:block;" usemap="#20200722_footer_correostrans">
+            <map name="20200722_footer_correostrans">
+              <area target="" alt="Instagram Naf Naf" href="https://www.instagram.com/nafnafcol/" coords="333,2,407,34"
+                shape="rect">
+              <area target="" alt="Facebook Naf NAf" href="https://www.facebook.com/nafnaflatam" coords="411,1,491,35"
+                shape="rect">
+            </map>
+          </td>
+        </tr>
+      </table>
+    </tbody>
+  </table>
+  <!--/600px container -->
+  <!--/100% wrapper-->
+</body>
+
+</html>

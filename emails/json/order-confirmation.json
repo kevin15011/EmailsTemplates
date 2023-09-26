@@ -3,16 +3,16 @@
 		{
 			"package": null,
 			"subjectItemAttachment": {
-				"item": "Buzo tejido con cuel...",
-				"totalItems": 2,
-				"extraItems": 1
+				"item": "Camiseta con transpa...",
+				"totalItems": 5,
+				"extraItems": 4
 			},
 			"cancellationReason": null,
 			"items": [
 				{
 					"additionalInfo": {
-						"categoriesIds": "/1/12/",
-						"productClusterId": "154,160,188,214,364,413,415,450,451,504,511,585,698,772,785,867,910,956,1111,1118,1149,1153,1173,1174,1187,1234,1236,1243,1265,1267,1275,1281,1289,1297,1324,1342,1344,1350,1355,1358,1360,1396,1416,1420,1422,1431,1435,1441,1442,1445,1453,1454,1457,1458,1463,1473,1476,1483,1485,1489,1491,1498,1499,1508,1509,1512,1517,1518,1523,1524,1531,1535,1537,1538,1539,1546,1547,1551,1561,1562,1565,1566,1568",
+						"categoriesIds": "/1/6/",
+						"productClusterId": "154,160,188,214,364,413,415,450,504,511,585,698,772,784,867,910,956,1107,1118,1149,1153,1173,1174,1187,1234,1243,1259,1265,1267,1275,1281,1282,1289,1297,1324,1355,1359,1453,1454,1455,1458,1461,1483,1487,1489,1491,1498,1499,1509,1511,1518,1523,1526,1530,1531,1535,1536,1538,1540,1546,1549,1561,1563,1568",
 						"commercialConditionId": "1",
 						"dimension": {
 							"cubicweight": 0.0002,
@@ -27,47 +27,47 @@
 						"offeringType": null,
 						"offeringTypeId": null
 					},
-					"sellerSku": "2069724",
+					"sellerSku": "2072701",
 					"priceTable": null,
-					"priceValidUntil": "2122-03-29T00:00:00Z",
+					"priceValidUntil": "2123-04-04T00:00:00Z",
 					"callCenterOperator": null,
 					"commission": 0,
 					"freightCommission": 0,
-					"taxCode": null,
-					"catalogProvider": "vrn:vtex.catalog-api-proxy:-:nafnaf:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2069724",
-					"uniqueId": "FB11B17D42B141488530CE1D257816C1",
-					"id": "2069724",
-					"productId": "2012209",
-					"productRefId": "14_491D303_A01457",
-					"refId": "14_491D303_1111127246086",
-					"ean": "1111127246086",
-					"name": "J*****************************************************************",
-					"skuName": "G*****",
+					"taxCode": "",
+					"catalogProvider": "vrn:vtex.catalog-api-proxy:-:nafnaf:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2072701",
+					"uniqueId": "B5074A84C0DA4A24943B3AD8A6263705",
+					"id": "2072701",
+					"productId": "2012984",
+					"productRefId": "14_403D062_A02759",
+					"refId": "14_403D062_1111127289007",
+					"ean": "1111127289007",
+					"name": "B*******************************",
+					"skuName": "N******",
 					"modalType": null,
 					"parentItemIndex": null,
 					"parentAssemblyBinding": null,
 					"assemblies": [],
 					"tax": 0,
-					"price": 17990000,
-					"listPrice": 17990000,
+					"price": 12990000,
+					"listPrice": 12990000,
 					"manualPrice": null,
 					"manualPriceAppliedBy": null,
-					"sellingPrice": 8995000,
+					"sellingPrice": 7794000,
 					"rewardValue": 0,
 					"isGift": false,
-					"preSaleDate": "2022-03-29T00:00:00Z",
-					"productCategoryIds": "/1/12/",
+					"preSaleDate": "2023-04-04T00:00:00Z",
+					"productCategoryIds": "/1/6/",
 					"productCategories": {
 						"1": "Ropa Mujer",
-						"12": "Jeans"
+						"6": "Camisetas"
 					},
 					"quantity": 1,
 					"seller": "nafnafcedi",
 					"sellerChain": [
 						"nafnafcedi"
 					],
-					"imageUrl": "http://nafnaf.vteximg.com.br/arquivos/ids/763513-90-109/14_491D303_A01457_0.jpg?v=637841925150530000",
-					"detailUrl": "/jean-para-mujer-gris-claro-slouchy-tiro-super-alto-esencial-491d303-a01457/p",
+					"imageUrl": "http://nafnaf.vteximg.com.br/arquivos/ids/941560-90-109/14_403D062_A02759_0.jpg?v=638162386057530000",
+					"detailUrl": "/body-con-escote-cuadrado-403d062-a02759/p",
 					"components": [],
 					"bundleItems": [],
 					"attachments": [],
@@ -76,22 +76,22 @@
 					"priceTags": [
 						{
 							"name": "d***************************************************************************************",
-							"value": -8995000,
-							"rawValue": -89950,
+							"value": -5196000,
+							"rawValue": -51960,
 							"isPercentual": false,
-							"identifier": "d347cf08-4f82-4bae-9f28-b9919b3775a9"
+							"identifier": "743f30e5-c9b6-4910-804d-4bfa15ecf824"
 						}
 					],
 					"availability": "available",
 					"measurementUnit": "un",
 					"unitMultiplier": 1,
-					"manufacturerCode": "1111127246086",
+					"manufacturerCode": "1111127289007",
 					"priceDefinition": {
-						"calculatedSellingPrice": 8995000,
-						"total": 8995000,
+						"calculatedSellingPrice": 7794000,
+						"total": 7794000,
 						"sellingPrices": [
 							{
-								"value": 8995000,
+								"value": 7794000,
 								"quantity": 1
 							}
 						]
@@ -99,8 +99,8 @@
 				},
 				{
 					"additionalInfo": {
-						"categoriesIds": "/1/14/",
-						"productClusterId": "154,160,188,214,364,413,415,450,504,511,585,698,714,772,784,867,910,956,1118,1149,1153,1173,1174,1187,1234,1243,1265,1267,1275,1281,1289,1297,1324,1355,1359,1453,1502,1516,1520,1523,1525,1531,1535,1536,1538,1541,1549,1553,1561,1564,1568",
+						"categoriesIds": "/1/6/",
+						"productClusterId": "154,160,188,214,364,413,415,450,504,511,585,698,772,784,867,910,956,1107,1118,1149,1153,1173,1174,1187,1234,1243,1259,1265,1267,1275,1281,1289,1297,1324,1355,1359,1453,1489,1491,1498,1499,1509,1510,1518,1523,1524,1530,1531,1535,1537,1538,1541,1550,1553,1561,1564,1568",
 						"commercialConditionId": "1",
 						"dimension": {
 							"cubicweight": 0.0002,
@@ -115,47 +115,47 @@
 						"offeringType": null,
 						"offeringTypeId": null
 					},
-					"sellerSku": "2074721",
+					"sellerSku": "2073983",
 					"priceTable": null,
-					"priceValidUntil": "2123-06-08T00:00:00Z",
+					"priceValidUntil": "9999-12-31T02:00:00Z",
 					"callCenterOperator": null,
 					"commission": 0,
 					"freightCommission": 0,
-					"taxCode": "",
-					"catalogProvider": "vrn:vtex.catalog-api-proxy:-:nafnaf:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2074721",
-					"uniqueId": "F5637BC29E1A46479E7CF2225F34F64F",
-					"id": "2074721",
-					"productId": "2013540",
-					"productRefId": "14_581E018_A02759",
-					"refId": "14_581E018_1111127300771",
-					"ean": "1111127300771",
-					"name": "B*************************************",
-					"skuName": "N******",
+					"taxCode": null,
+					"catalogProvider": "vrn:vtex.catalog-api-proxy:-:nafnaf:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2073983",
+					"uniqueId": "2FAD65A2A1204325870E841B22C972CE",
+					"id": "2073983",
+					"productId": "2013361",
+					"productRefId": "14_509D012_A03053",
+					"refId": "14_509D012_1111127312187",
+					"ean": "1111127312187",
+					"name": "B********************************************************",
+					"skuName": "C******************",
 					"modalType": null,
 					"parentItemIndex": null,
 					"parentAssemblyBinding": null,
 					"assemblies": [],
 					"tax": 0,
-					"price": 17990000,
-					"listPrice": 17990000,
+					"price": 12990000,
+					"listPrice": 12990000,
 					"manualPrice": null,
 					"manualPriceAppliedBy": null,
-					"sellingPrice": 12593000,
+					"sellingPrice": 9093000,
 					"rewardValue": 0,
 					"isGift": false,
-					"preSaleDate": "2023-06-08T00:00:00Z",
-					"productCategoryIds": "/1/14/",
+					"preSaleDate": "2022-12-27T00:00:00Z",
+					"productCategoryIds": "/1/6/",
 					"productCategories": {
 						"1": "Ropa Mujer",
-						"14": "Prendas tejidas"
+						"6": "Camisetas"
 					},
 					"quantity": 1,
 					"seller": "nafnafcedi",
 					"sellerChain": [
 						"nafnafcedi"
 					],
-					"imageUrl": "http://nafnaf.vteximg.com.br/arquivos/ids/971090-90-109/14_581E018_A02759_0.jpg?v=638218533287330000",
-					"detailUrl": "/buzo-tejido-con-cuello-redondo-581e018-a02759/p",
+					"imageUrl": "http://nafnaf.vteximg.com.br/arquivos/ids/930075-90-109/14_509D012_A03053_0.jpg?v=638152773448970000",
+					"detailUrl": "/body-manga-larga-con-cortes-frontales-509d012-a03053/p",
 					"components": [],
 					"bundleItems": [],
 					"attachments": [],
@@ -164,8 +164,8 @@
 					"priceTags": [
 						{
 							"name": "d***************************************************************************************",
-							"value": -5397000,
-							"rawValue": -53970,
+							"value": -3897000,
+							"rawValue": -38970,
 							"isPercentual": false,
 							"identifier": "f139ad15-573e-49a4-8d54-23b0c5d5e93e"
 						}
@@ -173,13 +173,269 @@
 					"availability": "available",
 					"measurementUnit": "un",
 					"unitMultiplier": 1,
-					"manufacturerCode": "1111127300771",
+					"manufacturerCode": "1111127312187",
 					"priceDefinition": {
-						"calculatedSellingPrice": 12593000,
-						"total": 12593000,
+						"calculatedSellingPrice": 9093000,
+						"total": 9093000,
 						"sellingPrices": [
 							{
-								"value": 12593000,
+								"value": 9093000,
+								"quantity": 1
+							}
+						]
+					}
+				},
+				{
+					"additionalInfo": {
+						"categoriesIds": "/1/6/",
+						"productClusterId": "154,156,160,187,188,214,364,413,415,432,450,504,511,585,698,772,784,867,910,956,1107,1118,1149,1153,1173,1174,1186,1187,1243,1259,1265,1267,1275,1281,1289,1297,1324,1355,1359,1383,1453,1530,1531,1560",
+						"commercialConditionId": "1",
+						"dimension": {
+							"cubicweight": 0.0002,
+							"height": 1,
+							"length": 1,
+							"weight": 1,
+							"width": 1
+						},
+						"brandName": "N******",
+						"brandId": "2000000",
+						"offeringInfo": null,
+						"offeringType": null,
+						"offeringTypeId": null
+					},
+					"sellerSku": "2077292",
+					"priceTable": null,
+					"priceValidUntil": "2123-09-05T00:00:00Z",
+					"callCenterOperator": null,
+					"commission": 0,
+					"freightCommission": 0,
+					"taxCode": null,
+					"catalogProvider": "vrn:vtex.catalog-api-proxy:-:nafnaf:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2077292",
+					"uniqueId": "054DC870ECF84D899D9631BBF3D6BEFE",
+					"id": "2077292",
+					"productId": "2014214",
+					"productRefId": "14_403E033_VER175923",
+					"refId": "14_403E033_1111127382319",
+					"ean": "1111127382319",
+					"name": "C*********************************",
+					"skuName": "V******",
+					"modalType": null,
+					"parentItemIndex": null,
+					"parentAssemblyBinding": null,
+					"assemblies": [],
+					"tax": 0,
+					"price": 11990000,
+					"listPrice": 11990000,
+					"manualPrice": null,
+					"manualPriceAppliedBy": null,
+					"sellingPrice": 11990000,
+					"rewardValue": 0,
+					"isGift": false,
+					"preSaleDate": "2023-09-05T00:00:00Z",
+					"productCategoryIds": "/1/6/",
+					"productCategories": {
+						"1": "Ropa Mujer",
+						"6": "Camisetas"
+					},
+					"quantity": 1,
+					"seller": "nafnafcedi",
+					"sellerChain": [
+						"nafnafcedi"
+					],
+					"imageUrl": "http://nafnaf.vteximg.com.br/arquivos/ids/995478-90-109/14_403E033_VER175923_0.jpg?v=638295264642570000",
+					"detailUrl": "/camiseta-con-transparencia-403e033-ver175923/p",
+					"components": [],
+					"bundleItems": [],
+					"attachments": [],
+					"attachmentOfferings": [],
+					"offerings": [],
+					"priceTags": [],
+					"availability": "available",
+					"measurementUnit": "un",
+					"unitMultiplier": 1,
+					"manufacturerCode": "1111127382319",
+					"priceDefinition": {
+						"calculatedSellingPrice": 11990000,
+						"total": 11990000,
+						"sellingPrices": [
+							{
+								"value": 11990000,
+								"quantity": 1
+							}
+						]
+					}
+				},
+				{
+					"additionalInfo": {
+						"categoriesIds": "/1/5/",
+						"productClusterId": "154,157,160,188,214,364,413,415,450,504,511,585,698,772,784,867,910,956,1108,1118,1149,1153,1173,1174,1187,1234,1243,1265,1267,1275,1281,1289,1297,1324,1355,1359,1453,1478,1497,1499,1509,1511,1518,1523,1526,1530,1531,1535,1536,1538,1540,1548,1561,1563,1568",
+						"commercialConditionId": "1",
+						"dimension": {
+							"cubicweight": 0.0002,
+							"height": 1,
+							"length": 1,
+							"weight": 1,
+							"width": 1
+						},
+						"brandName": "N******",
+						"brandId": "2000000",
+						"offeringInfo": null,
+						"offeringType": null,
+						"offeringTypeId": null
+					},
+					"sellerSku": "2073779",
+					"priceTable": null,
+					"priceValidUntil": "2123-03-24T00:00:00Z",
+					"callCenterOperator": null,
+					"commission": 0,
+					"freightCommission": 0,
+					"taxCode": null,
+					"catalogProvider": "vrn:vtex.catalog-api-proxy:-:nafnaf:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2073779",
+					"uniqueId": "50E07E956E2546D2BEC4168A7782A37D",
+					"id": "2073779",
+					"productId": "2013285",
+					"productRefId": "14_419D325_A02503",
+					"refId": "14_419D325_1111127303253",
+					"ean": "1111127303253",
+					"name": "C*************************************************************",
+					"skuName": "A**********************",
+					"modalType": null,
+					"parentItemIndex": null,
+					"parentAssemblyBinding": null,
+					"assemblies": [],
+					"tax": 0,
+					"price": 14990000,
+					"listPrice": 14990000,
+					"manualPrice": null,
+					"manualPriceAppliedBy": null,
+					"sellingPrice": 8994000,
+					"rewardValue": 0,
+					"isGift": false,
+					"preSaleDate": "2023-03-06T00:00:00Z",
+					"productCategoryIds": "/1/5/",
+					"productCategories": {
+						"1": "Ropa Mujer",
+						"5": "Camisas"
+					},
+					"quantity": 1,
+					"seller": "nafnafcedi",
+					"sellerChain": [
+						"nafnafcedi"
+					],
+					"imageUrl": "http://nafnaf.vteximg.com.br/arquivos/ids/929261-90-109/14_419D325_A02503_0.jpg?v=638152767188500000",
+					"detailUrl": "/camisa-clasica-con-bolsillos-frontales-419d325-a02503/p",
+					"components": [],
+					"bundleItems": [],
+					"attachments": [],
+					"attachmentOfferings": [],
+					"offerings": [],
+					"priceTags": [
+						{
+							"name": "d***************************************************************************************",
+							"value": -5996000,
+							"rawValue": -59960,
+							"isPercentual": false,
+							"identifier": "743f30e5-c9b6-4910-804d-4bfa15ecf824"
+						}
+					],
+					"availability": "available",
+					"measurementUnit": "un",
+					"unitMultiplier": 1,
+					"manufacturerCode": "1111127303253",
+					"priceDefinition": {
+						"calculatedSellingPrice": 8994000,
+						"total": 8994000,
+						"sellingPrices": [
+							{
+								"value": 8994000,
+								"quantity": 1
+							}
+						]
+					}
+				},
+				{
+					"additionalInfo": {
+						"categoriesIds": "/1/5/",
+						"productClusterId": "154,157,160,188,214,364,413,415,450,504,511,585,698,772,784,867,910,956,1108,1118,1149,1153,1173,1174,1187,1234,1243,1265,1267,1275,1281,1289,1297,1324,1355,1359,1453,1509,1511,1518,1523,1526,1530,1531,1535,1536,1538,1540,1548,1561,1563,1568",
+						"commercialConditionId": "1",
+						"dimension": {
+							"cubicweight": 0.0002,
+							"height": 1,
+							"length": 1,
+							"weight": 1,
+							"width": 1
+						},
+						"brandName": "N******",
+						"brandId": "2000000",
+						"offeringInfo": null,
+						"offeringType": null,
+						"offeringTypeId": null
+					},
+					"sellerSku": "2074283",
+					"priceTable": null,
+					"priceValidUntil": "9999-12-31T02:00:00Z",
+					"callCenterOperator": null,
+					"commission": 0,
+					"freightCommission": 0,
+					"taxCode": "",
+					"catalogProvider": "vrn:vtex.catalog-api-proxy:-:nafnaf:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2074283",
+					"uniqueId": "63CA6B9F4B04452995C00F7A588D0E17",
+					"id": "2074283",
+					"productId": "2013427",
+					"productRefId": "14_419D316_A01997",
+					"refId": "14_419D316_1111127303314",
+					"ean": "1111127303314",
+					"name": "C******************************************************",
+					"skuName": "N**************************",
+					"modalType": null,
+					"parentItemIndex": null,
+					"parentAssemblyBinding": null,
+					"assemblies": [],
+					"tax": 0,
+					"price": 16990000,
+					"listPrice": 16990000,
+					"manualPrice": null,
+					"manualPriceAppliedBy": null,
+					"sellingPrice": 10194000,
+					"rewardValue": 0,
+					"isGift": false,
+					"preSaleDate": "2023-03-06T00:00:00Z",
+					"productCategoryIds": "/1/5/",
+					"productCategories": {
+						"1": "Ropa Mujer",
+						"5": "Camisas"
+					},
+					"quantity": 1,
+					"seller": "nafnafcedi",
+					"sellerChain": [
+						"nafnafcedi"
+					],
+					"imageUrl": "http://nafnaf.vteximg.com.br/arquivos/ids/925635-90-109/14_419D316_A01997_0.jpg?v=638152734347570000",
+					"detailUrl": "/camisa-con-ruedo-desflecado-419d316-a01997/p",
+					"components": [],
+					"bundleItems": [],
+					"attachments": [],
+					"attachmentOfferings": [],
+					"offerings": [],
+					"priceTags": [
+						{
+							"name": "d***************************************************************************************",
+							"value": -6796000,
+							"rawValue": -67960,
+							"isPercentual": false,
+							"identifier": "743f30e5-c9b6-4910-804d-4bfa15ecf824"
+						}
+					],
+					"availability": "available",
+					"measurementUnit": "un",
+					"unitMultiplier": 1,
+					"manufacturerCode": "1111127303314",
+					"priceDefinition": {
+						"calculatedSellingPrice": 10194000,
+						"total": 10194000,
+						"sellingPrices": [
+							{
+								"value": 10194000,
 								"quantity": 1
 							}
 						]
@@ -201,41 +457,41 @@
 			"marketPlaceOrderId": "",
 			"marketPlaceOrderGroup": null,
 			"marketplaceServicesEndpoint": null,
-			"orderFormId": "595ea8bb73724dd6915bfb78c44e8725",
-			"sequence": "41088703",
+			"orderFormId": "9e0f5184b0dd42079556bdf060380ae9",
+			"sequence": "41089686",
 			"affiliateId": "",
 			"status": "",
 			"callCenterOperator": "",
-			"userProfileId": "f8349454-b354-49fa-aefe-4e36b54754ba",
+			"userProfileId": "7548d1b8-51f1-42ad-9187-c181828b3679",
 			"hostName": "n*****",
 			"creationVersion": null,
 			"creationEnvironment": null,
 			"lastChangeVersion": null,
 			"workflowInstanceId": null,
 			"marketplacePaymentValue": null,
-			"orderId": "v41088703naf-01",
-			"orderGroup": "v41088703naf",
+			"orderId": "v41089686naf-01",
+			"orderGroup": "v41089686naf",
 			"state": "payment-approved",
 			"isCheckedIn": false,
-			"sellerOrderId": "SLR-v41088703naf-01",
+			"sellerOrderId": "SLR-v41089686naf-01",
 			"storeId": null,
 			"checkedInPickupPointId": null,
-			"value": 23318000,
+			"value": 49135000,
 			"totals": [
 				{
 					"id": "Items",
 					"name": "T*****************",
-					"value": 35980000
+					"value": 69950000
 				},
 				{
 					"id": "Discounts",
 					"name": "T******************",
-					"value": -14392000
+					"value": -21885000
 				},
 				{
 					"id": "Shipping",
 					"name": "C********************",
-					"value": 1730000
+					"value": 1070000
 				},
 				{
 					"id": "Tax",
@@ -244,10 +500,10 @@
 				}
 			],
 			"clientProfileData": {
-				"email": "p***************@g****.c****************.c*.v***.c**.b*",
-				"firstName": "P****",
-				"lastName": "M******** J*****",
-				"document": "1***********",
+				"email": "a***********@g****.c****************.c*.v***.c**.b*",
+				"firstName": "L****",
+				"lastName": "V******",
+				"document": "6*******",
 				"documentType": "cedulaCOL",
 				"phone": "+5***********",
 				"corporateName": null,
@@ -263,13 +519,13 @@
 			"ratesAndBenefitsData": {
 				"rateAndBenefitsIdentifiers": [
 					{
-						"id": "d347cf08-4f82-4bae-9f28-b9919b3775a9",
+						"id": "743f30e5-c9b6-4910-804d-4bfa15ecf824",
 						"name": "s*******************",
 						"featured": true,
 						"description": "Válido del 01 al 30 de Septiembre de 2023. 20% - 30% - 40% - 50% de descuento en referencias seleccionadas identificadas con etiqueta de descuento del \"20%\", \"30%\" , \"40%\", \"50%\". Descuentos hasta agotar existencias, 10.000 unds disponibles. Exclusivo tienda online NAF NAF |Tienda Online de Ropa para Mujer . El descuento se encuentra aplicado en el precio de cada producto. No acumulable con otras promociones y/o descuentos. En caso de cambio o garantía, se reconocerá el valor pagado por la prenda. No aplica para compra de bonos regalo. No aplica en tiendas físicas NAF NAF Colombia, canal WhatsApp, Rappi, córners Falabella ni Outlets.",
 						"matchedParameters": {
 							"Seller@CatalogSystem": "1|inclusive",
-							"productCluster@CatalogSystem": "1539|inclusive"
+							"productCluster@CatalogSystem": "1540|inclusive"
 						},
 						"additionalInfo": null
 					},
@@ -290,17 +546,17 @@
 			"shippingData": {
 				"address": {
 					"addressType": "residential",
-					"receiverName": "C***** R*****",
-					"addressId": "8316921374990",
+					"receiverName": "L****  V******",
+					"addressId": "8156589949945",
 					"isDisposable": false,
-					"postalCode": "5****",
-					"city": "I******",
-					"state": "NARIÑO",
+					"postalCode": "1****",
+					"city": "B****** D***",
+					"state": "BOGOTÁ, D.C.",
 					"country": "COL",
-					"street": "C**********",
+					"street": "C**** 1** #****",
 					"number": null,
-					"neighborhood": "C******* B***** D* M*****",
-					"complement": "T**** 1 a*** 1**",
+					"neighborhood": "S** A****** (********* U******",
+					"complement": "A*** 4**",
 					"reference": null,
 					"geoCoordinates": [
 						-51.4779552,
@@ -312,7 +568,7 @@
 						"itemIndex": 0,
 						"selectedSla": "Normal",
 						"selectedDeliveryChannel": "delivery",
-						"addressId": "8316921374990",
+						"addressId": "8156589949945",
 						"slas": [
 							{
 								"id": "Normal",
@@ -328,13 +584,13 @@
 										"kitItemDetails": []
 									}
 								],
-								"shippingEstimate": "8bd",
-								"shippingEstimateDate": "2023-09-30T15:25:52.242261Z",
-								"lockTTL": "12d",
+								"shippingEstimate": "3bd",
+								"shippingEstimateDate": "2023-09-28T13:31:21.0760826Z",
+								"lockTTL": "15d",
 								"availableDeliveryWindows": [],
 								"deliveryWindow": null,
-								"price": 865000,
-								"listPrice": 865000,
+								"price": 214000,
+								"listPrice": 214000,
 								"tax": 0,
 								"pickupStoreInfo": {
 									"isPickupStore": false,
@@ -346,13 +602,13 @@
 								"pickupPointId": null,
 								"pickupDistance": null,
 								"polygonName": "",
-								"transitTime": "8bd"
+								"transitTime": "3bd"
 							}
 						],
 						"shipsTo": [
 							"COL"
 						],
-						"itemId": "2069724",
+						"itemId": "2072701",
 						"deliveryChannels": [
 							{
 								"id": "delivery"
@@ -366,7 +622,7 @@
 						"itemIndex": 1,
 						"selectedSla": "Normal",
 						"selectedDeliveryChannel": "delivery",
-						"addressId": "8316921374990",
+						"addressId": "8156589949945",
 						"slas": [
 							{
 								"id": "Normal",
@@ -382,13 +638,13 @@
 										"kitItemDetails": []
 									}
 								],
-								"shippingEstimate": "8bd",
-								"shippingEstimateDate": "2023-09-30T15:25:52.242261Z",
-								"lockTTL": "12d",
+								"shippingEstimate": "3bd",
+								"shippingEstimateDate": "2023-09-28T13:31:21.0760826Z",
+								"lockTTL": "15d",
 								"availableDeliveryWindows": [],
 								"deliveryWindow": null,
-								"price": 865000,
-								"listPrice": 865000,
+								"price": 214000,
+								"listPrice": 214000,
 								"tax": 0,
 								"pickupStoreInfo": {
 									"isPickupStore": false,
@@ -400,13 +656,175 @@
 								"pickupPointId": null,
 								"pickupDistance": null,
 								"polygonName": "",
-								"transitTime": "8bd"
+								"transitTime": "3bd"
 							}
 						],
 						"shipsTo": [
 							"COL"
 						],
-						"itemId": "2074721",
+						"itemId": "2073983",
+						"deliveryChannels": [
+							{
+								"id": "delivery"
+							},
+							{
+								"id": "pickup-in-point"
+							}
+						]
+					},
+					{
+						"itemIndex": 2,
+						"selectedSla": "Normal",
+						"selectedDeliveryChannel": "delivery",
+						"addressId": "8156589949945",
+						"slas": [
+							{
+								"id": "Normal",
+								"deliveryChannel": "delivery",
+								"name": "N*****",
+								"deliveryIds": [
+									{
+										"courierId": "1",
+										"warehouseId": "1_1",
+										"dockId": "1",
+										"courierName": "8**************************",
+										"quantity": 1,
+										"kitItemDetails": []
+									}
+								],
+								"shippingEstimate": "3bd",
+								"shippingEstimateDate": "2023-09-28T13:31:21.0760826Z",
+								"lockTTL": "15d",
+								"availableDeliveryWindows": [],
+								"deliveryWindow": null,
+								"price": 214000,
+								"listPrice": 214000,
+								"tax": 0,
+								"pickupStoreInfo": {
+									"isPickupStore": false,
+									"friendlyName": null,
+									"address": null,
+									"additionalInfo": null,
+									"dockId": null
+								},
+								"pickupPointId": null,
+								"pickupDistance": null,
+								"polygonName": "",
+								"transitTime": "3bd"
+							}
+						],
+						"shipsTo": [
+							"COL"
+						],
+						"itemId": "2077292",
+						"deliveryChannels": [
+							{
+								"id": "delivery"
+							},
+							{
+								"id": "pickup-in-point"
+							}
+						]
+					},
+					{
+						"itemIndex": 3,
+						"selectedSla": "Normal",
+						"selectedDeliveryChannel": "delivery",
+						"addressId": "8156589949945",
+						"slas": [
+							{
+								"id": "Normal",
+								"deliveryChannel": "delivery",
+								"name": "N*****",
+								"deliveryIds": [
+									{
+										"courierId": "1",
+										"warehouseId": "1_1",
+										"dockId": "1",
+										"courierName": "8**************************",
+										"quantity": 1,
+										"kitItemDetails": []
+									}
+								],
+								"shippingEstimate": "3bd",
+								"shippingEstimateDate": "2023-09-28T13:31:21.0760826Z",
+								"lockTTL": "15d",
+								"availableDeliveryWindows": [],
+								"deliveryWindow": null,
+								"price": 214000,
+								"listPrice": 214000,
+								"tax": 0,
+								"pickupStoreInfo": {
+									"isPickupStore": false,
+									"friendlyName": null,
+									"address": null,
+									"additionalInfo": null,
+									"dockId": null
+								},
+								"pickupPointId": null,
+								"pickupDistance": null,
+								"polygonName": "",
+								"transitTime": "3bd"
+							}
+						],
+						"shipsTo": [
+							"COL"
+						],
+						"itemId": "2073779",
+						"deliveryChannels": [
+							{
+								"id": "delivery"
+							},
+							{
+								"id": "pickup-in-point"
+							}
+						]
+					},
+					{
+						"itemIndex": 4,
+						"selectedSla": "Normal",
+						"selectedDeliveryChannel": "delivery",
+						"addressId": "8156589949945",
+						"slas": [
+							{
+								"id": "Normal",
+								"deliveryChannel": "delivery",
+								"name": "N*****",
+								"deliveryIds": [
+									{
+										"courierId": "1",
+										"warehouseId": "1_1",
+										"dockId": "1",
+										"courierName": "8**************************",
+										"quantity": 1,
+										"kitItemDetails": []
+									}
+								],
+								"shippingEstimate": "3bd",
+								"shippingEstimateDate": "2023-09-28T13:31:21.0760826Z",
+								"lockTTL": "15d",
+								"availableDeliveryWindows": [],
+								"deliveryWindow": null,
+								"price": 214000,
+								"listPrice": 214000,
+								"tax": 0,
+								"pickupStoreInfo": {
+									"isPickupStore": false,
+									"friendlyName": null,
+									"address": null,
+									"additionalInfo": null,
+									"dockId": null
+								},
+								"pickupPointId": null,
+								"pickupDistance": null,
+								"polygonName": "",
+								"transitTime": "3bd"
+							}
+						],
+						"shipsTo": [
+							"COL"
+						],
+						"itemId": "2074283",
 						"deliveryChannels": [
 							{
 								"id": "delivery"
@@ -417,17 +835,17 @@
 				"selectedAddresses": [
 					{
 						"addressType": "residential",
-						"receiverName": "C***** R*****",
-						"addressId": "8316921374990",
+						"receiverName": "L****  V******",
+						"addressId": "8156589949945",
 						"isDisposable": false,
-						"postalCode": "5****",
-						"city": "I******",
-						"state": "NARIÑO",
+						"postalCode": "1****",
+						"city": "B****** D***",
+						"state": "BOGOTÁ, D.C.",
 						"country": "COL",
-						"street": "C**********",
+						"street": "C**** 1** #****",
 						"number": null,
-						"neighborhood": "C******* B***** D* M*****",
-						"complement": "T**** 1 a*** 1**",
+						"neighborhood": "S** A****** (********* U******",
+						"complement": "A*** 4**",
 						"reference": null,
 						"geoCoordinates": [
 							-51.4779552,
@@ -438,17 +856,17 @@
 				"availableAddresses": [
 					{
 						"addressType": "residential",
-						"receiverName": "C***** R*****",
-						"addressId": "8316921374990",
+						"receiverName": "L****  V******",
+						"addressId": "8156589949945",
 						"isDisposable": false,
-						"postalCode": "5****",
-						"city": "I******",
-						"state": "NARIÑO",
+						"postalCode": "1****",
+						"city": "B****** D***",
+						"state": "BOGOTÁ, D.C.",
 						"country": "COL",
-						"street": "C**********",
+						"street": "C**** 1** #****",
 						"number": null,
-						"neighborhood": "C******* B***** D* M*****",
-						"complement": "T**** 1 a*** 1**",
+						"neighborhood": "S** A****** (********* U******",
+						"complement": "A*** 4**",
 						"reference": null,
 						"geoCoordinates": [
 							-51.4779552,
@@ -456,72 +874,398 @@
 						]
 					}
 				],
-				"pickupPoints": []
+				"pickupPoints": [
+					{
+						"friendlyName": "N******************",
+						"address": {
+							"addressType": "pickup",
+							"receiverName": null,
+							"addressId": "2764",
+							"isDisposable": true,
+							"postalCode": "1****",
+							"city": "B****** D***",
+							"state": "Bogotá, D.C.",
+							"country": "COL",
+							"street": "C*** 6* #*****",
+							"number": "1****",
+							"neighborhood": "P***** A*****",
+							"complement": null,
+							"reference": null,
+							"geoCoordinates": [
+								-51.4779552,
+								-0.0039779
+							]
+						},
+						"additionalInfo": "Estaremos informándote dentro de las próximas 4 horas hábiles siguientes que tu pedido está listo para que te acerques a recogerlo en la tienda. Recuerda llevar el documento original del comprador y el número de pedido para poder retirar el producto. Nota: Ten en cuenta que, si estás comprando por fuera del horario hábil de la tienda física, este tiempo comenzará a contar a partir del horario de apertura de la tienda seleccionada.",
+						"id": "outletnafsopo_2764",
+						"businessHours": [
+							{
+								"DayOfWeek": 0,
+								"OpeningTime": "11:00:00",
+								"ClosingTime": "19:00:00"
+							},
+							{
+								"DayOfWeek": 1,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "20:00:00"
+							},
+							{
+								"DayOfWeek": 2,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "20:00:00"
+							},
+							{
+								"DayOfWeek": 3,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "20:00:00"
+							},
+							{
+								"DayOfWeek": 4,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "20:00:00"
+							},
+							{
+								"DayOfWeek": 5,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "21:00:00"
+							},
+							{
+								"DayOfWeek": 6,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "21:00:00"
+							}
+						]
+					},
+					{
+						"friendlyName": "N*******************",
+						"address": {
+							"addressType": "pickup",
+							"receiverName": null,
+							"addressId": "2631",
+							"isDisposable": true,
+							"postalCode": "1****",
+							"city": "B****** D***",
+							"state": "Bogotá, D.C.",
+							"country": "COL",
+							"street": "C** 2* #*****",
+							"number": "8****",
+							"neighborhood": "Z*** 5",
+							"complement": null,
+							"reference": null,
+							"geoCoordinates": [
+								-51.4779552,
+								-0.0039779
+							]
+						},
+						"additionalInfo": "Estaremos informándote dentro de las próximas 4 horas hábiles siguientes que tu pedido está listo para que te acerques a recogerlo en la tienda. Recuerda llevar el documento original del comprador y el número de pedido para poder retirar el producto. Nota: Ten en cuenta que, si estás comprando por fuera del horario hábil de la tienda física, este tiempo comenzará a contar a partir del horario de apertura de la tienda seleccionada.",
+						"id": "nafnafhayuelosbog_2631",
+						"businessHours": [
+							{
+								"DayOfWeek": 0,
+								"OpeningTime": "11:00:00",
+								"ClosingTime": "20:00:00"
+							},
+							{
+								"DayOfWeek": 1,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "20:30:00"
+							},
+							{
+								"DayOfWeek": 2,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "20:30:00"
+							},
+							{
+								"DayOfWeek": 3,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "20:30:00"
+							},
+							{
+								"DayOfWeek": 4,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "20:30:00"
+							},
+							{
+								"DayOfWeek": 5,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "21:00:00"
+							},
+							{
+								"DayOfWeek": 6,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "21:00:00"
+							}
+						]
+					},
+					{
+						"friendlyName": "N******************",
+						"address": {
+							"addressType": "pickup",
+							"receiverName": null,
+							"addressId": "2685",
+							"isDisposable": true,
+							"postalCode": "1****",
+							"city": "B****** D***",
+							"state": "Bogotá, D.C.",
+							"country": "COL",
+							"street": "C*** 6* #*****",
+							"number": "1****",
+							"neighborhood": "P***** A*****",
+							"complement": null,
+							"reference": null,
+							"geoCoordinates": [
+								-51.4779552,
+								-0.0039779
+							]
+						},
+						"additionalInfo": "Estaremos informándote dentro de las próximas 4 horas hábiles siguientes que tu pedido está listo para que te acerques a recogerlo en la tienda. Recuerda llevar el documento original del comprador y el número de pedido para poder retirar el producto. Nota: Ten en cuenta que, si estás comprando por fuera del horario hábil de la tienda física, este tiempo comenzará a contar a partir del horario de apertura de la tienda seleccionada.",
+						"id": "outletnafbima_2685",
+						"businessHours": [
+							{
+								"DayOfWeek": 0,
+								"OpeningTime": "11:00:00",
+								"ClosingTime": "19:00:00"
+							},
+							{
+								"DayOfWeek": 1,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "20:00:00"
+							},
+							{
+								"DayOfWeek": 2,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "20:00:00"
+							},
+							{
+								"DayOfWeek": 3,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "20:00:00"
+							},
+							{
+								"DayOfWeek": 4,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "20:00:00"
+							},
+							{
+								"DayOfWeek": 5,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "21:00:00"
+							},
+							{
+								"DayOfWeek": 6,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "21:00:00"
+							}
+						]
+					},
+					{
+						"friendlyName": "N**********************",
+						"address": {
+							"addressType": "pickup",
+							"receiverName": null,
+							"addressId": "2059",
+							"isDisposable": true,
+							"postalCode": "1****",
+							"city": "B****** D***",
+							"state": "Bogotá, D.C.",
+							"country": "COL",
+							"street": "C*** 6* #******",
+							"number": "9****",
+							"neighborhood": "S***",
+							"complement": null,
+							"reference": null,
+							"geoCoordinates": [
+								-51.4779552,
+								-0.0039779
+							]
+						},
+						"additionalInfo": "Estaremos informándote dentro de las próximas 4 horas hábiles siguientes que tu pedido está listo para que te acerques a recogerlo en la tienda. Recuerda llevar el documento original del comprador y el número de pedido para poder retirar el producto. Nota: Ten en cuenta que, si estás comprando por fuera del horario hábil de la tienda física, este tiempo comenzará a contar a partir del horario de apertura de la tienda seleccionada.",
+						"id": "outletnaffloresta_2059",
+						"businessHours": [
+							{
+								"DayOfWeek": 0,
+								"OpeningTime": "11:00:00",
+								"ClosingTime": "19:00:00"
+							},
+							{
+								"DayOfWeek": 1,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "20:00:00"
+							},
+							{
+								"DayOfWeek": 2,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "20:00:00"
+							},
+							{
+								"DayOfWeek": 3,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "20:00:00"
+							},
+							{
+								"DayOfWeek": 4,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "20:00:00"
+							},
+							{
+								"DayOfWeek": 5,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "21:00:00"
+							},
+							{
+								"DayOfWeek": 6,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "21:00:00"
+							}
+						]
+					},
+					{
+						"friendlyName": "N*************************************",
+						"address": {
+							"addressType": "pickup",
+							"receiverName": null,
+							"addressId": "2996",
+							"isDisposable": true,
+							"postalCode": "1****",
+							"city": "B****** D***",
+							"state": "Bogotá, D.C.",
+							"country": "COL",
+							"street": "C* 1** #*****",
+							"number": "7****",
+							"neighborhood": "C******** L* F********",
+							"complement": "C** M********* L* F******** L**** A***",
+							"reference": null,
+							"geoCoordinates": [
+								-51.4779552,
+								-0.0039779
+							]
+						},
+						"additionalInfo": "Estaremos informándote dentro de las próximas 4 horas hábiles siguientes que tu pedido está listo para que te acerques a recogerlo en la tienda.\n\nRecuerda llevar el documento original del comprador y el número de pedido para poder retirar el producto.\n\nNota: Ten en cuenta que si estás comprando por fuera del horario hábil de la tienda física, este tiempo comenzará a contar a partir del horario de apertura de la tienda seleccionada.",
+						"id": "nafnafmultiplazabog_2996",
+						"businessHours": [
+							{
+								"DayOfWeek": 0,
+								"OpeningTime": "11:00:00",
+								"ClosingTime": "20:00:00"
+							},
+							{
+								"DayOfWeek": 1,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "20:30:00"
+							},
+							{
+								"DayOfWeek": 2,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "20:30:00"
+							},
+							{
+								"DayOfWeek": 3,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "20:30:00"
+							},
+							{
+								"DayOfWeek": 4,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "20:30:00"
+							},
+							{
+								"DayOfWeek": 5,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "21:00:00"
+							},
+							{
+								"DayOfWeek": 6,
+								"OpeningTime": "10:00:00",
+								"ClosingTime": "21:00:00"
+							}
+						]
+					}
+				]
 			},
 			"paymentData": {
-				"giftCards": [],
+				"giftCards": [
+					{
+						"redemptionCode": "VMZ*************KEM",
+						"provider": "VtexGiftCard",
+						"value": 41864600,
+						"balance": 41864600,
+						"name": null,
+						"caption": null,
+						"id": "7548d1b8-51f1-42ad-9187-c181828b3679_13262",
+						"inUse": true,
+						"isSpecialCard": false,
+						"groupName": null
+					}
+				],
 				"transactions": [
 					{
 						"isActive": true,
-						"transactionId": "C88757D06BE44B299A3B58A695C0F489",
+						"transactionId": "2E751C81B01C451CA760BA993AA7A8EE",
 						"merchantName": "N*****",
 						"payments": [
 							{
-								"id": "DC50C5044FBC4B748B40644C768BAB22",
-								"paymentSystem": "3",
-								"paymentSystemName": "D*****",
-								"value": 23318000,
+								"id": "D90089A02FAA45EDB637A9CAF1CE2FD4",
+								"paymentSystem": "201",
+								"paymentSystemName": "P******************",
+								"value": 7270400,
 								"installments": 1,
-								"connectorResponses": {
-									"Tid": "356530096",
-									"ReturnCode": "00",
-									"Message": "00",
-									"authId": "847276",
-									"orderId": "2752944054",
-									"state": "APPROVED"
-								},
-								"referenceValue": 23318000,
+								"connectorResponses": {},
+								"referenceValue": 7270400,
 								"cardHolder": null,
 								"cardNumber": null,
-								"firstDigits": "360857",
-								"lastDigits": "2111",
+								"firstDigits": null,
+								"lastDigits": null,
 								"cvv2": null,
 								"expireMonth": null,
 								"expireYear": null,
 								"url": null,
 								"koinUrl": null,
-								"tid": "356530096",
+								"tid": null,
 								"redemptionCode": null,
 								"giftCardId": null,
 								"giftCardProvider": null,
 								"giftCardAsDiscount": null,
-								"group": "creditCard",
+								"group": "promissory",
 								"dueDate": null,
-								"accountId": "AFA2C91B3E11401F9A8E021A90C9CE51",
-								"parentAccountId": "AFA2C91B3E11401F9A8E021A90C9CE51",
+								"accountId": null,
+								"parentAccountId": null,
 								"bankIssuedInvoiceIdentificationNumber": null,
 								"bankIssuedInvoiceIdentificationNumberFormatted": null,
 								"bankIssuedInvoiceBarCodeNumber": null,
 								"bankIssuedInvoiceBarCodeType": null,
-								"billingAddress": {
-									"addressType": "residential",
-									"receiverName": "C***** R*****",
-									"addressId": "8316921374990",
-									"isDisposable": false,
-									"postalCode": "5****",
-									"city": "I******",
-									"state": "NARIÑO",
-									"country": "COL",
-									"street": "C**********",
-									"number": null,
-									"neighborhood": "C******* B***** D* M*****",
-									"complement": "T**** 1 a*** 1**",
-									"reference": null,
-									"geoCoordinates": [
-										-51.4779552,
-										-0.0039779
-									]
-								}
+								"billingAddress": null
+							},
+							{
+								"id": "E22DA68D363A48A783895242784846A1",
+								"paymentSystem": "16",
+								"paymentSystemName": "V***",
+								"value": 41864600,
+								"installments": 1,
+								"connectorResponses": {},
+								"referenceValue": 41864600,
+								"cardHolder": null,
+								"cardNumber": null,
+								"firstDigits": null,
+								"lastDigits": null,
+								"cvv2": null,
+								"expireMonth": null,
+								"expireYear": null,
+								"url": null,
+								"koinUrl": null,
+								"tid": "1026a5719df149b6929886a00c4ff12b",
+								"redemptionCode": "VMZB-AD**-****-QKEM",
+								"giftCardId": "7548d1b8-51f1-42ad-9187-c181828b3679_13262",
+								"giftCardProvider": "VtexGiftCard",
+								"giftCardAsDiscount": false,
+								"group": "giftCard",
+								"dueDate": null,
+								"accountId": null,
+								"parentAccountId": null,
+								"bankIssuedInvoiceIdentificationNumber": null,
+								"bankIssuedInvoiceIdentificationNumberFormatted": null,
+								"bankIssuedInvoiceBarCodeNumber": null,
+								"bankIssuedInvoiceBarCodeType": null,
+								"billingAddress": null
 							}
 						],
 						"sharedTransaction": false
@@ -530,16 +1274,16 @@
 			},
 			"clientPreferencesData": {
 				"locale": "es-CO",
-				"optinNewsLetter": false
+				"optinNewsLetter": true
 			},
 			"commercialConditionData": null,
 			"marketingData": {
-				"utmSource": "google-ads",
-				"utmMedium": "",
-				"utmCampaign": "Search PureBrand",
-				"utmipage": "",
-				"utmiPart": "",
-				"utmiCampaign": "",
+				"utmSource": null,
+				"utmMedium": null,
+				"utmCampaign": null,
+				"utmipage": null,
+				"utmiPart": null,
+				"utmiCampaign": null,
 				"coupon": null,
 				"marketingTags": []
 			},
@@ -567,11 +1311,11 @@
 			"changeData": null,
 			"subscriptionData": null,
 			"salesChannel": "1",
-			"followUpEmail": "b**********************************.v***.c**.b*",
-			"creationDate": "2023-09-21T15:25:43.1974602Z",
-			"lastChange": "2023-09-21T15:25:58.7740936Z",
-			"timeZoneCreationDate": "2023-09-21T10:25:43.1974602",
-			"timeZoneLastChange": "2023-09-21T10:25:58.7740936",
+			"followUpEmail": "a**********************************.v***.c**.b*",
+			"creationDate": "2023-09-25T13:31:13.3423792Z",
+			"lastChange": "2023-09-25T13:31:22.1351678Z",
+			"timeZoneCreationDate": "2023-09-25T08:31:13.3423792",
+			"timeZoneLastChange": "2023-09-25T08:31:22.1351678",
 			"isCompleted": true,
 			"merchantName": null,
 			"userType": "",
@@ -583,14 +1327,14 @@
 		}
 	],
 	"ordersUrl": "http://www.nafnaf.com.co/account#/orders",
-	"orderGroup": "v41088703naf",
+	"orderGroup": "v41089686naf",
 	"subjectItemAttachment": {
-		"item": "Buzo tejido con cuel...",
-		"totalItems": 2,
-		"extraItems": 1
+		"item": "Camiseta con transpa...",
+		"totalItems": 5,
+		"extraItems": 4
 	},
 	"split": false,
-	"totalValue": 23318000,
+	"totalValue": 49135000,
 	"callCenterOperatorData": null,
 	"_accountInfo": {
 		"MainAccountName": "n*****",

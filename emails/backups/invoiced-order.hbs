@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Pedido Facturado</title>
+
+  <style type="text/css">
+    /* @import url("https://americanino.myvtex.com/arquivos/Helvetica.ttf.css"); */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      color: #000;
+    }
+
+    body {
+      max-width: 600px;
+      margin: 0 auto;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+    }
+
+    table,
+    th,
+    td {
+      border-spacing: 0;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    #mail {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* HEADER STYLES ------------------------------------------------ */
+    #mail-header .top-message {
+      width: 100%;
+      max-width: 600px;
+    }
+
+    #mail-header .top-message th {
+      margin: auto;
+      width: 100%;
+      background-color: #fff;
+      font-weight: 300;
+      color: #000;
+      font-size: 0.75rem;
+      text-align: center;
+      line-height: 1.5rem;
+    }
+
+    #mail-header .top-message th a {
+      color: #000;
+      text-decoration: none;
+      letter-spacing: 1px;
+    }
+
+    #mail-header .header-content {
+      margin: auto;
+      height: 5rem;
+      background-color: #000;
+    }
+
+    #mail-header .header-content th {
+      margin: auto;
+      padding: 1rem;
+    }
+
+    #mail-header .header-content th:first-child {
+      text-align: left;
+    }
+
+    #mail-header .header-content strong,
+    #mail-header .header-content p {
+      text-align: right;
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.1rem;
+      line-height: 110%;
+      text-transform: uppercase;
+    }
+
+    #mail-header .header-content p {
+      font-size: 0.625rem;
+      font-weight: 300;
+    }
+
+    #mail-header .header-content th img {
+      height: 2.75rem;
+      width: auto;
+    }
+
+    /* FOOTER STYLES ------------------------------------------------ */
+    #mail-footer {
+      background-color: #000;
+    }
+
+    #mail-footer tr .mail-footer-left-column {
+      padding: 1rem;
+      text-align: left;
+    }
+
+    #mail-footer tr .mail-footer-left-column div {
+      text-align: left;
+      color: #ffffff;
+      font-size: 0.625rem;
+      font-family: Roboto;
+      letter-spacing: 0.1rem;
+      line-height: 110%;
+    }
+
+    #mail-footer tr .mail-footer-left-column p {
+      text-align: left;
+      color: #ffffff;
+      font-size: 0.625rem;
+      font-family: Roboto;
+      font-weight: 400;
+      letter-spacing: 0.1rem;
+      line-height: 110%;
+    }
+
+    #mail-footer tr .mail-footer-left-column p+p {
+      margin-top: 0.25rem;
+    }
+
+    #mail-footer tr .mail-footer-left-column p strong {
+      font-family: Roboto;
+      font-weight: 600;
+    }
+
+    #mail-footer tr .mail-footer-right-column {
+      text-align: center;
+      padding: 1rem;
+    }
+
+    #mail-footer tr .mail-footer-right-column p {
+      padding: 0 0.25rem 0.5rem 0;
+
+      text-align: center;
+      color: #ffffff;
+      font-size: 0.625rem;
+      font-family: Roboto;
+      letter-spacing: 0.2rem;
+      line-height: 100%;
+    }
+
+    #mail-footer tr .mail-footer-left-column p a,
+    #mail-footer tr .mail-footer-right-column p a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    #mail-footer tr .mail-footer-right-column div a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    #mail-footer tr .mail-footer-right-column div a+a {
+      margin-left: 0.5rem;
+    }
+
+    #mail-footer tr .mail-footer-right-column div a img {
+      display: inline-block;
+      /* width: 1.5rem;
+      height: 1.5rem; */
+      border-radius: 50%;
+    }
+
+    #footer-notes {
+      padding: 10px 20px;
+      margin: 0;
+      text-align: center;
+      font-family: Roboto, sans-serif;
+      font-size: 0.75rem;
+      line-height: 0.875rem;
+    }
+
+    #footer-notes a {
+      font-family: Roboto, sans-serif;
+      font-weight: 700;
+      text-decoration: none;
+      color: #000;
+    }
+
+    /* BODY STYLES ------------------------------------------------ */
+    #mail-body .body-content,
+    #footer-message .footer-message-content {
+      text-align: center;
+    }
+
+    #mail-body .content-title {
+      color: #000;
+      font-family: Roboto, sans-serif;
+      font-weight: 300;
+      font-size: 1.125rem;
+      line-height: 110%;
+      margin-top: 2rem;
+    }
+
+    #welcome-message {
+      color: #000;
+      font-family: Roboto, sans-serif;
+      font-weight: 500;
+      font-size: 1.25rem;
+      line-height: 110%;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+    }
+
+    #mail-body .main-message {
+      margin-top: 1.75rem;
+      color: #000;
+      font-family: Roboto, sans-serif;
+      font-weight: 300;
+      font-size: 0.875rem;
+      line-height: 110%;
+      letter-spacing: 0.1rem;
+      margin-bottom: 3rem;
+    }
+
+    #client-info-title {
+      margin-top: 2rem;
+      color: #000;
+      font-family: Roboto, sans-serif;
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 110%;
+      letter-spacing: 0.1rem;
+      margin-bottom: 0.625rem;
+    }
+
+    #client-info-content {
+      background-color: #ebebeb;
+      padding: 1rem 10rem 1rem 6rem;
+      text-align: left;
+      margin-bottom: 2rem;
+    }
+
+    #client-info-content strong,
+    #client-info-content p {
+      color: #000;
+      font-family: Roboto, sans-serif;
+      font-size: 0.875rem;
+      line-height: 130%;
+      letter-spacing: 0.01rem;
+      margin-bottom: 0.25rem;
+    }
+
+    #button-link {
+      max-width: 160px;
+      margin: 0.5rem auto 4rem;
+      padding: 0.5rem 1.25rem;
+      color: #fff;
+      background-color: #000;
+      font-family: Roboto, sans-serif;
+      font-weight: 400;
+      font-size: 1.25rem;
+      line-height: 110%;
+      letter-spacing: 0.1rem;
+    }
+
+    #footer-message {
+      background-color: #f7f7f7;
+    }
+
+    #footer-message .footer-message-content {
+      padding: 1.5rem 0 1rem;
+    }
+
+    #footer-message .footer-message-content strong {
+      color: #000;
+      font-family: Roboto, sans-serif;
+      font-weight: 600;
+      font-size: 0.875rem;
+      line-height: 110%;
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+    }
+
+    #footer-message .footer-message-content p {
+      color: #000;
+      font-family: Roboto, sans-serif;
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 110%;
+      letter-spacing: 0.1rem;
+    }
+
+    #legal-message .legal-message-content {
+      padding: 1.75rem 1.25rem;
+    }
+
+    #legal-message .legal-message-content strong,
+    #legal-message .legal-message-content p {
+      color: #000;
+      font-family: Roboto, sans-serif;
+      font-size: 0.75rem;
+      line-height: 120%;
+    }
+
+    #legal-message .legal-message-content p {
+      font-weight: 300;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <thead id="mail-header">
+      <tr class="top-message">
+        <th colspan="6">
+          Telefono: <a href="tel:+56912345678">+569 1234 5678</a> | Correo:
+          <a href="mailto:servicioalcliente@nafnaf.com.co">servicioalcliente@nafnaf.com.co</a>
+        </th>
+      </tr>
+      <tr class="header-content">
+        <th colspan="3">
+          <img style="max-width: 180px; height: auto" src="https://www.nafnaf.com.co/arquivos/mailing-nafnaf-logo.png"
+            alt="Naf Naf Logo" />
+        </th>
+        <th colspan="3" style="text-align: right">
+          <strong>Tu pedido fue facturado</strong>
+          <p>Fecha del pedido: {{formatDate creationDate}}</p>
+        </th>
+      <tr>
+        <th colspan="6">
+          <img style="width: 100%; max-height: 272px; object-fit: cover"
+            src="https://www.nafnaf.com.co/arquivos/mailing-top-banner.png" alt="Naf Naf Logo" />
+        </th>
+      </tr>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr><img src="https://www.nafnaf.com.co/arquivos/Header_YaSalio_2.jpg" alt="Naf Naf Logo" /></tr>
+      <tr id="mail-body">
+        <td colspan="6">
+          <div class="body-content">
+            <p class="content-title">Hola, {{clientProfileData.firstName}}</p>
+            <strong id="welcome-message">¡GRACIAS POR COMPRAR EN nafnaf.COM.CO!</strong>
+            <p class="main-message">
+              Los productos a continuación se han facturado. Ahora sólo debes
+              esperar a que tu pedido sea enviado, te notificaremos por este
+              mismo medio cuando esto ocurra.
+            </p>
+
+            <img style="
+                  width: 100%;
+                  max-width: 525px;
+                  max-height: 220px;
+                  object-fit: cover;
+                " src="https://www.nafnaf.com.co/arquivos/mailing-pedido-facturado.png" alt="Naf Naf Logo" />
+
+            <p id="client-info-title">INFORMACIÓN DE PEDIDO</p>
+            <div id="client-info-content">
+              <strong>{{shippingData.address.receiverName}}</strong>
+              <p>
+                {{shippingData.address.street}} -
+                {{shippingData.address.number}} -
+                {{shippingData.address.neighborhood}}
+              </p>
+              <p>
+                {{shippingData.address.city}} - {{shippingData.address.state}}
+                - {{shippingData.address.postalCode}}
+              </p>
+              <p>
+                <strong>Medio de pago: </strong>{{#each
+                  paymentData.transactions}} {{#each payments}}
+                    {{paymentSystemName}} {{#if lastDigits}} final {{lastDigits}}
+                    {{/if}} $ {{formatCurrency value}} {{#eq installments 1}}
+                  {{else}} (em {{installments}}x) {{/eq}} {{/each}} {{/each}}
+              </p>
+              <p><strong>Pedido Nº: </strong>{{orderId}}</p>
+              <p>
+                <strong>Tipo de entrega: </strong>{{shippingData.logisticsInfo.0.selectedSla}}
+              </p>
+            </div>
+
+            <!-- PRODUCT TABLE ------------------------------------------------ -->
+            <table style="width: 100%">
+              <thead>
+                <tr>
+                  <th style="
+                        width: 60%;
+                        text-align: left;
+                        font-size: 1.125rem;
+                        font-family: Roboto, sans-serif;
+                        padding-bottom: 1rem;
+                      ">
+                    Product
+                  </th>
+
+                  <th style="
+                        width: 20%;
+                        text-align: right;
+                        font-size: 1.125rem;
+                        font-family: Roboto, sans-serif;
+                        padding-bottom: 1rem;
+                      ">
+                    Cantidad
+                  </th>
+
+                  <th style="
+                        width: 20%;
+                        text-align: right;
+                        font-size: 1.125rem;
+                        font-family: Roboto, sans-serif;
+                        padding-bottom: 1rem;
+                      ">
+                    Precio
+                  </th>
+                </tr>
+              </thead>
+
+              <tbody>
+                {{#each items}}
+                  <tr>
+                    <td style="width: 60%; text-align: left; vertical-align: top">
+                      <div style="
+                          width: 100%;
+                          display: flex;
+                          margin-bottom: 0.5rem;
+                        ">
+                        <img src="{{imageUrl}}" alt="Imagen del producto: {{name}}" style="
+                            width: 4.5rem;
+                            min-width: 4.5rem;
+                            height: 4.5rem;
+                            margin-right: 1rem;
+                            object-fit: cover;
+                            object-position: top;
+                            display: inline-block;
+                          " />
+
+                        <span style="
+                            font-size: 1rem;
+                            font-family: Roboto, sans-serif;
+                            font-weight: 300;
+                            display: inline-block;
+                            height: 100%;
+                            text-align: left;
+                            vertical-align: top;
+                          ">{{name}}</span>
+                      </div>
+                    </td>
+
+                    <td style="
+                        width: 20%;
+                        text-align: right;
+                        vertical-align: top;
+                        font-size: 1rem;
+                        font-family: Roboto, sans-serif;
+                        font-weight: 300;
+                      ">
+                      {{quantity}}
+                    </td>
+
+                    <td style="
+                        width: 20%;
+                        text-align: right;
+                        vertical-align: top;
+                        font-size: 1rem;
+                        font-family: Roboto, sans-serif;
+                        font-weight: 300;
+                      ">
+                      $ {{formatCurrency price}}
+                    </td>
+                  </tr>
+                {{/each}}
+
+                <tr>
+                  <td colspan="5">
+                    <div style="padding-bottom: 1rem"></div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- PRODUCT TABLE END ------------------------------------------------ -->
+
+            <!-- PAYMENT/PRICES ------------------------------------------------ -->
+            <div style="margin: 2rem 1rem 1rem; border-bottom: 2px solid #cacaca"></div>
+            <div style="
+                  padding: 0.5rem 0 0.5rem 1.5rem;
+                  max-width: 300px;
+                  margin-left: auto;
+                ">
+              {{#each totals}} {{#if value}} {{#eq id "Items"}}
+                    <span style="
+                    margin: 0.25rem 0;
+                    display: block;
+                    font-family: Roboto, sans-serif;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    text-align: right;
+                    line-height: 1.25rem;
+                  "><strong style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 1rem;
+                      font-weight: 500;
+                    ">Subtotal:</strong>
+                      $ {{formatCurrency value}}</span>
+                  {{/eq}} {{#eq id "Discounts"}}
+                    <span style="
+                    margin: 0.25rem 0;
+                    display: block;
+                    font-family: Roboto, sans-serif;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    text-align: right;
+                    line-height: 1.25rem;
+                  "><strong style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 1rem;
+                      font-weight: 500;
+                    ">Descuento:</strong>
+                      $ {{formatCurrency value}}</span>
+                  {{/eq}} {{#eq id "Shipping"}}
+                    <span style="
+                    margin: 0.25rem 0;
+                    display: block;
+                    font-family: Roboto, sans-serif;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    text-align: right;
+                    line-height: 1.25rem;
+                  "><strong style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 1rem;
+                      font-weight: 500;
+                    ">Envío:</strong>
+                      $ {{formatCurrency value}}</span>
+                  {{/eq}} {{#eq id "Tax"}}
+                    <span style="
+                    margin: 0.25rem 0;
+                    display: block;
+                    font-family: Roboto, sans-serif;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    text-align: right;
+                    line-height: 1.25rem;
+                  "><strong style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 1rem;
+                      font-weight: 500;
+                    ">Taza:</strong>
+                      $ {{formatCurrency value}}</span>
+                  {{/eq}} {{/if}} {{/each}}
+
+              <span style="
+                    margin: 0.25rem 0;
+                    display: block;
+                    font-family: Roboto, sans-serif;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    text-align: right;
+                    line-height: 1.25rem;
+                  "><strong style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 1rem;
+                      font-weight: 500;
+                    ">Total:</strong>
+                $ {{formatCurrency value}}</span>
+            </div>
+            <!-- PAYMENT/PRICES END ------------------------------------------------ -->
+          </div>
+        </td>
+      </tr>
+
+      <tr id="legal-message">
+        <td colspan="6">
+          <div class="legal-message-content">
+            <strong>Suministrado por NAF NAF. </strong>
+            <p>
+              Si tienes preguntas acerca de tus pedidos o cualquier otro
+              asunto relacionado con nafnaf.com.co contáctanos en nuestra
+              línea gratuita nacional de atención al cliente 01 8000 413 553
+              de lunes a viernes de 8 am a 6pm y sábados de 9 am a 6 pm o
+              escríbenos a servicioalcliente@nafnaf.com.co
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr id="footer-message">
+        <td colspan="6">
+          <div class="footer-message-content">
+            <strong>¡TE ESPERAMOS NUEVAMENTE!</strong>
+            <p>Muchas Gracias, NAF NAF</p>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+
+    <tfoot id="mail-footer">
+      <tr>
+        <td colspan="2" class="mail-footer-left-column">
+          <p>
+            Linea de atención al cliente<br /><strong><a href="tel:+018000187009">01 8000 187 009</a></strong>
+          </p>
+          <p>
+            Correo<br /><strong><a
+                href="mailto:servicioalcliente@nafnaf.com.co">servicioalcliente@nafnaf.com.co</a></strong>
+          </p>
+        </td>
+        <td colspan="2" class="mail-footer-mid-column">
+          <img style="max-width: 157px" src="https://www.nafnaf.com.co/arquivos/mailing-nafnaf-logo.png"
+            alt="Naf Naf Logo" />
+        </td>
+        <td colspan="2" class="mail-footer-right-column">
+          <p>
+            <a style="text-transform: uppercase" href="NafNaf.com.co">NafNaf.com.co</a>
+          </p>
+          <p>¡Síguenos en nuestras REDES SOCIALES!</p>
+          <div>
+            <a href="https://www.facebook.com/nafnaflatam">
+              <img style="background-color: transparent"
+                src="https://www.nafnaf.com.co/arquivos/mailing-facebook-icon.svg" alt="Naf Naf Facebook icon" />
+            </a>
+            <a href="http://instagram.com/nafnafcol">
+              <img style="background-color: transparent"
+                src="https://www.nafnaf.com.co/arquivos/mailing-instagram-icon.svg" alt="Naf Naf Instagram icon" />
+            </a>
+          </div>
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>
