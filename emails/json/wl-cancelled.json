@@ -1,16 +1,900 @@
 {
-  "name": "LEIDY LORENA LOAIZA QUICENO",
-  "email": "lorenaloaiza77@gmail.com",
-  "store": "NAF NAF SANTAFE MEDELLIN",
-  "storeEmail": "null",
-  "orderId": "SLR-v41015811naf-01",
-  "orderDate": "null",
-  "sendDate": "12/02/2023 01:49:53 PM",
-  "days": "null",
-  "typePayment": "002",
+  "package": {
+    "items": [
+      {
+        "itemIndex": 0,
+        "quantity": 1,
+        "price": 11394000,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 1,
+        "quantity": 1,
+        "price": 11394000,
+        "description": null,
+        "unitMultiplier": 0
+      }
+    ],
+    "courier": "COORDINADORA MERCANTIL S.A",
+    "invoiceNumber": "ESAP557431",
+    "invoiceValue": 23858300,
+    "invoiceUrl": null,
+    "issuanceDate": "2023-09-25T09:07:36Z",
+    "trackingNumber": "48857655057",
+    "invoiceKey": null,
+    "trackingUrl": null,
+    "embeddedInvoice": "",
+    "type": "Output",
+    "courierStatus": null,
+    "cfop": null,
+    "restitutions": {},
+    "volumes": null,
+    "EnableInferItems": null
+  },
+  "subjectItemAttachment": {
+    "item": "Pantalón Skinny fit ...",
+    "totalItems": 2,
+    "extraItems": 1
+  },
+  "cancellationReason": null,
+  "items": [
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/13/123/",
+        "productClusterId": "154,159,160,188,214,364,413,415,450,504,511,585,698,772,785,824,867,910,956,1110,1118,1149,1153,1173,1174,1186,1187,1243,1265,1267,1275,1281,1289,1297,1324,1333,1355,1359,1453,1531",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.0002,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "N******",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "2071384",
+      "priceTable": null,
+      "priceValidUntil": "2123-07-07T00:00:00Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:nafnaf:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2071384",
+      "uniqueId": "5DE6D2AF8E794D1CA32A0276E18970A8",
+      "id": "2071384",
+      "productId": "2012648",
+      "productRefId": "14_730D504_A02759",
+      "refId": "14_730D504_1111127277257",
+      "ean": "1111127277257",
+      "name": "P***************************",
+      "skuName": "N*******",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 18990000,
+      "listPrice": 18990000,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 11394000,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": "2023-07-07T00:00:00Z",
+      "productCategoryIds": "/1/13/123/",
+      "productCategories": {
+        "1": "Ropa Mujer",
+        "13": "Pantalones",
+        "123": "Infaltables"
+      },
+      "quantity": 1,
+      "seller": "nafnafcedi",
+      "sellerChain": [
+        "nafnafcedi"
+      ],
+      "imageUrl": "http://nafnaf.vteximg.com.br/arquivos/ids/979744-90-109/14_730D504_A02759_0.jpg?v=638243382162170000",
+      "detailUrl": "/pantalon-skinny-fit-730d504-a02759/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "d***************************************************************************************",
+          "value": -7596000,
+          "rawValue": -75960,
+          "isPercentual": false,
+          "identifier": "56b85b8f-eb24-4114-9261-8b20a5fbfb5e"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "1111127277257",
+      "priceDefinition": {
+        "calculatedSellingPrice": 11394000,
+        "total": 11394000,
+        "sellingPrices": [
+          {
+            "value": 11394000,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/13/123/",
+        "productClusterId": "154,159,160,188,214,364,413,415,450,504,511,585,698,772,785,824,867,910,956,1110,1118,1149,1153,1173,1174,1186,1187,1243,1265,1267,1275,1281,1289,1297,1324,1333,1355,1359,1453,1531",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.0002,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "N******",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "2076214",
+      "priceTable": null,
+      "priceValidUntil": "9999-12-31T02:00:00Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:nafnaf:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2076214",
+      "uniqueId": "114AAC43867842C4B3ADA7E7357F3F1D",
+      "id": "2076214",
+      "productId": "2013928",
+      "productRefId": "14_730D502_NEG193909",
+      "refId": "14_730D502_1111127328850",
+      "ean": "1111127328850",
+      "name": "P************************************",
+      "skuName": "N*******",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 18990000,
+      "listPrice": 18990000,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 11394000,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": "2023-05-31T00:00:00Z",
+      "productCategoryIds": "/1/13/123/",
+      "productCategories": {
+        "1": "Ropa Mujer",
+        "13": "Pantalones",
+        "123": "Infaltables"
+      },
+      "quantity": 1,
+      "seller": "nafnafcedi",
+      "sellerChain": [
+        "nafnafcedi"
+      ],
+      "imageUrl": "http://nafnaf.vteximg.com.br/arquivos/ids/968482-90-109/14_730D502_NEG193909_0.jpg?v=638211642591100000",
+      "detailUrl": "/pantalon-de-silueta-ajustada-730d502-neg193909/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "d***************************************************************************************",
+          "value": -7596000,
+          "rawValue": -75960,
+          "isPercentual": false,
+          "identifier": "56b85b8f-eb24-4114-9261-8b20a5fbfb5e"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "1111127328850",
+      "priceDefinition": {
+        "calculatedSellingPrice": 11394000,
+        "total": 11394000,
+        "sellingPrices": [
+          {
+            "value": 11394000,
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=nafnafcedi&affiliateId=SLR&sc=1",
+      "id": "nafnafcedi",
+      "name": "n*********",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "marketPlaceOrderGroup": null,
+  "marketplaceServicesEndpoint": null,
+  "orderFormId": "787c7e087cf6496985d1f10543317bac",
+  "sequence": "41089105",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "6ab9f273-b432-4aa1-9ebb-9536aa6b8e9e",
+  "hostName": "n*****",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "marketplacePaymentValue": null,
+  "orderId": "v41089105naf-01",
+  "orderGroup": "v41089105naf",
+  "state": "payment-approved",
+  "isCheckedIn": false,
+  "sellerOrderId": "SLR-v41089105naf-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 23858000,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "T*****************",
+      "value": 37980000
+    },
+    {
+      "id": "Discounts",
+      "name": "T******************",
+      "value": -15192000
+    },
+    {
+      "id": "Shipping",
+      "name": "C********************",
+      "value": 1070000
+    },
+    {
+      "id": "Tax",
+      "name": "C*********************",
+      "value": 0
+    }
+  ],
+  "clientProfileData": {
+    "email": "n********@h******.c****************.c*.v***.c**.b*",
+    "firstName": "N**** L*****",
+    "lastName": "T***** M*******",
+    "document": "3*******",
+    "documentType": "cedulaCOL",
+    "phone": "+5***********",
+    "corporateName": null,
+    "tradeName": null,
+    "corporateDocument": null,
+    "stateInscription": null,
+    "corporatePhone": null,
+    "isCorporate": false,
+    "profileCompleteOnLoading": true,
+    "profileErrorOnLoading": false,
+    "customerClass": null
+  },
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [
+      {
+        "id": "56b85b8f-eb24-4114-9261-8b20a5fbfb5e",
+        "name": "s******************",
+        "featured": false,
+        "description": null,
+        "matchedParameters": {
+          "Seller@CatalogSystem": "1|inclusive",
+          "productCluster@CatalogSystem": "1234|exclusive",
+          "paymentMethodId": "122"
+        },
+        "additionalInfo": null
+      }
+    ],
+    "teaser": []
+  },
+  "shippingData": {
+    "address": {
+      "addressType": "residential",
+      "receiverName": "N**** L***** T***** M*******",
+      "addressId": "8121423811760",
+      "isDisposable": false,
+      "postalCode": "2****",
+      "city": "F*********",
+      "state": "CUNDINAMARCA",
+      "country": "COL",
+      "street": "C**** 2 7**** T**** 2**",
+      "number": null,
+      "neighborhood": "M*********",
+      "complement": "A*** p*** 5**",
+      "reference": null,
+      "geoCoordinates": [
+        -51.4779552,
+        -0.0039779
+      ]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "selectedSla": "Normal",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "8121423811760",
+        "slas": [
+          {
+            "id": "Normal",
+            "deliveryChannel": "delivery",
+            "name": "N*****",
+            "deliveryIds": [
+              {
+                "courierId": "1",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "8**************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "6bd",
+            "shippingEstimateDate": "2023-09-30T11:15:00Z",
+            "lockTTL": "10d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 535000,
+            "listPrice": 535000,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "",
+            "transitTime": "5bd"
+          }
+        ],
+        "shipsTo": [
+          "COL"
+        ],
+        "itemId": "2071384",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      },
+      {
+        "itemIndex": 1,
+        "selectedSla": "Normal",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "8121423811760",
+        "slas": [
+          {
+            "id": "Normal",
+            "deliveryChannel": "delivery",
+            "name": "N*****",
+            "deliveryIds": [
+              {
+                "courierId": "1",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "8**************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "6bd",
+            "shippingEstimateDate": "2023-09-30T11:15:00Z",
+            "lockTTL": "10d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 535000,
+            "listPrice": 535000,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "",
+            "transitTime": "5bd"
+          }
+        ],
+        "shipsTo": [
+          "COL"
+        ],
+        "itemId": "2076214",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      }
+    ],
+    "selectedAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "N**** L***** T***** M*******",
+        "addressId": "8121423811760",
+        "isDisposable": false,
+        "postalCode": "2****",
+        "city": "F*********",
+        "state": "CUNDINAMARCA",
+        "country": "COL",
+        "street": "C**** 2 7**** T**** 2**",
+        "number": null,
+        "neighborhood": "M*********",
+        "complement": "A*** p*** 5**",
+        "reference": null,
+        "geoCoordinates": [
+          -51.4779552,
+          -0.0039779
+        ]
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "N**** L***** T***** M*******",
+        "addressId": "8121423811760",
+        "isDisposable": false,
+        "postalCode": "2****",
+        "city": "F*********",
+        "state": "CUNDINAMARCA",
+        "country": "COL",
+        "street": "C**** 2 7**** T**** 2**",
+        "number": null,
+        "neighborhood": "M*********",
+        "complement": "A*** p*** 5**",
+        "reference": null,
+        "geoCoordinates": [
+          -51.4779552,
+          -0.0039779
+        ]
+      }
+    ],
+    "pickupPoints": [
+      {
+        "friendlyName": "N*************************************",
+        "address": {
+          "addressType": "pickup",
+          "receiverName": null,
+          "addressId": "2996",
+          "isDisposable": true,
+          "postalCode": "1****",
+          "city": "B****** D***",
+          "state": "Bogotá, D.C.",
+          "country": "COL",
+          "street": "C* 1** #*****",
+          "number": "7****",
+          "neighborhood": "C******** L* F********",
+          "complement": "C** M********* L* F******** L**** A***",
+          "reference": null,
+          "geoCoordinates": [
+            -51.4779552,
+            -0.0039779
+          ]
+        },
+        "additionalInfo": "Estaremos informándote dentro de las próximas 4 horas hábiles siguientes que tu pedido está listo para que te acerques a recogerlo en la tienda.\n\nRecuerda llevar el documento original del comprador y el número de pedido para poder retirar el producto.\n\nNota: Ten en cuenta que si estás comprando por fuera del horario hábil de la tienda física, este tiempo comenzará a contar a partir del horario de apertura de la tienda seleccionada.",
+        "id": "nafnafmultiplazabog_2996",
+        "businessHours": [
+          {
+            "DayOfWeek": 0,
+            "OpeningTime": "11:00:00",
+            "ClosingTime": "20:00:00"
+          },
+          {
+            "DayOfWeek": 1,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:30:00"
+          },
+          {
+            "DayOfWeek": 2,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:30:00"
+          },
+          {
+            "DayOfWeek": 3,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:30:00"
+          },
+          {
+            "DayOfWeek": 4,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:30:00"
+          },
+          {
+            "DayOfWeek": 5,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:00:00"
+          },
+          {
+            "DayOfWeek": 6,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:00:00"
+          }
+        ]
+      },
+      {
+        "friendlyName": "N********************",
+        "address": {
+          "addressType": "pickup",
+          "receiverName": null,
+          "addressId": "bca2c0e6-3306-4b8f-930f-df0d24003681",
+          "isDisposable": true,
+          "postalCode": "1****",
+          "city": "B****** D***",
+          "state": "Bogotá, D.C.",
+          "country": "COL",
+          "street": "G*** E******* A******",
+          "number": "6****",
+          "neighborhood": "T**********",
+          "complement": "l**** 2**",
+          "reference": null,
+          "geoCoordinates": [
+            -51.4779552,
+            -0.0039779
+          ]
+        },
+        "additionalInfo": "Recuerda llevar el número de cédula del comprador y el número de pedido para poder retirar el producto.\n\nEn máximo 3 horas te estaremos informando para que pases por tu producto en esta tienda.",
+        "id": "nafnafgranestaciono_bca2c0e6-3306-4b8f-930f-df0d24003681",
+        "businessHours": [
+          {
+            "DayOfWeek": 0,
+            "OpeningTime": "11:00:00",
+            "ClosingTime": "20:00:00"
+          },
+          {
+            "DayOfWeek": 1,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:00:00"
+          },
+          {
+            "DayOfWeek": 2,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:00:00"
+          },
+          {
+            "DayOfWeek": 3,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:00:00"
+          },
+          {
+            "DayOfWeek": 4,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:00:00"
+          },
+          {
+            "DayOfWeek": 5,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:00:00"
+          },
+          {
+            "DayOfWeek": 6,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:00:00"
+          }
+        ]
+      },
+      {
+        "friendlyName": "N****************************",
+        "address": {
+          "addressType": "pickup",
+          "receiverName": null,
+          "addressId": "2301",
+          "isDisposable": true,
+          "postalCode": "1****",
+          "city": "B****** D***",
+          "state": "Bogotá, D.C.",
+          "country": "COL",
+          "street": "A** C** 3* #***",
+          "number": "1*",
+          "neighborhood": "L** M*******",
+          "complement": null,
+          "reference": null,
+          "geoCoordinates": [
+            -51.4779552,
+            -0.0039779
+          ]
+        },
+        "additionalInfo": "Estaremos informándote dentro de las próximas 4 horas hábiles siguientes que tu pedido está listo para que te acerques a recogerlo en la tienda. Recuerda llevar el documento original del comprador y el número de pedido para poder retirar el producto. Nota: Ten en cuenta que, si estás comprando por fuera del horario hábil de la tienda física, este tiempo comenzará a contar a partir del horario de apertura de la tienda seleccionada.",
+        "id": "nafnafmallplazanqsbog_2301",
+        "businessHours": [
+          {
+            "DayOfWeek": 0,
+            "OpeningTime": "11:00:00",
+            "ClosingTime": "20:00:00"
+          },
+          {
+            "DayOfWeek": 1,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:00:00"
+          },
+          {
+            "DayOfWeek": 2,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:00:00"
+          },
+          {
+            "DayOfWeek": 3,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:00:00"
+          },
+          {
+            "DayOfWeek": 4,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:00:00"
+          },
+          {
+            "DayOfWeek": 5,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:00:00"
+          },
+          {
+            "DayOfWeek": 6,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:00:00"
+          }
+        ]
+      },
+      {
+        "friendlyName": "N******************",
+        "address": {
+          "addressType": "pickup",
+          "receiverName": null,
+          "addressId": "2764",
+          "isDisposable": true,
+          "postalCode": "1****",
+          "city": "B****** D***",
+          "state": "Bogotá, D.C.",
+          "country": "COL",
+          "street": "C*** 6* #*****",
+          "number": "1****",
+          "neighborhood": "P***** A*****",
+          "complement": null,
+          "reference": null,
+          "geoCoordinates": [
+            -51.4779552,
+            -0.0039779
+          ]
+        },
+        "additionalInfo": "Estaremos informándote dentro de las próximas 4 horas hábiles siguientes que tu pedido está listo para que te acerques a recogerlo en la tienda. Recuerda llevar el documento original del comprador y el número de pedido para poder retirar el producto. Nota: Ten en cuenta que, si estás comprando por fuera del horario hábil de la tienda física, este tiempo comenzará a contar a partir del horario de apertura de la tienda seleccionada.",
+        "id": "outletnafsopo_2764",
+        "businessHours": [
+          {
+            "DayOfWeek": 0,
+            "OpeningTime": "11:00:00",
+            "ClosingTime": "19:00:00"
+          },
+          {
+            "DayOfWeek": 1,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:00:00"
+          },
+          {
+            "DayOfWeek": 2,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:00:00"
+          },
+          {
+            "DayOfWeek": 3,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:00:00"
+          },
+          {
+            "DayOfWeek": 4,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:00:00"
+          },
+          {
+            "DayOfWeek": 5,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:00:00"
+          },
+          {
+            "DayOfWeek": 6,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:00:00"
+          }
+        ]
+      },
+      {
+        "friendlyName": "N*************************",
+        "address": {
+          "addressType": "pickup",
+          "receiverName": null,
+          "addressId": "2782",
+          "isDisposable": true,
+          "postalCode": "1****",
+          "city": "B****** D***",
+          "state": "Bogotá, D.C.",
+          "country": "COL",
+          "street": "A** B***** #*****",
+          "number": "8****",
+          "neighborhood": "E*******",
+          "complement": "C** T**** P**** L**** 2***",
+          "reference": null,
+          "geoCoordinates": [
+            -51.4779552,
+            -0.0039779
+          ]
+        },
+        "additionalInfo": "Estaremos informándote dentro de las próximas 4 horas hábiles siguientes que tu pedido está listo para que te acerques a recogerlo en la tienda.\n\nRecuerda llevar el documento original del comprador y el número de pedido para poder retirar el producto.\n\nNota: Ten en cuenta que si estás comprando por fuera del horario hábil de la tienda física, este tiempo comenzará a contar a partir del horario de apertura de la tienda seleccionada.",
+        "id": "nafnaftitanplazabog_2782",
+        "businessHours": [
+          {
+            "DayOfWeek": 0,
+            "OpeningTime": "11:00:00",
+            "ClosingTime": "20:00:00"
+          },
+          {
+            "DayOfWeek": 1,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:00:00"
+          },
+          {
+            "DayOfWeek": 2,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:00:00"
+          },
+          {
+            "DayOfWeek": 3,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:00:00"
+          },
+          {
+            "DayOfWeek": 4,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:00:00"
+          },
+          {
+            "DayOfWeek": 5,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:30:00"
+          },
+          {
+            "DayOfWeek": 6,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "20:30:00"
+          }
+        ]
+      }
+    ]
+  },
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "96CC6FD44C6247CAA64B24CBDCE5EAE0",
+        "merchantName": "N*****",
+        "payments": [
+          {
+            "id": "A4B32D377DB24711A5AD4502D05B9977",
+            "paymentSystem": "122",
+            "paymentSystemName": "S*******",
+            "value": 23858000,
+            "installments": 1,
+            "connectorResponses": {
+              "Tid": "161324",
+              "ReturnCode": null,
+              "Message": null,
+              "authId": "35537745",
+              "nsu": "35537745"
+            },
+            "referenceValue": 23858000,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "koinUrl": null,
+            "tid": "161324",
+            "redemptionCode": null,
+            "giftCardId": null,
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "group": "SumasPay",
+            "dueDate": null,
+            "accountId": null,
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": null
+          }
+        ],
+        "sharedTransaction": false
+      }
+    ]
+  },
+  "clientPreferencesData": {
+    "locale": "es-CO",
+    "optinNewsLetter": false
+  },
+  "commercialConditionData": null,
+  "marketingData": {
+    "utmSource": "FB",
+    "utmMedium": "CPCPBRANDING",
+    "utmCampaign": "NAF|PROSPECTING|AON|CATEGORIAS|BRANDING",
+    "utmipage": "",
+    "utmiPart": "",
+    "utmiCampaign": "",
+    "coupon": null,
+    "marketingTags": []
+  },
+  "storePreferencesData": {
+    "countryCode": "COL",
+    "saveUserData": false,
+    "timeZone": "SA Pacific Standard Time",
+    "currencyCode": "COP",
+    "currencyLocale": 9226,
+    "currencySymbol": "$",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": true
+    }
+  },
+  "openTextField": null,
+  "invoiceData": null,
+  "itemMetadata": null,
+  "taxData": null,
+  "customData": null,
+  "hooksData": null,
+  "changeData": null,
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "9**********************************.v***.c**.b*",
+  "creationDate": "2023-09-24T03:00:40.6016112Z",
+  "lastChange": "2023-09-24T03:02:43.8567347Z",
+  "timeZoneCreationDate": "2023-09-23T22:00:40.6016112",
+  "timeZoneLastChange": "2023-09-23T22:02:43.8567347",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
   "_accountInfo": {
-    "MainAccountName": "nafnaf",
-    "AccountName": "nafnaf",
+    "MainAccountName": "n*****",
+    "AccountName": "n*****",
     "Cnpj": "99999999999999",
     "Id": "381c573c-921f-45c4-9a37-20962d5b9dee",
     "AppId": "fe287b7c-70d7-4fd1-b791-ea98eaecbc22",
@@ -18,8 +902,8 @@
     "IsOperating": true,
     "CreationDate": "2014-05-22T00:00:00",
     "OperationDate": "2013-01-01T00:00:00",
-    "CompanyName": "Grupo GCO",
-    "TradingName": "Naf Naf",
+    "CompanyName": "G********",
+    "TradingName": "n*****",
     "City": null,
     "Complement": null,
     "Country": null,

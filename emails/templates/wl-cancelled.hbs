@@ -1,17 +1,19 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    Document
+  </title>
   <style type="text/css">
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap');
 
     :root {
       --light-gray: #F2F2F2;
       --diable-gray: #B3B3B3;
-      --dark-solid: black;
+      --dark-solid:
+        black;
       --light-solid: white;
       --font-small: 0.7em;
       --font-medium: 0.9em;
@@ -21,14 +23,15 @@
     * {
       margin: 0;
       padding: 0;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Montserrat',
+        sans-serif;
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
     }
 
     .wrapper {
-      max-width: 80%;
+      width: 800px;
       margin: auto;
     }
 
@@ -44,7 +47,8 @@
 
     .row_logo img {
       max-width: 45%;
-      margin: auto;
+      margin:
+        auto;
     }
 
     .row_status {
@@ -68,7 +72,8 @@
     .status_content {
       background-color: var(--light-gray);
       padding: 8%;
-      font-size: var(--font-medium);
+      font-size:
+        var(--font-medium);
     }
 
     .status_content img {
@@ -109,7 +114,8 @@
 
     .row_order_text {
       color: var(--light-solid);
-      background-color: var(--dark-solid);
+      background-color:
+        var(--dark-solid);
       padding: 2%;
     }
 
@@ -124,7 +130,8 @@
     }
 
     .font_medium {
-      font-size: var(--font-medium);
+      font-size:
+        var(--font-medium);
     }
 
     .font_small {
@@ -137,7 +144,8 @@
 
     .col_status_1 hr {
       margin: 5% 0;
-      height: 1px;
+      height:
+        1px;
       background-color: #ccc;
       border: none;
     }
@@ -152,11 +160,13 @@
       text-align: center;
       background-color: var(--dark-solid);
       color: var(--light-solid);
-      padding: 4%;
+      padding:
+        4%;
       border-radius: 50px;
       margin-top: 8%;
       cursor: pointer;
-      text-decoration: none;
+      text-decoration:
+        none;
     }
 
     .products_col {
@@ -190,11 +200,13 @@
     }
 
     .products_col .price {
-      color: var(--diable-gray);
+      color:
+        var(--diable-gray);
     }
 
     .products_col .price span {
-      color: var(--dark-solid);
+      color:
+        var(--dark-solid);
       margin-left: 2%;
     }
 
@@ -207,12 +219,14 @@
     }
 
     .col_other_text {
-      font-size: var(--font-medium);
+      font-size:
+        var(--font-medium);
       margin-top: 5%;
     }
 
     .col_other_text .gray {
-      color: #666666;
+      color:
+        #666666;
     }
 
     .col_other_text p {
@@ -240,10 +254,12 @@
 
     .col_other_text .button {
       text-align: center;
-      background-color: var(--light-solid);
+      background-color:
+        var(--light-solid);
       color: var(--dark-solid);
       padding: 2%;
-      border-radius: 50px;
+      border-radius:
+        50px;
       margin: auto;
       margin-top: 4%;
       border: solid 2px var(--dark-solid);
@@ -252,7 +268,8 @@
     }
 
     .col_other_text .img_block {
-      text-align: center;
+      text-align:
+        center;
       width: 100%;
       margin-top: 10%;
     }
@@ -260,215 +277,366 @@
     .col_other_text .img_block img {
       width: 100%;
     }
+
+    .row_order_text a {
+      color: var(--light-solid);
+    }
+
+    a.button {
+      text-decoration: none;
+    }
   </style>
 </head>
 
 <body>
-  {{#each orders}}
-    <div class="wrapper">
-      <div class="row row_logo mt_6">
-        <img src="https://www.nafnaf.com.co/arquivos/email_LogoHeader.png" alt="Logo Header Naf">
-      </div>
-      <div class="row row_status">
-        <div class="col col_status_1">
-          <div class="col">
-            <p class="font_big font_bold">Hola {{clientProfileData.firstName}}</p>
-            <p class="font_medium font_bold">¡Hemos recibido tu pedido!</p>
-            <hr>
-            <p class="ln_16">Número: {{orderId}}</p>
-            <p class="ln_16">Fecha: {{formatDate creationDate}}</p>
-          </div>
-          <div class="col font_medium ln_16">
-            {{#if giftRegistryData}}
-              <p>{{giftRegistryData.description}}</p>
-            {{else}}
-              <p class="font_bold">Información</p>
-              <p>{{shippingData.address.receiverName}}</p>
-              <p>{{shippingData.address.street}} - {{shippingData.address.number}} -
-                {{shippingData.address.neighborhood}}
-              </p>
-              <p>{{shippingData.address.city}} - {{shippingData.address.state}} -
-                {{shippingData.address.postalCode}}
-              </p>
-              {{#unless split}}
-                {{#each paymentData.transactions}}
-                  {{#each payments}}
-                    <p>{{paymentSystemName}}: ${{formatCurrency value}}
-                      {{#eq paymentSystemName 'Boleto Bancário'}}
-                        <a href="{{replace url '{Installment}' installments}}">Imprimir boleto</a>
-                      {{/eq}}
-                    </p>
-                  {{/each}}
+  <div class="wrapper">
+    <div class="row row_logo mt_6">
+      <img src="https://www.nafnaf.com.co/arquivos/email_LogoHeader.png" alt="Logo Header Naf" />
+    </div>
+    <div class="row row_status">
+      <div class="col col_status_1">
+        <div class="col">
+          <p class="font_big font_bold">
+            Hola
+            {{clientProfileData.firstName}}
+          </p>
+          <p class="font_medium font_bold">
+            Tu pedido fue cancelado
+          </p>
+          <hr />
+          <p class="ln_16">
+            Número: {{orderId}}
+          </p>
+          <p class="ln_16">
+            Fecha: {{formatDate creationDate}}
+          </p>
+        </div>
+        <div class="col font_medium ln_16">
+          {{#if giftRegistryData}}
+            <p>
+              {{giftRegistryData.description}}
+            </p>
+          {{else}}
+            <p class="font_bold">
+              Información
+            </p>
+            <p>
+              {{shippingData.address.receiverName}}
+            </p>
+            <p>
+              {{shippingData.address.street}}
+              -
+              {{shippingData.address.number}}
+              -
+              {{shippingData.address.neighborhood}}
+            </p>
+            <p>
+              {{shippingData.address.city}}
+              -
+              {{shippingData.address.state}}
+              -
+              {{shippingData.address.postalCode}}
+            </p>
+            {{#unless split}}
+              {{#each paymentData.transactions}}
+                {{#each payments}}
+                  <p>
+                    {{paymentSystemName}}: ${{formatCurrency value}}
+                    {{#eq paymentSystemName "Boleto Bancário"}}
+                      <a href="{{replace url " {Installment}" installments}}">
+                        Imprimir boleto
+                      </a>
+                    {{/eq}}
+                  </p>
                 {{/each}}
-              {{/unless}}
-              <p>Entrega {{#each orders}}{{shippingData.logisticsInfo.0.selectedSla}}{{/each}}</p>
-            {{/if}}
-          </div>
+              {{/each}}
+            {{/unless}}
+            <p>
+              Entrega
+              {{#each orders}}
+                {{shippingData.logisticsInfo.0.selectedSla}}
+              {{/each}}
+            </p>
+          {{/if}}
         </div>
-        <div class="col col_status_2 font_medium">
-          <div class="status_content">
-            <table>
+      </div>
+      <div class="col col_status_2 font_medium">
+        <div class="status_content">
+          <table>
+            <tr>
+              <td class="lh_0 check font_bold">
+                <img src="https://www.nafnaf.com.co/arquivos/email_cancel.png" alt="Icon Naf" />
+              </td>
+              <td class="lh_0 check font_bold">
+                Pedido cancelado
+              </td>
+            </tr>
+            {{#eq sellers.0.name "nafnafcedi"}}
               <tr>
-                <td class="lh_0 check"><img src="https://www.nafnaf.com.co/arquivos/email_check.png" alt="Icon Naf">
+                <td class="lh_0">
+                  <img src="https://www.nafnaf.com.co/arquivos/email_facturado.png" alt="Icon Naf" />
                 </td>
-                <td class="lh_0 check">Pedido confirmado</td>
+                <td class="lh_0">
+                  Pedido facturado
+                </td>
               </tr>
               <tr>
                 <td class="lh_0">
-                  <span class="vertical check" />
+                  <span class="vertical"></span>
                 </td>
                 <td class="lh_0"></td>
               </tr>
               <tr>
-                <td class="lh_0"><img src="https://www.nafnaf.com.co/arquivos/email_pago.png" alt="Icon Naf"></td>
-                <td class="lh_0">Pago confirmado</td>
+                <td class="lh_0">
+                  <img src="https://www.nafnaf.com.co/arquivos/email_enviado.png" alt="Icon Naf" />
+                </td>
+                <td class="lh_0">
+                  Pedido enviado
+                </td>
+              </tr>
+          </table>
+          <a class="button" target="_blank" href="https://www.nafnaf.com.co/rastreo-pedidos?pedido={{
+                  orderId
+                }}">
+            Rastrear pedido
+          </a>
+          {{else}}
+            {{#eq shippingData.logisticsInfo.0.slas.0.deliveryIds.0.courierName "8909047132-coordinadora-002"}}
+              <tr>
+                <td class="lh_0">
+                  <img src="https://www.nafnaf.com.co/arquivos/email_facturado.png" alt="Icon Naf" />
+                </td>
+                <td class="lh_0">
+                  Pedido facturado
+                </td>
               </tr>
               <tr>
                 <td class="lh_0">
-                  <span class="vertical" />
+                  <span class="vertical"></span>
                 </td>
                 <td class="lh_0"></td>
               </tr>
               <tr>
-                <td class="lh_0"><img src="https://www.nafnaf.com.co/arquivos/email_facturado.png" alt="Icon Naf"></td>
-                <td class="lh_0">Pedido facturado</td>
-              </tr>
-              <tr>
                 <td class="lh_0">
-                  <span class="vertical" />
+                  <img src="https://www.nafnaf.com.co/arquivos/email_enviado.png" alt="Icon Naf" />
                 </td>
-                <td class="lh_0"></td>
-              </tr>
-              <tr>
-                <td class="lh_0"><img src="https://www.nafnaf.com.co/arquivos/email_enviado.png" alt="Icon Naf"></td>
-                <td class="lh_0">Pedido enviado</td>
-              </tr>
-            </table>
-            <a class="button" target="_blank"
-              href="https://www.nafnaf.com.co/rastreo-pedidos?pedido={{orderId}}">Rastrear pedido</a>
-          </div>
-        </div>
-      </div>
-      <div class="row row_order_text mt_6">
-        <p>Empezaremos a procesar tu orden, recibirás un correo con la información del pago.
-          {{#eq sellers.0.name "nafnafcedi"}}
-            Si alguno de tus productos son para recoger en tienda, se te enviará vía correo electrónico la notificación
-            cuando se encuentre listo para recoger.
-          {{/eq}}
-        </p>
-      </div>
-      <div class="col products_col font_medium mt_6">
-        <div class="col_table">
-          {{#each items}}
-            <div class="row">
-              <div class="col"><img src="{{imageUrl}}" alt="Imagen del producto: {{name}}"></div>
-              <div class="col">
-                <div class="col">
-                  <p>{{name}}</p>
-                  <p class="ref">Ref: {{productRefId}}</p>
-                </div>
-                <div class="col">
-                  <p>Cantidad {{quantity}}</p>
-                  <p class="price font_bold">${{formatCurrency price}} <span>${{formatCurrency sellingPrice}}</span></p>
-                </div>
-              </div>
-            </div>
-          {{/each}}
-        </div>
-        <p class="font_medium font_bold">Resumen de la compra</p>
-        <table>
-          {{#each totals}}
-            {{#if value}}
-              <tr>
-                <td>
-                  {{#eq id "Items"}}Subtotal{{/eq}}
-                    {{#eq id "Discounts"}}Descuento{{/eq}}
-                      {{#eq id "Shipping"}}Envío{{/eq}}
-                        {{#eq id "Tax"}}Taza{{/eq}}
+                <td class="lh_0">
+                  Pedido enviado
                 </td>
-                <td class="right">${{formatCurrency value}}</td>
               </tr>
-            {{/if}}
-          {{/each}}
-          <tr class="font_bold">
-            <td>Total</td>
-            <td class="right">${{formatCurrency value}}</td>
-          </tr>
-        </table>
-      </div>
-      <div class="col col_other_text">
-        <p>Suministrado por <span class="font_bold">NAF NAF</span></p>
-        <p class="gray"><span class="font_bold">¿Tienes alguna duda?</span><br> Llámanos al 01 8000 187 009 (lunes a
-          viernes de 8 am a 6pm y sábados de 9 am a 6 pm) o escríbenos a servicioalcliente@nafnaf.com.co</p>
-        <p class="font_bold">Los datos que nos autorizaste al momento de realizar tu compra a través de la tienda
-          online, y que actualizaremos a partir de la fecha son los siguientes:</p>
-        <table>
-          <tr>
-            <td class="font_bold">Email:</td>
-            <td>{{clientProfileData.email}}</td>
-          </tr>
-          <tr>
-            <td class="font_bold">Nombre:</td>
-            <td>{{clientProfileData.firstName}}</td>
-          </tr>
-          <tr>
-            <td class="font_bold">Apellidos:</td>
-            <td>{{clientProfileData.lastName}}</td>
-          </tr>
-          <tr>
-            <td class="font_bold">Cédula:</td>
-            <td>{{clientProfileData.document}}</td>
-          </tr>
-          <tr>
-            <td class="font_bold">Celular:</td>
-            <td>{{clientProfileData.phone}}</td>
-          </tr>
-          <tr>
-            <td class="font_bold">Departemento:</td>
-            <td>{{shippingData.address.state}}</td>
-          </tr>
-          <tr>
-            <td class="font_bold">Ciudad:</td>
-            <td>{{shippingData.address.city}}</td>
-          </tr>
-          <tr>
-            <td class="font_bold">Dirección:</td>
-            <td>{{shippingData.address.street}}</td>
-          </tr>
-        </table>
-        <p>Aceptaste el tratamiento de datos personales en la fecha: {{formatDate timeZoneCreationDate}} <br>Si quieres
-          hacer
-          cambios en la información diligenciada, puedes actualizar tus datos por medio de un correo electrónico a
-          datospersonalesrifle@nafnaf.com.co</p>
-
-        <p class="ppd">
-          Mediante el registro de mis datos personales autorizo a Mercadeo y Moda S.A.S., representante de la marca
-          G-star para la recolección, almacenamiento y uso de los mismos con la finalidad de contactarme mediante
-          aplicaciones de mensajería instantánea (Whatsapp o similares) y redes sociales para ofrecer servicios y
-          campañas comerciales; ofertar servicios de valor agregado; participar en programas de beneficios y
-          fidelización, consultar en centrales de información para fines comerciales y de servicios de crédito;
-          consultar hábitos de consumo y aficiones para ofertas
-        </p>
-        <p class="acept_ppd font_bold">Entiendo y acepto el registro y uso mis datos personales, como se estipula
-          anteriormente
-        </p>
-        <a class="button font_bold" target="_blank">
-          Ver política de datos
-        </a>
-        <div class="img_block">
-          <img src="https://www.nafnaf.com.co/arquivos/email_footer_2.jpg" alt="Image footer" usemap="#image-map">
-          <map name="image-map">
-            <area target="_blank" alt="Naf Naf Tienda Online" title="Naf Naf Tienda Online"
-              href="https://www.nafnaf.com.co/" coords="151,67,471,139" shape="rect">
-            <area target="_blank" alt="Instagram" title="Instagram" href="http://instagram.com/nafnafcol"
-              coords="498,65,757,137" shape="rect">
-            <area target="_blank" alt="Facebook" title="Facebook" href="https://www.facebook.com/nafnaflatam"
-              coords="781,61,1062,137" shape="rect">
-          </map>
+              </table>
+              <a class="button" target="_blank" href="https://www.nafnaf.com.co/rastreo-pedidos?pedido={{
+                          orderId
+                        }}">
+                Rastrear pedido
+              </a>
+              {{else}}
+                </table>
+            {{/eq}}
+            {{/eq}}
         </div>
       </div>
     </div>
-  {{/each}}
+    <div class="row row_order_text mt_6">
+      <p>
+        Tu pedido ha sido cancelado, si crees que hay un error, contactános a nuestra línea nacional de atención 01 8000
+        187 009 o escríbenos a servicioalcliente@nafnaf.com.co
+      </p>
+    </div>
+    <div class="col products_col font_medium mt_6">
+      <div class="col_table">
+        {{#each items}}
+          <div class="row">
+            <div class="col">
+              <img src="{{imageUrl}}" alt="Imagen del producto: {{name}}" />
+            </div>
+            <div class="col">
+              <div class="col">
+                <p>
+                  {{name}}
+                </p>
+                <p class="ref">
+                  Ref: {{productRefId}}
+                </p>
+              </div>
+              <div class="col">
+                <p>
+                  Cantidad {{quantity}}
+                </p>
+                <p class="price font_bold">
+                  ${{formatCurrency price}}
+                  <span>
+                    ${{formatCurrency sellingPrice}}
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        {{/each}}
+      </div>
+      <p class="font_medium font_bold">
+        Resumen de la compra
+      </p>
+      <table>
+        {{#each totals}}
+          {{#if value}}
+            <tr>
+              <td>
+                {{#eq id "Items"}}
+                  Subtotal
+                {{/eq}}
+                {{#eq id "Discounts"}}
+                  Descuento
+                {{/eq}}
+                {{#eq id "Shipping"}}
+                  Envío
+                {{/eq}}
+                {{#eq id "Tax"}}
+                  Taza
+                {{/eq}}
+              </td>
+              <td class="right">
+                ${{formatCurrency value}}
+              </td>
+            </tr>
+          {{/if}}
+        {{/each}}
+        <tr class="font_bold">
+          <td>
+            Total
+          </td>
+          <td class="right">
+            ${{formatCurrency value}}
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="col col_other_text">
+      <p>
+        Suministrado por
+        <span class="font_bold">
+          NAF NAF
+        </span>
+      </p>
+      <p class="gray">
+        <span class="font_bold">
+          ¿Tienes alguna duda?
+        </span>
+        <br />
+        Llámanos al 01 8000 187 009 (lunes a viernes de 8 am a 6pm y sábados
+        de 9 am a 6 pm) o escríbenos a servicioalcliente@nafnaf.com.co
+      </p>
+      <p class="font_bold">
+        Los datos que nos autorizaste al momento de
+        realizar tu compra a través de la tienda online, y que
+        actualizaremos a partir de la fecha son los siguientes:
+      </p>
+      <table>
+        <tr>
+          <td class="font_bold">
+            Email:
+          </td>
+          <td>
+            {{clientProfileData.email}}
+          </td>
+        </tr>
+        <tr>
+          <td class="font_bold">
+            Nombre:
+          </td>
+          <td>
+            {{clientProfileData.firstName}}
+          </td>
+        </tr>
+        <tr>
+          <td class="font_bold">
+            Apellidos:
+          </td>
+          <td>
+            {{clientProfileData.lastName}}
+          </td>
+        </tr>
+        <tr>
+          <td class="font_bold">
+            Cédula:
+          </td>
+          <td>
+            {{clientProfileData.document}}
+          </td>
+        </tr>
+        <tr>
+          <td class="font_bold">
+            Celular:
+          </td>
+          <td>
+            {{clientProfileData.phone}}
+          </td>
+        </tr>
+        <tr>
+          <td class="font_bold">
+            Departemento:
+          </td>
+          <td>
+            {{shippingData.address.state}}
+          </td>
+        </tr>
+        <tr>
+          <td class="font_bold">
+            Ciudad:
+          </td>
+          <td>
+            {{shippingData.address.city}}
+          </td>
+        </tr>
+        <tr>
+          <td class="font_bold">
+            Dirección:
+          </td>
+          <td>
+            {{shippingData.address.street}}
+          </td>
+        </tr>
+      </table>
+      <p>
+        Aceptaste el tratamiento de datos personales en la fecha:
+        {{formatDate timeZoneCreationDate}}
+        <br />
+        Si quieres hacer cambios en la información diligenciada,
+        puedes actualizar tus datos por medio de un correo electrónico a
+        datospersonalesrifle@nafnaf.com.co
+      </p>
+
+      <p class="ppd">
+        Mediante el registro de mis datos personales autorizo a Mercadeo y
+        Moda S.A.S., representante de la marca G-star para la recolección,
+        almacenamiento y uso de los mismos con la finalidad de contactarme
+        mediante aplicaciones de mensajería instantánea (Whatsapp o
+        similares) y redes sociales para ofrecer servicios y campañas
+        comerciales; ofertar servicios de valor agregado; participar en
+        programas de beneficios y fidelización, consultar en centrales de
+        información para fines comerciales y de servicios de crédito;
+        consultar hábitos de consumo y aficiones para ofertas
+      </p>
+      <p class="acept_ppd font_bold">
+        Entiendo y acepto el registro y uso mis
+        datos personales, como se estipula anteriormente
+      </p>
+      <a class="button font_bold" href="https://www.nafnaf.com.co/tratamiento-datos" target="_blank">
+        Ver política de datos
+      </a>
+      <div class="img_block">
+        <img src="https://www.nafnaf.com.co/arquivos/email_footer_2.jpg" alt="Image footer" usemap="#image-map" />
+        <map name="image-map">
+          <area target="_blank" alt="Naf Naf Tienda Online" title="Naf Naf Tienda Online"
+            href="https://www.nafnaf.com.co/" coords="151,67,471,139" shape="rect" />
+          <area target="_blank" alt="Instagram" title="Instagram" href="http://instagram.com/nafnafcol"
+            coords="498,65,757,137" shape="rect" />
+          <area target="_blank" alt="Facebook" title="Facebook" href="https://www.facebook.com/nafnaflatam"
+            coords="781,61,1062,137" shape="rect" />
+        </map>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>

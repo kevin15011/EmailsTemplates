@@ -28,7 +28,7 @@
     }
 
     .wrapper {
-      max-width: 80%;
+      width: 800px;
       margin: auto;
     }
 
@@ -264,6 +264,10 @@
     .row_order_text a {
       color: var(--light-solid);
     }
+
+    a.button {
+      text-decoration: none;
+    }
   </style>
 </head>
 
@@ -335,47 +339,38 @@
               <td class="lh_0"></td>
             </tr>
             {{#eq sellers.0.name "nafnafcedi"}}
-                  <tr>
-                    <td class="lh_0">
-                      <img
-                        src="https://www.nafnaf.com.co/arquivos/email_facturado.png"
-                        alt="Icon Naf"
-                      />
-                    </td>
-                    <td class="lh_0">
-                      Pedido facturado
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="lh_0">
-                      <span class="vertical"></span>
-                    </td>
-                    <td class="lh_0"></td>
-                  </tr>
-                  <tr>
-                    <td class="lh_0">
-                      <img
-                        src="https://www.nafnaf.com.co/arquivos/email_enviado.png"
-                        alt="Icon Naf"
-                      />
-                    </td>
-                    <td class="lh_0">
-                      Pedido enviado
-                    </td>
-                  </tr>
-                {{else}}
-                  <tr>
-                    <td class="lh_0">
-                      <img
-                        src="https://www.nafnaf.com.co/arquivos/email_eservado.png"
-                        alt="Icon Naf"
-                      />
-                    </td>
-                    <td class="lh_0">
-                      Pedido reservado
-                    </td>
-                  </tr>
-                {{/eq}}
+              <tr>
+                <td class="lh_0">
+                  <img src="https://www.nafnaf.com.co/arquivos/email_facturado.png" alt="Icon Naf" />
+                </td>
+                <td class="lh_0">
+                  Pedido facturado
+                </td>
+              </tr>
+              <tr>
+                <td class="lh_0">
+                  <span class="vertical"></span>
+                </td>
+                <td class="lh_0"></td>
+              </tr>
+              <tr>
+                <td class="lh_0">
+                  <img src="https://www.nafnaf.com.co/arquivos/email_enviado.png" alt="Icon Naf" />
+                </td>
+                <td class="lh_0">
+                  Pedido enviado
+                </td>
+              </tr>
+              {{else}}
+                <tr>
+                  <td class="lh_0">
+                    <img src="https://www.nafnaf.com.co/arquivos/email_eservado.png" alt="Icon Naf" />
+                  </td>
+                  <td class="lh_0">
+                    Pedido reservado!!!
+                  </td>
+                </tr>
+            {{/eq}}
           </table>
           <a class="button" target="_blank" href="https://www.nafnaf.com.co/rastreo-pedidos?pedido={{orderId}}">Rastrear
             pedido</a>
@@ -386,15 +381,16 @@
       <p>
         {{#eq sellers.0.name "nafnafcedi"}}
           Tu pago ha sido aprobado, pronto recibirás un correo con la confirmación de facturación.
-        {{else}}
-          {{#eq shippingData.logisticsInfo.0.slas.0.deliveryIds.0.courierName "8909047132-coordinadora-002"}}
-            Tu pago ha sido aprobado, pronto recibirás un correo con la confirmación de facturación.
-            Tiempo de entrega: Medellín y bogotá en modalidad envío express: hasta 1 día hábil (lunes a viernes de 7:00 a.M. A 8:00 p.M.)
-            Recuerda los tyc de la modalidad envío express
-          <a class="font_bold" href="https://www.nafnaf.com.co/tyc-omnicanalidad">Click Aqui</a>
           {{else}}
-            Tu pago ha sido aprobado, recibirás un correo cuando puedas recoger tu pedido
-          {{/eq}}
+            {{#eq shippingData.logisticsInfo.0.slas.0.deliveryIds.0.courierName "8909047132-coordinadora-002"}}
+              Tu pago ha sido aprobado, pronto recibirás un correo con la confirmación de facturación.
+              Tiempo de entrega: Medellín y bogotá en modalidad envío express: hasta 1 día hábil (lunes a viernes de
+              7:00 a.M. A 8:00 p.M.)
+              Recuerda los tyc de la modalidad envío express
+              <a class="font_bold" href="https://www.nafnaf.com.co/tyc-omnicanalidad">Click Aqui</a>
+              {{else}}
+                Tu pago ha sido aprobado, recibirás un correo cuando puedas recoger tu pedido
+            {{/eq}}
         {{/eq}}
       </p>
     </div>
@@ -493,7 +489,7 @@
       <p class="acept_ppd font_bold">Entiendo y acepto el registro y uso mis datos personales, como se estipula
         anteriormente
       </p>
-      <a class="button font_bold" target="_blank">
+      <a class="button font_bold" href="https://www.nafnaf.com.co/tratamiento-datos" target="_blank">
         Ver política de datos
       </a>
       <div class="img_block">
