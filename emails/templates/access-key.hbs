@@ -1,155 +1,87 @@
-<!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style type="text/css">
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap');
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      @import
+      url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap');
+      :root { --light-gray: #F2F2F2; --diable-gray: #B3B3B3; --dark-solid:
+      black; --light-solid: white; --font-small: 0.7em; --font-medium: 0.9em;
+      --font-big: 2.2em; } * { margin: 0; padding: 0; font-family: 'Montserrat',
+      sans-serif; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+      box-sizing: border-box; } .row_logo img { max-width: 45%; margin: auto; }
+      .wrapper { width: 800px; margin: auto; } .row { display: flex; } .row_logo
+      { background-color: black; text-align: center; padding: 6%; } .col {
+      display: flex; flex-direction: column; } .lh_0 { line-height: 0; }
+      .font_big { font-size: 2.2em; } .font_medium { font-size: 0.9em; }
+      .font_small { font-size: 0.7em; } .font_bold { font-weight: 600; } .ln_16
+      { line-height: 1.6; } .mt_6 { margin-top: 6%; } .right { text-align:
+      right; } .col_other_text { font-size: 0.9em; margin-top: 5%; }
+      .col_other_text .gray { color: #666666; } .col_other_text p { margin: 1%
+      0; line-height: 1.5; } .col_other_text .img_block { text-align: center;
+      width: 100%; margin-top: 10%; } .col_other_text .img_block img { width:
+      100%; } .gray_big { color: #B3B3B3; } .col_other_text hr { max-width:
+      400px; margin: 2% 0; } .col_other_text .gray { margin-top: 13%; } a.button
+      { text-decoration: none; }
+    </style>
+  </head>
 
-    :root {
-      --light-gray: #F2F2F2;
-      --diable-gray: #B3B3B3;
-      --dark-solid: black;
-      --light-solid: white;
-      --font-small: 0.7em;
-      --font-medium: 0.9em;
-      --font-big: 2.2em;
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      font-family: 'Montserrat', sans-serif;
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-    }
-
-    .wrapper {
-      width: 800px;
-      margin: auto;
-    }
-
-    .row {
-      display: flex;
-    }
-
-    .row_logo {
-      background-color: var(--dark-solid);
-      text-align: center;
-      padding: 6%;
-    }
-
-    .col {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .lh_0 {
-      line-height: 0;
-    }
-
-    .font_big {
-      font-size: var(--font-big);
-    }
-
-    .font_medium {
-      font-size: var(--font-medium);
-    }
-
-    .font_small {
-      font-size: var(--font-small);
-    }
-
-    .font_bold {
-      font-weight: 600;
-    }
-
-    .ln_16 {
-      line-height: 1.6;
-    }
-
-    .mt_6 {
-      margin-top: 6%;
-    }
-
-    .right {
-      text-align: right;
-    }
-
-    .col_other_text {
-      font-size: var(--font-medium);
-      margin-top: 5%;
-    }
-
-    .col_other_text .gray {
-      color: #666666;
-    }
-
-    .col_other_text p {
-      margin: 1% 0;
-      line-height: 1.5;
-    }
-
-    .col_other_text .img_block {
-      text-align: center;
-      width: 100%;
-      margin-top: 10%;
-    }
-
-    .col_other_text .img_block img {
-      width: 100%;
-    }
-
-    .gray_big {
-      color: var(--diable-gray);
-    }
-
-    .col_other_text hr {
-      max-width: 400px;
-      margin: 2% 0;
-    }
-
-    .col_other_text .gray {
-      margin-top: 13%;
-    }
-
-    a.button {
-      text-decoration: none;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="wrapper">
-    <div class="row row_logo mt_6">
-      <img src="https://www.nafnaf.com.co/arquivos/email_LogoHeader.png" alt="Logo Header Naf">
-    </div>
-    <div class="col col_other_text">
-      <p class="gray_big font_big font_bold">Tu código de acceso es:</p>
-      <p class="font_bold font_big">{{aditionalData.accessKey}}</p>
-      <hr>
-      <p>Hola {{to.0.name}}!</p>
-      <p>Debemos verificar tu identidad para que puedas acceder a la página. Por favor regresa al sitio y digita
-        el código de arriba</p>
-      <p class="gray"><span class="font_bold">¿Tienes alguna duda?</span><br> Llámanos al 01 8000 187 009
-        (lunes a
-        viernes de 8 am a 6pm y sábados de 9 am a 6 pm) o escríbenos a servicioalcliente@nafnaf.com.co</p>
-      <div class="img_block">
-        <img src="https://www.nafnaf.com.co/arquivos/email_footer_2.jpg" alt="Image footer" usemap="#image-map">
-        <map name="image-map">
-          <area target="_blank" alt="Naf Naf Tienda Online" title="Naf Naf Tienda Online"
-            href="https://www.nafnaf.com.co/" coords="151,67,471,139" shape="rect">
-          <area target="_blank" alt="Instagram" title="Instagram" href="http://instagram.com/nafnafcol"
-            coords="498,65,757,137" shape="rect">
-          <area target="_blank" alt="Facebook" title="Facebook" href="https://www.facebook.com/nafnaflatam"
-            coords="781,61,1062,137" shape="rect">
-        </map>
+  <body>
+    <div class="wrapper">
+      <div class="row row_logo mt_6">
+        <img
+          src="https://www.nafnaf.com.co/arquivos/email_LogoHeader.png"
+          alt="Logo Header Naf"
+        />
+      </div>
+      <div class="col col_other_text">
+        <p class="gray_big font_big font_bold">Tu código de acceso es:</p>
+        <p class="font_bold font_big">{{aditionalData.accessKey}}</p>
+        <hr />
+        <p>Hola {{to.0.name}}!</p>
+        <p>Debemos verificar tu identidad para que puedas acceder a la página.
+          Por favor regresa al sitio y digita el código de arriba</p>
+        <p class="gray"><span class="font_bold">¿Tienes alguna duda?</span><br
+          />
+          Llámanos al 01 8000 187 009 (lunes a viernes de 8 am a 6pm y sábados
+          de 9 am a 6 pm) o escríbenos a servicioalcliente@nafnaf.com.co</p>
+        <div class="img_block">
+          <img
+            src="https://www.nafnaf.com.co/arquivos/email_footer_2.jpg"
+            alt="Image footer"
+            usemap="#image-map"
+          />
+          <map name="image-map">
+            <area
+              target="_blank"
+              alt="Naf Naf Tienda Online"
+              title="Naf Naf Tienda Online"
+              href="https://www.nafnaf.com.co/"
+              coords="151,67,471,139"
+              shape="rect"
+            />
+            <area
+              target="_blank"
+              alt="Instagram"
+              title="Instagram"
+              href="http://instagram.com/nafnafcol"
+              coords="498,65,757,137"
+              shape="rect"
+            />
+            <area
+              target="_blank"
+              alt="Facebook"
+              title="Facebook"
+              href="https://www.facebook.com/nafnaflatam"
+              coords="781,61,1062,137"
+              shape="rect"
+            />
+          </map>
+        </div>
       </div>
     </div>
-  </div>
-</body>
+  </body>
 
 </html>

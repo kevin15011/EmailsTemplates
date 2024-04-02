@@ -40,7 +40,7 @@
     }
 
     .row_logo {
-      background-color: var(--dark-solid);
+      background-color: black;
       text-align: center;
       padding: 6%;
     }
@@ -70,10 +70,10 @@
     }
 
     .status_content {
-      background-color: var(--light-gray);
+      background-color: #F2F2F2;
       padding: 8%;
       font-size:
-        var(--font-medium);
+        0.9em;
     }
 
     .status_content img {
@@ -83,7 +83,7 @@
     .status_content table {
       width: 70%;
       text-align: center;
-      color: var(--diable-gray);
+      color: #B3B3B3;
     }
 
     .lh_0 {
@@ -91,7 +91,7 @@
     }
 
     .vertical {
-      border-left: 1px solid var(--diable-gray);
+      border-left: 1px solid #B3B3B3;
       height: 2em;
       display: block;
       position: relative;
@@ -99,43 +99,43 @@
     }
 
     .check {
-      color: var(--dark-solid) !important;
+      color: black !important;
     }
 
     .vertical .check {
-      border-left: 1px solid var(--dark-solid) !important;
+      border-left: 1px solid black !important;
     }
 
     .col_status_1 .col {
-      background-color: var(--light-gray);
+      background-color: #F2F2F2;
       max-width: 70%;
       padding: 5%;
     }
 
     .row_order_text {
-      color: var(--light-solid);
+      color: white;
       background-color:
-        var(--dark-solid);
+        black;
       padding: 2%;
     }
 
     .row_order_text p {
       width: 100%;
       text-align: center;
-      font-size: var(--font-medium);
+      font-size: 0.9em;
     }
 
     .font_big {
-      font-size: var(--font-big);
+      font-size: 1.2em;
     }
 
     .font_medium {
       font-size:
-        var(--font-medium);
+        0.9em;
     }
 
     .font_small {
-      font-size: var(--font-small);
+      font-size: 0.7em;
     }
 
     .font_bold {
@@ -158,8 +158,8 @@
       width: 100%;
       display: block;
       text-align: center;
-      background-color: var(--dark-solid);
-      color: var(--light-solid);
+      background-color: black;
+      color: white;
       padding:
         4%;
       border-radius: 50px;
@@ -170,7 +170,7 @@
     }
 
     .products_col {
-      background-color: var(--light-gray);
+      background-color: #F2F2F2;
       padding: 6%;
     }
 
@@ -196,17 +196,17 @@
     }
 
     .products_col .ref {
-      color: var(--diable-gray);
+      color: #B3B3B3;
     }
 
     .products_col .price {
       color:
-        var(--diable-gray);
+        #B3B3B3;
     }
 
     .products_col .price span {
       color:
-        var(--dark-solid);
+        black;
       margin-left: 2%;
     }
 
@@ -220,7 +220,7 @@
 
     .col_other_text {
       font-size:
-        var(--font-medium);
+        0.9em;
       margin-top: 5%;
     }
 
@@ -240,8 +240,8 @@
     }
 
     .col_other_text table tr {
-      border-bottom: solid var(--diable-gray) thin;
-      border-top: solid var(--diable-gray) thin;
+      border-bottom: solid #B3B3B3 thin;
+      border-top: solid #B3B3B3 thin;
     }
 
     .col_other_text .ppd {
@@ -255,14 +255,14 @@
     .col_other_text .button {
       text-align: center;
       background-color:
-        var(--light-solid);
-      color: var(--dark-solid);
+        white;
+      color: black;
       padding: 2%;
       border-radius:
         50px;
       margin: auto;
       margin-top: 4%;
-      border: solid 2px var(--dark-solid);
+      border: solid 2px black;
       width: 30%;
       cursor: pointer;
     }
@@ -279,11 +279,7 @@
     }
 
     .row_order_text a {
-      color: var(--light-solid);
-    }
-
-    a.button {
-      text-decoration: none;
+      color: white;
     }
   </style>
 </head>
@@ -306,10 +302,12 @@
             </p>
             <hr />
             <p class="ln_16">
-              Número: {{orderId}}
+              Número:
+              {{orderId}}
             </p>
             <p class="ln_16">
-              Fecha: {{formatDate creationDate}}
+              Fecha:
+              {{formatDate creationDate}}
             </p>
           </div>
           <div class="col font_medium ln_16">
@@ -344,7 +342,7 @@
                     <p>
                       {{paymentSystemName}}: ${{formatCurrency value}}
                       {{#eq paymentSystemName "Boleto Bancário"}}
-                        <a href="{{replace url " {Installment}" installments}}">
+                        <a href="{{replace url ' {Installment}' installments}}">
                           Imprimir boleto
                         </a>
                       {{/eq}}
@@ -392,21 +390,22 @@
                 </td>
                 <td class="lh_0"></td>
               </tr>
+              <tr>
+                <td class="lh_0">
+                  <img src="https://www.nafnaf.com.co/arquivos/email_facturado.png" alt="Icon Naf" />
+                </td>
+                <td class="lh_0">
+                  Pedido facturado
+                </td>
+              </tr>
+              <tr>
+                <td class="lh_0">
+                  <span class="vertical"></span>
+                </td>
+                <td class="lh_0"></td>
+              </tr>
               {{#eq sellers.0.name "nafnafcedi"}}
-                <tr>
-                  <td class="lh_0">
-                    <img src="https://www.nafnaf.com.co/arquivos/email_facturado.png" alt="Icon Naf" />
-                  </td>
-                  <td class="lh_0">
-                    Pedido facturado
-                  </td>
-                </tr>
-                <tr>
-                  <td class="lh_0">
-                    <span class="vertical"></span>
-                  </td>
-                  <td class="lh_0"></td>
-                </tr>
+                {{! NORMAL }}
                 <tr>
                   <td class="lh_0">
                     <img src="https://www.nafnaf.com.co/arquivos/email_enviado.png" alt="Icon Naf" />
@@ -415,39 +414,63 @@
                     Pedido enviado
                   </td>
                 </tr>
+            </table>
+            <a class="button" target="_blank" href="https://www.nafnaf.com.co/rastreo-pedidos?pedido={{orderId}}">
+              Rastrear pedido
+            </a>
   {{else}}
+    {{#eq
+                    shippingData.logisticsInfo.0.slas.0.deliveryIds.0.courierName
+                    "8909047132-coordinadora-002"
+                  }}
+      {{! BOSS }}
+      <tr>
+        <td class="lh_0">
+          <img src="https://www.nafnaf.com.co/arquivos/email_enviado.png" alt="Icon Naf" />
+        </td>
+        <td class="lh_0">
+          Pedido enviado
+        </td>
+      </tr>
+      </table>
+      <a class="button" target="_blank" href="https://www.nafnaf.com.co/rastreo-pedidos?pedido={{orderId}}">
+        Rastrear pedido
+      </a>
+  {{else}}
+    {{! BOPIS }}
     <tr>
       <td class="lh_0">
         <img src="https://www.nafnaf.com.co/arquivos/email_eservado.png" alt="Icon Naf" />
       </td>
       <td class="lh_0">
-        Pedido reservado!!!
+        Pedido reservado
       </td>
     </tr>
-              {{/eq}}
-            </table>
-            <a class="button" target="_blank" href="https://www.nafnaf.com.co/rastreo-pedidos?pedido={{
-                  orderId
-                }}">
-              Rastrear pedido
-            </a>
+    </table>
+    {{/eq}}
+    {{/eq}}
           </div>
         </div>
       </div>
       <div class="row row_order_text mt_6">
-        <p>
-          Empezaremos a procesar tu orden, recibirás un correo con la
-          información del pago.
+        <p>Empezaremos a procesar tu orden, recibirás un correo con la información del pago.
           {{#eq sellers.0.name "nafnafcedi"}}
-            Si alguno de tus productos son para recoger en tienda, se te
-            enviará vía correo electrónico la notificación cuando se encuentre
-            listo para recoger.
-          {{/eq}}
-          {{#eq shippingData.logisticsInfo.0.slas.0.deliveryIds.0.courierName "8909047132-coordinadora-002"}}
-            Tiempo de entrega: Medellín y bogotá en modalidad envío express: hasta 1 día hábil (lunes a viernes de 7:00
-            a.M. A 8:00 p.M.)
-            Recuerda los tyc de la modalidad envío express
-            <a class="font_bold" href="https://www.nafnaf.com.co/tyc-omnicanalidad">Click Aqui</a>
+            {{! NORMAL }}
+
+  {{else}}
+    {{#eq
+                shippingData.logisticsInfo.0.slas.0.deliveryIds.0.courierName
+                "8909047132-coordinadora-002"
+              }}
+      {{! BOSS }}
+      Tiempo de entrega: Medellín y bogotá en modalidad envío express:
+      hasta 1 día hábil (lunes a viernes de 7:00 a.M. A 8:00 p.M.)
+      Recuerda los tyc de la modalidad envío express
+      <a class="font_bold" href="https://www.nafnaf.com.co/tyc-omnicanalidad">Click Aqui</a>
+  {{else}}
+    {{! BOPIS }}
+
+    {{/eq}}
           {{/eq}}
         </p>
       </div>
@@ -464,12 +487,14 @@
                     {{name}}
                   </p>
                   <p class="ref">
-                    Ref: {{productRefId}}
+                    Ref:
+                    {{productRefId}}
                   </p>
                 </div>
                 <div class="col">
                   <p>
-                    Cantidad {{quantity}}
+                    Cantidad
+                    {{quantity}}
                   </p>
                   <p class="price font_bold">
                     ${{formatCurrency price}}
@@ -535,9 +560,9 @@
           de 9 am a 6 pm) o escríbenos a servicioalcliente@nafnaf.com.co
         </p>
         <p class="font_bold">
-          Los datos que nos autorizaste al momento de
-          realizar tu compra a través de la tienda online, y que
-          actualizaremos a partir de la fecha son los siguientes:
+          Los datos que nos autorizaste al momento de realizar tu compra a
+          través de la tienda online, y que actualizaremos a partir de la
+          fecha son los siguientes:
         </p>
         <table>
           <tr>
@@ -609,8 +634,8 @@
           Aceptaste el tratamiento de datos personales en la fecha:
           {{formatDate timeZoneCreationDate}}
           <br />
-          Si quieres hacer cambios en la información diligenciada,
-          puedes actualizar tus datos por medio de un correo electrónico a
+          Si quieres hacer cambios en la información diligenciada, puedes
+          actualizar tus datos por medio de un correo electrónico a
           datospersonalesrifle@nafnaf.com.co
         </p>
 
@@ -626,10 +651,10 @@
           consultar hábitos de consumo y aficiones para ofertas
         </p>
         <p class="acept_ppd font_bold">
-          Entiendo y acepto el registro y uso mis
-          datos personales, como se estipula anteriormente
+          Entiendo y acepto el registro y uso mis datos personales, como se
+          estipula anteriormente
         </p>
-        <a class="button font_bold" href="https://www.nafnaf.com.co/tratamiento-datos" target="_blank">
+        <a class="button font_bold" target="_blank">
           Ver política de datos
         </a>
         <div class="img_block">

@@ -447,7 +447,7 @@
 					"subSellerId": "1",
 					"fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=nafnafcedi&affiliateId=SLR&sc=1",
 					"id": "nafnafcedi",
-					"name": "n*********",
+					"name": "nafnafcedi.",
 					"logo": ""
 				}
 			],
@@ -579,7 +579,7 @@
 										"courierId": "1",
 										"warehouseId": "1_1",
 										"dockId": "1",
-										"courierName": "8**************************",
+										"courierName": "8909047132-coordinadora-002.",
 										"quantity": 1,
 										"kitItemDetails": []
 									}
@@ -795,7 +795,7 @@
 										"courierId": "1",
 										"warehouseId": "1_1",
 										"dockId": "1",
-										"courierName": "8**************************",
+										"courierName": "8909047132-coordinadora-002.",
 										"quantity": 1,
 										"kitItemDetails": []
 									}
