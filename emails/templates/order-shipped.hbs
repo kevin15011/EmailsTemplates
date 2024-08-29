@@ -19,7 +19,7 @@
       justify-content: space-between; } .status_content { background-color:
       #F2F2F2; padding: 8%; font-size: 0.9em; } .status_content img { width:
       4em; } .status_content table { width: 70%; text-align: center; color:
-      #B3B3B3; } .lh_0 { line-height: 0; } .vertical { border-left: 1px solid
+      #B3B3B3; } .lh_0 { line-height: 1; } .vertical { border-left: 1px solid
       #B3B3B3; height: 2em; display: block; position: relative; left: 50%; }
       .check { color: black !important; } .vertical .check { border-left: 1px
       solid black !important; } .col_status_1 .col { background-color: #F2F2F2;
@@ -123,7 +123,9 @@
               </tr>
               <tr>
                 <td class="lh_0">
-                  <span class="vertical check" />
+                  <div
+                    style="width: 1px; height: 20px; background-color: #000000; margin: 0 auto;"
+                  ></div>
                 </td>
                 <td class="lh_0"></td>
               </tr>
@@ -136,7 +138,9 @@
               </tr>
               <tr>
                 <td class="lh_0">
-                  <span class="vertical" />
+                  <div
+                    style="width: 1px; height: 20px; background-color: #000000; margin: 0 auto;"
+                  ></div>
                 </td>
                 <td class="lh_0"></td>
               </tr>
@@ -149,7 +153,9 @@
               </tr>
               <tr>
                 <td class="lh_0">
-                  <span class="vertical" />
+                  <div
+                    style="width: 1px; height: 20px; background-color: #000000; margin: 0 auto;"
+                  ></div>
                 </td>
                 <td class="lh_0"></td>
               </tr>
@@ -195,6 +201,11 @@
           {{/eq}}
         </p>
       </div>
+      <img
+        src="https://nafnaf.vteximg.com.br/arquivos/footer_eamils_20240617.jpg"
+        style="max-width: 100%; width: 100%;"
+        alt="informacion de envio"
+      />
       <div class="col products_col font_medium mt_6">
         <div class="col_table">
           {{#each items}}

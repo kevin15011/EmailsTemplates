@@ -1,12 +1,12 @@
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>
-    Document
-  </title>
-  <style type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Document
+    </title>
+    <style type="text/css">
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap');
 
     :root {
@@ -15,9 +15,9 @@
       --dark-solid:
         black;
       --light-solid: white;
-      --font-small: 0.7em;
-      --font-medium: 0.9em;
-      --font-big: 1.2em;
+      --font-small: 0.4em;
+      --font-medium: 9px;
+      --font-big: 22px;
     }
 
     * {
@@ -33,6 +33,7 @@
     .wrapper {
       width: 800px;
       margin: auto;
+      max-width: 100vw;
     }
 
     .row {
@@ -56,8 +57,8 @@
     }
 
     .col {
-      display: flex;
-      flex-direction: column;
+      /*display: flex;*/
+      /* flex-direction: column; */
     }
 
     .col_status_1,
@@ -66,14 +67,14 @@
     }
 
     .col_status_1 {
-      justify-content: space-between;
+      /*justify-content: space-between;*/
     }
 
     .status_content {
       background-color: #F2F2F2;
       padding: 8%;
       font-size:
-        0.9em;
+        15px;
     }
 
     .status_content img {
@@ -87,14 +88,14 @@
     }
 
     .lh_0 {
-      line-height: 0;
+      line-height: 1;
     }
 
     .vertical {
-      border-left: 1px solid #B3B3B3;
+      /* border-left: 1px solid #B3B3B3;*/
       height: 2em;
       display: block;
-      position: relative;
+      /*position: relative;*/
       left: 50%;
     }
 
@@ -109,7 +110,8 @@
     .col_status_1 .col {
       background-color: #F2F2F2;
       max-width: 70%;
-      padding: 5%;
+      padding: 3% 5%;
+      display: block;
     }
 
     .row_order_text {
@@ -122,16 +124,16 @@
     .row_order_text p {
       width: 100%;
       text-align: center;
-      font-size: 0.9em;
+      font-size: 15px;
     }
 
     .font_big {
-      font-size: 1.2em;
+      font-size: 22px;
     }
 
     .font_medium {
       font-size:
-        0.9em;
+        15px;
     }
 
     .font_small {
@@ -183,7 +185,7 @@
       justify-content: space-around;
     }
 
-    .products_col .row .col:first-child {
+    .products_col_img {
       margin-right: 5%;
     }
 
@@ -220,7 +222,7 @@
 
     .col_other_text {
       font-size:
-        0.9em;
+        15px;
       margin-top: 5%;
     }
 
@@ -253,6 +255,7 @@
     }
 
     .col_other_text .button {
+      display: block;
       text-align: center;
       background-color:
         white;
@@ -281,265 +284,330 @@
     .row_order_text a {
       color: white;
     }
-  </style>
-</head>
 
-<body>
-  {{#each orders}}
+    @media (max-width: 840px) {
+      :root {
+        --font-small: 0.4em;
+        --font-medium: 9px;
+        --font-big: 1em;
+      }
+
+      .font_big {
+        font-size: 17px !important;
+      }
+
+      .status_content,
+      .col_other_text,
+      .font_medium,
+      .row_order_text p {
+        font-size: 9px !important;
+      }
+
+      .font_small {
+        font-size: 0.4em !important;
+      }
+
+      .status_content table {
+        width: 100%;
+      }
+    }
+  </style>
+  </head>
+
+  <body>
+    {{#each orders}}
     <div class="wrapper">
       <div class="row row_logo mt_6">
-        <img src="https://www.nafnaf.com.co/arquivos/email_LogoHeader.png" alt="Logo Header Naf" />
+        <img src="https://www.nafnaf.com.co/arquivos/email_LogoHeader.png"
+          alt="Logo Header Naf" />
       </div>
       <div class="row row_status">
-        <div class="col col_status_1">
-          <div class="col">
-            <p class="font_big font_bold">
-              Hola
-              {{clientProfileData.firstName}}
-            </p>
-            <p class="font_medium font_bold">
-              ¡Hemos recibido tu pedido!
-            </p>
-            <hr />
-            <p class="ln_16">
-              Número:
-              {{orderId}}
-            </p>
-            <p class="ln_16">
-              Fecha:
-              {{formatDate creationDate}}
-            </p>
-          </div>
-          <div class="col font_medium ln_16">
-            {{#if giftRegistryData}}
-              <p>
-                {{giftRegistryData.description}}
-              </p>
-            {{else}}
-              <p class="font_bold">
-                Información
-              </p>
-              <p>
-                {{shippingData.address.receiverName}}
-              </p>
-              <p>
-                {{shippingData.address.street}}
-                -
-                {{shippingData.address.number}}
-                -
-                {{shippingData.address.neighborhood}}
-              </p>
-              <p>
-                {{shippingData.address.city}}
-                -
-                {{shippingData.address.state}}
-                -
-                {{shippingData.address.postalCode}}
-              </p>
-              {{#unless split}}
-                {{#each paymentData.transactions}}
-                  {{#each payments}}
-                    <p>
-                      {{paymentSystemName}}: ${{formatCurrency value}}
-                      {{#eq paymentSystemName "Boleto Bancário"}}
-                        <a href="{{replace url ' {Installment}' installments}}">
-                          Imprimir boleto
-                        </a>
-                      {{/eq}}
-                    </p>
-                  {{/each}}
-                {{/each}}
-              {{/unless}}
-              <p>
-                Entrega
-                {{#each orders}}
-                  {{shippingData.logisticsInfo.0.selectedSla}}
-                {{/each}}
-              </p>
-            {{/if}}
-          </div>
-        </div>
-        <div class="col col_status_2 font_medium">
-          <div class="status_content">
-            <table>
-              <tr>
-                <td class="lh_0 check font_bold">
-                  <img src="https://www.nafnaf.com.co/arquivos/email_check.png" alt="Icon Naf" />
-                </td>
-                <td class="lh_0 check font_bold">
-                  Pedido confirmado
-                </td>
-              </tr>
-              <tr>
-                <td class="lh_0">
-                  <span class="vertical check"></span>
-                </td>
-                <td class="lh_0"></td>
-              </tr>
-              <tr>
-                <td class="lh_0">
-                  <img src="https://www.nafnaf.com.co/arquivos/email_pago.png" alt="Icon Naf" />
-                </td>
-                <td class="lh_0">
-                  Pago confirmado
-                </td>
-              </tr>
-              <tr>
-                <td class="lh_0">
-                  <span class="vertical"></span>
-                </td>
-                <td class="lh_0"></td>
-              </tr>
-              <tr>
-                <td class="lh_0">
-                  <img src="https://www.nafnaf.com.co/arquivos/email_facturado.png" alt="Icon Naf" />
-                </td>
-                <td class="lh_0">
-                  Pedido facturado
-                </td>
-              </tr>
-              <tr>
-                <td class="lh_0">
-                  <span class="vertical"></span>
-                </td>
-                <td class="lh_0"></td>
-              </tr>
-              {{#eq sellers.0.name "nafnafcedi"}}
-                {{! NORMAL }}
+        <table width="100%">
+          <tr>
+            <td class="col_status_1">
+              <div class="col">
+                <p class="font_big font_bold">
+                    Hola
+                    {{clientProfileData.firstName}}
+                </p>
+                <p class="font_medium font_bold">
+                    ¡Hemos recibido tu pedido!
+                </p>
+                <hr />
+                <p class="ln_16 font_medium">
+                    Número:
+                    {{orderId}}
+                </p>
+                <p class="ln_16 font_medium">
+                    Fecha:
+                    {{formatDate creationDate}}
+                </p>
+              </div>
+            </td>
+            <td class="col_status_2 font_medium status_content" rowspan="3">
+              <table width="100%" style="width: 100%;">
                 <tr>
-                  <td class="lh_0">
-                    <img src="https://www.nafnaf.com.co/arquivos/email_enviado.png" alt="Icon Naf" />
-                  </td>
-                  <td class="lh_0">
-                    Pedido enviado
-                  </td>
+                    <td class="lh_0 check font_bold">
+                        <img src="https://www.nafnaf.com.co/arquivos/email_check.png" alt="Icon Naf" />
+                    </td>
+                    <td class="lh_0 check font_bold">
+                        Pedido confirmado
+                    </td>
                 </tr>
-            </table>
-            <a class="button" target="_blank" href="https://www.nafnaf.com.co/rastreo-pedidos?pedido={{orderId}}">
-              Rastrear pedido
-            </a>
-  {{else}}
-    {{#eq
-                    shippingData.logisticsInfo.0.slas.0.deliveryIds.0.courierName
-                    "8909047132-coordinadora-002"
-                  }}
-      {{! BOSS }}
-      <tr>
-        <td class="lh_0">
-          <img src="https://www.nafnaf.com.co/arquivos/email_enviado.png" alt="Icon Naf" />
-        </td>
-        <td class="lh_0">
-          Pedido enviado
-        </td>
-      </tr>
-      </table>
-      <a class="button" target="_blank" href="https://www.nafnaf.com.co/rastreo-pedidos?pedido={{orderId}}">
-        Rastrear pedido
-      </a>
-  {{else}}
-    {{! BOPIS }}
-    <tr>
-      <td class="lh_0">
-        <img src="https://www.nafnaf.com.co/arquivos/email_eservado.png" alt="Icon Naf" />
-      </td>
-      <td class="lh_0">
-        Pedido reservado
-      </td>
-    </tr>
-    </table>
-    {{/eq}}
-    {{/eq}}
-          </div>
-        </div>
+                <tr>
+                    <td class="lh_0" style="text-align: -webkit-center;">
+                        <div style="width: 1px; height: 20px; background-color: #000000; margin: 0 auto;"></div>
+                    </td>
+                    <td class="lh_0"></td>
+                </tr>
+                <tr>
+                    <td class="lh_0">
+                        <img src="https://www.nafnaf.com.co/arquivos/email_pago.png" alt="Icon Naf" />
+                    </td>
+                    <td class="lh_0">
+                        Pago confirmado
+                    </td>
+                </tr>
+                <tr>
+                    <td class="lh_0" style="text-align: -webkit-center;">
+                        <div style="width: 1px; height: 20px; background-color: #000000; margin: 0 auto;"></div>
+                    </td>
+                    <td class="lh_0"></td>
+                </tr>
+                <tr>
+                    <td class="lh_0">
+                        <img src="https://www.nafnaf.com.co/arquivos/email_facturado.png"
+                            alt="Icon Naf" />
+                    </td>
+                    <td class="lh_0">
+                        Pedido facturado
+                    </td>
+                </tr>
+                <tr>
+                    <td class="lh_0" style="text-align: -webkit-center;">
+                        <div style="width: 1px; height: 20px; background-color: #000000; margin: 0 auto;"></div>
+                    </td>
+                    <td class="lh_0"></td>
+                </tr>
+                {{#eq sellers.0.name "nafnafcedi"}}
+                  {{! NORMAL }}
+                    <tr>
+                        <td class="lh_0">
+                            <img src="https://www.nafnaf.com.co/arquivos/email_enviado.png"
+                                alt="Icon Naf" />
+                        </td>
+                        <td class="lh_0">
+                            Pedido enviado
+                        </td>
+                    </tr>
+                  </table>
+                  <a class="button" target="_blank"
+                      href="https://www.nafnaf.com.co/rastreo-pedidos?pedido={{orderId}}">
+                      Rastrear pedido
+                  </a>
+                  {{else}}
+                    {{#eq
+                        shippingData.logisticsInfo.0.slas.0.deliveryIds.0.courierName
+                        "8909047132-coordinadora-002"
+                    }}
+                      {{! BOSS }}
+                        <tr>
+                            <td class="lh_0">
+                                <img src="https://www.nafnaf.com.co/arquivos/email_enviado.png" alt="Icon Naf" />
+                            </td>
+                            <td class="lh_0">
+                                Pedido enviado
+                            </td>
+                        </tr>
+                      </table>
+                      <a class="button" target="_blank" href="https://www.nafnaf.com.co/rastreo-pedidos?pedido={{orderId}}">
+                          Rastrear pedido
+                      </a>
+                      {{else}}
+                        {{! BOPIS }}
+                          <tr>
+                              <td class="lh_0">
+                                  <img src="https://www.nafnaf.com.co/arquivos/email_eservado.png" alt="Icon Naf" />
+                              </td>
+                              <td class="lh_0">
+                                  Pedido reservado
+                              </td>
+                          </tr>
+                        </table>
+                      {{/eq}}
+                  {{/eq}}
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="col_status_1">
+              <div class="col font_medium ln_16">
+                {{#if giftRegistryData}}
+                    <p>
+                        {{giftRegistryData.description}}
+                    </p>
+                {{else}}
+                    <p class="font_bold">
+                        Información
+                    </p>
+                    <p>
+                        {{shippingData.address.receiverName}}
+                    </p>
+                    <p>
+                        {{shippingData.address.street}}
+                        -
+                        {{shippingData.address.number}}
+                        -
+                        {{shippingData.address.neighborhood}}
+                    </p>
+                    <p>
+                        {{shippingData.address.city}}
+                        -
+                        {{shippingData.address.state}}
+                        -
+                        {{shippingData.address.postalCode}}
+                    </p>
+                    {{#unless split}}
+                        {{#each paymentData.transactions}}
+                            {{#each payments}}
+                                <p>
+                                    {{paymentSystemName}}: ${{formatCurrency value}}
+                                    {{#eq paymentSystemName "Boleto Bancário"}}
+                                        <a href="{{replace url ' {Installment}' installments}}">
+                                            Imprimir boleto
+                                        </a>
+                                    {{/eq}}
+                                </p>
+                            {{/each}}
+                        {{/each}}
+                    {{/unless}}
+                    <p>
+                        Entrega
+                        {{#each orders}}
+                            {{shippingData.logisticsInfo.0.selectedSla}}
+                        {{/each}}
+                    </p>
+                {{/if}}
+            </div>
+            </td>
+          </tr>
+        </table>
       </div>
       <div class="row row_order_text mt_6">
-        <p>Empezaremos a procesar tu orden, recibirás un correo con la información del pago.
+        <p>Empezaremos a procesar tu orden, recibirás un correo con la
+          información del pago.
           {{#eq sellers.0.name "nafnafcedi"}}
-            {{! NORMAL }}
+          {{! NORMAL }}
+          {{#eq shippingData.logisticsInfo.0.slas.0.deliveryIds.0.courierName
+          "9014464013-encaja-002"}}
+          <strong class=" bold color-dark-blue mb2 ">TIEMPO DE
+            ENTREGA:</strong>MEDELLÍN ENTREGA EL MISMO DIA
+          {{/eq}}
+          {{else}}
+          {{#eq
+          shippingData.logisticsInfo.0.slas.0.deliveryIds.0.courierName
+          "8909047132-coordinadora-002"
+          }}
+          {{! BOSS }}
+          Tiempo de entrega: Medellín y bogotá en modalidad envío express:
+          hasta 1 día hábil (lunes a viernes de 7:00 a.M. A 8:00 p.M.)
+          Recuerda los tyc de la modalidad envío express
+          <a class="font_bold"
+            href="https://www.nafnaf.com.co/tyc-omnicanalidad">Click Aqui</a>
+          {{else}}
+          {{! BOPIS }}
 
-  {{else}}
-    {{#eq
-                shippingData.logisticsInfo.0.slas.0.deliveryIds.0.courierName
-                "8909047132-coordinadora-002"
-              }}
-      {{! BOSS }}
-      Tiempo de entrega: Medellín y bogotá en modalidad envío express:
-      hasta 1 día hábil (lunes a viernes de 7:00 a.M. A 8:00 p.M.)
-      Recuerda los tyc de la modalidad envío express
-      <a class="font_bold" href="https://www.nafnaf.com.co/tyc-omnicanalidad">Click Aqui</a>
-  {{else}}
-    {{! BOPIS }}
-
-    {{/eq}}
+          {{/eq}}
           {{/eq}}
         </p>
       </div>
+      <img src="https://nafnaf.vteximg.com.br/arquivos/footer_eamils_20240617.jpg" style="max-width: 100%; width: 100%;" alt="informacion de envio">
       <div class="col products_col font_medium mt_6">
-        <div class="col_table">
+        <table class="col_table" width="100%">
           {{#each items}}
-            <div class="row">
-              <div class="col">
-                <img src="{{imageUrl}}" alt="Imagen del producto: {{name}}" />
-              </div>
-              <div class="col">
-                <div class="col">
-                  <p>
-                    {{name}}
-                  </p>
-                  <p class="ref">
-                    Ref:
-                    {{productRefId}}
-                  </p>
-                </div>
-                <div class="col">
-                  <p>
-                    Cantidad
-                    {{quantity}}
-                  </p>
-                  <p class="price font_bold">
-                    ${{formatCurrency price}}
-                    <span>
-                      ${{formatCurrency sellingPrice}}
-                    </span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          {{/each}}
-        </div>
-        <p class="font_medium font_bold">
-          Resumen de la compra
-        </p>
-        <table>
-          {{#each totals}}
-            {{#if value}}
-              <tr>
-                <td>
-                  {{#eq id "Items"}}
-                    Subtotal
-                  {{/eq}}
-                  {{#eq id "Discounts"}}
-                    Descuento
-                  {{/eq}}
-                  {{#eq id "Shipping"}}
-                    Envío
-                  {{/eq}}
-                  {{#eq id "Tax"}}
-                    Taza
-                  {{/eq}}
-                </td>
-                <td class="right">
-                  ${{formatCurrency value}}
-                </td>
-              </tr>
-            {{/if}}
-          {{/each}}
-          <tr class="font_bold">
-            <td>
-              Total
+          <tr class="row">
+            <td class="col products_col_img">
+              <img src="{{imageUrl}}" alt="Imagen del producto: {{name}}" />
             </td>
-            <td class="right">
-              ${{formatCurrency value}}
+            <td class="col">
+              <table width="100%">
+                <tr>
+                  <td class="col">
+                    <tr>
+                      <td>
+                        {{name}}
+                      </td>
+                    </tr>
+                    <tr class="ref">
+                      <td>
+                        Ref:
+                        {{productRefId}}
+                      </td>
+                    </tr>
+                  </td>
+                  <td class="col">
+                    <tr>
+                      <td>
+                        Cantidad
+                        {{quantity}}
+                      </td>
+                    </tr>
+                    <tr class="price font_bold">
+                      <td>
+                        ${{formatCurrency price}}
+                        <span>
+                          ${{formatCurrency sellingPrice}}
+                        </span>
+                      </td>
+                    </tr>
+                  </td>
+              </tr>
+              </table>
+            </td>
+          </tr>
+          {{/each}}
+          <tr>
+            <td>
+              <p class="font_medium font_bold">
+              Resumen de la compra
+              </p>
+            </td>
+            <td>
+              <table>
+                {{#each totals}}
+                {{#if value}}
+                <tr>
+                  <td>
+                    {{#eq id "Items"}}
+                    Subtotal
+                    {{/eq}}
+                    {{#eq id "Discounts"}}
+                    Descuento
+                    {{/eq}}
+                    {{#eq id "Shipping"}}
+                    Envío
+                    {{/eq}}
+                    {{#eq id "Tax"}}
+                    Taza
+                    {{/eq}}
+                  </td>
+                  <td class="right">
+                    ${{formatCurrency value}}
+                  </td>
+                </tr>
+                {{/if}}
+                {{/each}}
+                <tr class="font_bold">
+                  <td>
+                    Total
+                  </td>
+                  <td class="right">
+                    ${{formatCurrency value}}
+                  </td>
+                </tr>
+              </table>
             </td>
           </tr>
         </table>
@@ -564,7 +632,7 @@
           través de la tienda online, y que actualizaremos a partir de la
           fecha son los siguientes:
         </p>
-        <table>
+        <table width="100%">
           <tr>
             <td class="font_bold">
               Email:
@@ -658,19 +726,24 @@
           Ver política de datos
         </a>
         <div class="img_block">
-          <img src="https://www.nafnaf.com.co/arquivos/email_footer_2.jpg" alt="Image footer" usemap="#image-map" />
+          <img src="https://www.nafnaf.com.co/arquivos/email_footer_2.jpg"
+            alt="Image footer" usemap="#image-map" />
           <map name="image-map">
-            <area target="_blank" alt="Naf Naf Tienda Online" title="Naf Naf Tienda Online"
-              href="https://www.nafnaf.com.co/" coords="151,67,471,139" shape="rect" />
-            <area target="_blank" alt="Instagram" title="Instagram" href="http://instagram.com/nafnafcol"
+            <area target="_blank" alt="Naf Naf Tienda Online"
+              title="Naf Naf Tienda Online"
+              href="https://www.nafnaf.com.co/" coords="151,67,471,139"
+              shape="rect" />
+            <area target="_blank" alt="Instagram" title="Instagram"
+              href="http://instagram.com/nafnafcol"
               coords="498,65,757,137" shape="rect" />
-            <area target="_blank" alt="Facebook" title="Facebook" href="https://www.facebook.com/nafnaflatam"
+            <area target="_blank" alt="Facebook" title="Facebook"
+              href="https://www.facebook.com/nafnaflatam"
               coords="781,61,1062,137" shape="rect" />
           </map>
         </div>
       </div>
     </div>
-  {{/each}}
-</body>
+    {{/each}}
+  </body>
 
 </html>
